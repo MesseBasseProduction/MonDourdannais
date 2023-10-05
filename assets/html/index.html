@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="initial-scale=1" name="viewport">
+  <meta name="Leaflet" content="Leaflet">	
+	<title>MonDourdannais – 0.0.1</title>
+	<link rel="icon" href="https://raw.githubusercontent.com/ArthurBeaulieu/ArthurBeaulieu/master/assets/img/ab-logo.png" type="image/png" sizes="32x32">	
+  <!-- Leaflet stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+  <link rel="stylesheet" type="text/css" href="/assets/lib/leaflet-measure.css">
+  <link rel="stylesheet" type="text/css" href="/assets/dist/MonDourdannais.bundle.css">
+</head>
+<body>
+  <div id="sarmates-land" class="map-container"></div>
+  <div id="modal-overlay" class="modal-overlay"></div>
+  <!-- Leaflet script -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  <script type="text/javascript" src="/assets/lib/leaflet-measure.js"></script>
+  <script type="text/javascript" src="/assets/lib/leaflet-geometry-util.js"></script>
+  <!-- Then load MonDourdannais Js bundle -->
+  <script type="text/javascript" src="/assets/dist/MonDourdannais.bundle.js"></script>
+  <!-- Finally, start MonDourdannais instance -->
+  <script type="text/javascript">
+    window.md = new window.MonDourdannais();
+  </script>
+</body>
+</html>

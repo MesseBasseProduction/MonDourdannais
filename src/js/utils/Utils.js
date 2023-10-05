@@ -1,0 +1,97 @@
+const getDistanceBetweenCoords = (from, to) => {
+  // Return distance in meters
+  const lon1 = (from[1] * Math.PI) / 180,
+    lat1 = (from[0] * Math.PI) / 180,
+    lon2 = (to[1] * Math.PI) / 180,
+    lat2 = (to[0] * Math.PI) / 180;
+
+  const deltaLat = lat2 - lat1;
+  const deltaLon = lon2 - lon1;
+
+  const a = Math.pow(Math.sin(deltaLat / 2), 2) + Math.cos(lat1) * Math.cos(lat2) * Math.pow(Math.sin(deltaLon / 2), 2);
+  const c = 2 * Math.asin(Math.sqrt(a));
+  return c * 6371 * 1000;
+};
+
+
+const convertDistanceToString = distance => {
+  if (distance > 1000) {
+    distance = `${precisionRound(distance / 1000, 2)}km`;
+  } else {
+    distance = `${precisionRound(distance, 2)}m`;
+  }
+  return distance;
+};
+
+
+const buildDistanceETA = distance => {
+  let carMinutes = 0;
+  let carSeconds = 0;
+
+  if (distance > 50000) {
+    // Over 50km, we use average speed of 100kmh
+    carMinutes = (distance / 100000) * 60;
+  } else if (distance > 10000) {
+    // Over 10km, we use average speed of 60km/h
+    carMinutes = (distance / 60000) * 60;
+  } else {
+    // Under 10km we user average speed of 30km/h
+    carMinutes = (distance / 30000) * 60;
+  }
+
+  carSeconds = carMinutes % 1; // Keep floating value for seconds computing
+  carMinutes = Math.floor(carMinutes); // Remove floating value
+
+  if (carMinutes > 60) {
+    carMinutes = `${Math.floor(carMinutes / 60)}h ${carMinutes % 60}m`;
+  } else {
+    carMinutes = `${carMinutes}m`;
+  }
+
+  let walkMinutes = (distance / 5000) * 60;
+  let walkSeconds = walkMinutes % 1;
+  walkMinutes = Math.floor(walkMinutes); // Remove floating value
+
+  if (walkMinutes > 60) {
+    walkMinutes = `${Math.floor(walkMinutes / 60)}h ${walkMinutes % 60}m`;
+  } else {
+    walkMinutes = `${walkMinutes}m`;
+  }  
+
+  return {
+    car: `${carMinutes} ${Math.floor(precisionRound((carSeconds / 100) * 60, 2) * 100)}s`,
+    walk: `${walkMinutes} ${Math.floor(precisionRound((walkSeconds / 100) * 60, 2) * 100)}s`,
+  };
+};
+
+
+const precisionRound = (value, precision) => {
+  const multiplier = Math.pow(10, precision || 0);
+  return Math.round(value * multiplier) / multiplier;
+};
+
+
+export default {
+  HOME_LAT: 48.522667,
+  HOME_LNG: 2.079561,
+  MAP_BOUNDS: window.L.latLngBounds(
+    window.L.latLng(51.04484764446179, -5.965075683593751),
+    window.L.latLng(41.520916896362515, 9.063720703125002)
+  ),
+  OSM_LAYER: window.L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 21,
+    maxNativeZoom: 19,
+    minZoom: 8
+  }),
+  ESRI_LAYER: window.L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: '&copy; <a href="https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9">Esri Imagery</a>',
+    maxZoom: 21,
+    maxNativeZoom: 19,
+    minZoom: 8
+  }),
+  getDistanceBetweenCoords: getDistanceBetweenCoords,
+  convertDistanceToString: convertDistanceToString,
+  buildDistanceETA: buildDistanceETA,
+  precisionRound: precisionRound
+};
