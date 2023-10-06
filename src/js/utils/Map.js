@@ -24,7 +24,7 @@ class Map {
     // Use main div to inject OSM into
     this._map = window.L.map(this._id, {
       zoomControl: false,
-    }).setView([Utils.HOME_LAT, Utils.HOME_LNG], 13);
+    }).setView([Utils.CCDH_CENTER.LAT, Utils.CCDH_CENTER.LNG], 12);
     // Add meter and feet scale on map
     window.L.control.scale().addTo(this._map);
     // Prevent panning outside of the map bounds definined in utils
@@ -51,20 +51,17 @@ class Map {
 
   _mapClicked(opts) {
     console.log(opts.latlng);
-    console.log(this._map.getBounds());
-    window._tmp.push([opts.latlng.lat, opts.latlng.lng]);
-    console.log(JSON.stringify(window._tmp));
   }
 
 
   drawUserMarker() {
-    if (!window.hm.user.marker) {
-      window.hm.user.marker = window.L.marker([window.hm.user.lat, window.hm.user.lng], {
+    if (!window.md.user.marker) {
+      window.md.user.marker = window.L.marker([window.md.user.lat, window.md.user.lng], {
         icon: Markers.user
       });
-      window.hm.user.marker.addTo(this._map);
+      window.md.user.marker.addTo(this._map);
     } else {
-      window.hm.user.marker.setLatLng(window.hm.user);
+      window.md.user.marker.setLatLng(window.md.user);
     }
   }
 

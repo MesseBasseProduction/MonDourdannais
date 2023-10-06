@@ -72,23 +72,23 @@ const precisionRound = (value, precision) => {
 
 
 export default {
-  HOME_LAT: 48.522667,
-  HOME_LNG: 2.079561,
+  CCDH_CENTER: {
+    LAT: 48.53183906441962,
+    LNG: 2.053756713867188
+  },
   MAP_BOUNDS: window.L.latLngBounds(
-    window.L.latLng(51.04484764446179, -5.965075683593751),
-    window.L.latLng(41.520916896362515, 9.063720703125002)
+    window.L.latLng(48.679400715963894, 1.7390606689453127),
+    window.L.latLng(48.38439074151866, 2.343395996093750)
   ),
   OSM_LAYER: window.L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     maxZoom: 21,
-    maxNativeZoom: 19,
-    minZoom: 8
+    minZoom: 12
   }),
   ESRI_LAYER: window.L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
     attribution: '&copy; <a href="https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9">Esri Imagery</a>',
     maxZoom: 21,
-    maxNativeZoom: 19,
-    minZoom: 8
+    minZoom: 12
   }),
   getDistanceBetweenCoords: getDistanceBetweenCoords,
   convertDistanceToString: convertDistanceToString,

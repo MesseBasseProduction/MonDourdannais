@@ -104,7 +104,6 @@ class MonDourdannais {
       const keys = Object.keys(this._data.cityBounds);
       for (let i = 0; i < keys.length; ++i) {
         this._map.addPolygon(this._data.cityBounds[keys[i]]);
-        console.log(this._data.cityBounds[keys[i]])
       }
       resolve();
     });
