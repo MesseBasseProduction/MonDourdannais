@@ -392,7 +392,7 @@
         "timetable": []
       },
       {
-        "name": "Jardin d'Enfants ",
+        "name": "Jardin d'Enfants",
         "type": "park",
         "lat": 48.53728095340171,
         "lng": 2.081351280212403,
@@ -401,6 +401,66 @@
         "phone": "",
         "website": "",
         "info": "Jardin d'enfats avec de nombreux modules pour le divertissement des bambins Sarmates et d'ailleurs!",
+        "timetable": []
+      },
+      {
+        "name": "Mare de Mondétour",
+        "type": "park",
+        "lat": 48.519699271344535,
+        "lng": 2.0736426115036015,
+        "address": "Rue des Maugrenautes",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": []
+      },
+      {
+        "name": "Mare des Saules Pleureurs",
+        "type": "park",
+        "lat": 48.52103169983235,
+        "lng": 2.0750963687896733,
+        "address": "Rue des Maugrenautes",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": []
+      },
+      {
+        "name": "Mare à la Folle",
+        "type": "park",
+        "lat": 48.52706449738527,
+        "lng": 2.0920720696449284,
+        "address": "Route du Clos Renard",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "http://www.sermaisepatrimoine.fr/index.php/2020/01/22/la-rehabilitation-de-nos-mares/",
+        "info": "",
+        "timetable": []
+      },
+      {
+        "name": "Mare de la Chapelle de Blancheface",
+        "type": "park",
+        "lat": 48.52778746112174,
+        "lng": 2.0949393510818486,
+        "address": "Grande Rue",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "http://www.sermaisepatrimoine.fr/index.php/2020/01/22/la-rehabilitation-de-nos-mares/",
+        "info": "",
+        "timetable": []
+      },
+      {
+        "name": "Mare du Mesnil",
+        "type": "park",
+        "lat": 48.53327951689023,
+        "lng": 2.101993560791016,
+        "address": "Grande Rue",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "http://www.sermaisepatrimoine.fr/index.php/2020/01/22/la-rehabilitation-de-nos-mares/",
+        "info": "",
         "timetable": []
       }
     ],
@@ -509,6 +569,188 @@
         "info": "",
         "timetable": []
       }
+    ],
+    "Commerce": [
+      {
+        "name": "Distributeur des Six Moulins",
+        "type": "bakery",
+        "lat": 48.53739283989066,
+        "lng": 2.0811071991920476,
+        "address": "Avenue Paul Blot",
+        "town": "Sermaise ‒ 91530",
+        "phone": "+33 1 30 41 90 67",
+        "website": "https://boulangerie-sixmoulins.com/",
+        "info": "Distributeur automatique de baguettes géré par la Boulangerie des Six moulins, dont la boutique se situe à Bullion.",
+        "timetable": []
+      },
+      {
+        "name": "Le Haricot Magique",
+        "type": "grocery",
+        "lat": 48.53748696642794,
+        "lng": 2.0810535550117497,
+        "address": "Avenue Paul Blot",
+        "town": "Sermaise ‒ 91530",
+        "phone": "+33 6 51 72 95 80",
+        "website": "https://le-haricot-magique.fr/",
+        "info": "Food truck proposant des produits frais locaux, fruits et légumes le vendredi en fin d'après midi à Sermaise (et dans les communes alentours du Dourdannais les autres soirs de la semaine).",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "16", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      },
+      {
+        "name": "Lidl",
+        "type": "grocery",
+        "lat": 48.532258238539825,
+        "lng": 2.0554465055465703,
+        "address": "30 Rue du Général de Gaulle",
+        "town": "Roinville ‒ 91410",
+        "phone": "+33 1 88 24 70 70",
+        "website": "https://www.lidl.fr/s/fr-FR/supermarch%C3%A9s/roinville/30-rue-du-general-de-gaulle/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "12", "m": "30" },
+            "break": {}
+          }
+        ]
+      },
+      {
+        "name": "Aldi",
+        "type": "grocery",
+        "lat": 48.530602835789516,
+        "lng": 2.0429313182830815,
+        "address": "7 place Du Vieux Théâtre",
+        "town": "Roinville ‒ 91410",
+        "phone": "+33 1 81 09 78 25",
+        "website": "https://www.aldi.fr/magasins-et-horaires-d-ouverture.html/l/roinville/7-place-du-vieux-theatre/3435051",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "12", "m": "30" },
+            "break": {}
+          }
+        ]
+      } 
     ],
     "Jardinage": [
       {
@@ -925,6 +1167,62 @@
             "isOpen": true,
             "open": { "h": "8", "m": "00" },
             "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      },
+      {
+        "name": "La Forge à Pizza",
+        "type": "restaurant",
+        "lat": 48.537510054042414,
+        "lng": 2.0812332630157475,
+        "address": " Avenue Paul Blot",
+        "town": "Sermaise ‒ 91530",
+        "phone": "+33 7 66 48 13 23",
+        "website": "http://laforgeapizza.fr",
+        "info": "Food truck de délicieuses pizza artisanales, que vous retrouverez à Sermaise le vendredi en début de soirée (et dans les communes alentours du Dourdannais les autres soirs de la semaine).",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "17", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
             "break": {}
           }, {
             "name": "Dimanche",
