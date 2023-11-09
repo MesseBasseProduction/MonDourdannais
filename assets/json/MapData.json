@@ -1360,6 +1360,18 @@
         "timetable": []
       },
       {
+        "name": "Lavoir de Mondétour",
+        "type": "landmark",
+        "lat": 48.51965663305419,
+        "lng": 2.0734897255897526,
+        "address": "Rue de Morainville",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": "Ce petit lavoir a été qualifié d’exceptionnel par le service « Patrimoines et Inventaire de la région Île-de-France » en raison de la préservation de l’ensemble de ses traits d’origine.",
+        "timetable": []
+      },
+      {
         "name": "Tour Hertzienne de Montflix",
         "type": "landmark",
         "lat": 48.516515513628356,
