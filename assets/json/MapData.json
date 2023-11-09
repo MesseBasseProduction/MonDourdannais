@@ -54,7 +54,7 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "",
-        "info": "Boîte au lettre du Centre-Ville, présence d'un affichage municipal à gauche de la boîte. Levée théorique du courrier à 9h00.",
+        "info": "Boîte au lettre du Bourg, présence d'un affichage municipal à gauche de la boîte. Levée théorique du courrier à 9h00.",
         "timetable": []
       }, {
         "name": "Boîte aux lettres",
@@ -143,6 +143,17 @@
         "phone": "",
         "website": "",
         "info": "Boîte au lettre dde la place du Vieux Théatre. Levée théorique du courrier à 9h00.",
+        "timetable": []
+      }, {
+        "name": "Boîte aux lettres",
+        "type": "mail",
+        "lat": 48.470559721879205,
+        "lng": 2.0013785362243657,
+        "address": "9 Rue du Plessis",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Boîte au lettre de la Mairie, présence d'un affichage municipal à gauche de la boîte. Levée théorique du courrier à 9h00.",
         "timetable": []
       }
     ],
@@ -318,6 +329,62 @@
             "break": {}
           }
         ]
+      },
+      {
+        "name": "Mairie de Richarville",
+        "type": "administration",
+        "lat": 48.470680647321174,
+        "lng": 2.0014321804046635,
+        "address": "9 Rue du Plessis",
+        "town": "Richarville ‒ 91410",
+        "phone": "+33 1 64 95 70 67",
+        "website": "https://richarville.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "11", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "11", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "11", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "16", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "14", "m": "30" },
+            "close": { "h": "16", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
       }
     ],
     "Culture": [
@@ -460,6 +527,18 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "http://www.sermaisepatrimoine.fr/index.php/2020/01/22/la-rehabilitation-de-nos-mares/",
+        "info": "",
+        "timetable": []
+      },
+      {
+        "name": "Mare de Richarville",
+        "type": "park",
+        "lat": 48.47098473796793,
+        "lng": 1.9985327124595644,
+        "address": "Grande Rue",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "",
         "info": "",
         "timetable": []
       }
@@ -1234,7 +1313,7 @@
         ]
       }
     ],
-    "Monuments": [
+    "Monument": [
       {
         "name": "Notre-Dame de la Nativité-de-la-Vierge",
         "type": "landmark",
@@ -1485,6 +1564,62 @@
             "isOpen": true,
             "open": { "h": "8", "m": "00" },
             "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      },
+      {
+        "name": "Église Saint-Lubin",
+        "type": "landmark",
+        "lat": 48.47147199052646,
+        "lng": 1.9987794756889345,
+        "address": "10 Rue du Bréau",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "L'église Saint-Lubin a remplacé une modeste chapelle érigée au XIe siècle. Le choeur et l'abside, du XVe siècle, sont les éléments les plus anciens de l'édifice, agrandi au XVIIIe siècle. Un des éléments remarquables de cette église est la charpente lambrissée à poutres apparentes du vaisseau de l’église.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
             "break": {}
           }, {
             "name": "Dimanche",
