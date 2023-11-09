@@ -55,7 +55,7 @@ class MonDourdannais {
 
   _fetchMarkers() {
     return new Promise(resolve => {
-      fetch(`/assets/json/MapData.json`).then(data => {
+      fetch(`./assets/json/MapData.json`).then(data => {
         data.json().then(jsonData => {
           this._data = jsonData;
           resolve();
@@ -126,14 +126,14 @@ class MonDourdannais {
     address.innerHTML = opts.address;
     town.innerHTML = opts.town;
     phone.href = `tel:${opts.phone}`;
-    phone.innerHTML = `<img src="/assets/img/icon/phone.svg">${opts.phone}`;
+    phone.innerHTML = `<img src="./assets/img/icon/phone.svg">${opts.phone}`;
     website.href = opts.website;
-    website.innerHTML = '<img src="/assets/img/icon/web.svg">Consulter le site';
+    website.innerHTML = '<img src="./assets/img/icon/web.svg">Consulter le site';
     website.setAttribute('rel', 'noopener noreferrer');
     website.setAttribute('target', '_blank');
     info.innerHTML = opts.info;
     openWith.href = `geo:${opts.lat},${opts.lng}`;
-    openWith.innerHTML = '<img src="/assets/img/icon/pin.svg">Ouvrir dans le GPS';
+    openWith.innerHTML = '<img src="./assets/img/icon/pin.svg">Ouvrir dans le GPS';
 
     dom.appendChild(title);
     dom.appendChild(address);
@@ -318,7 +318,7 @@ class MonDourdannais {
 
   fetchModal(url) {
     return new Promise(resolve => {
-      fetch(`/assets/html/${url}.html`).then(data => {
+      fetch(`./assets/html/${url}.html`).then(data => {
         data.text().then(html => {
           resolve(document.createRange().createContextualFragment(html));
         });

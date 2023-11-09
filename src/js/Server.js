@@ -19,7 +19,7 @@ app.use('/assets', express.static(path.join(__dirname, '../../assets'), { // Ser
 // Serve main html at /
 app.get('/', (req, res) => {
   console.log(`${(new Date()).toISOString()} | HomeMap v${version} | index.html page requested`);
-  res.sendFile(path.join(__dirname, '../../assets/html/index.html'));  
+  res.sendFile(path.join(__dirname, '../../index.html'));  
 });
 
 // Start server console
