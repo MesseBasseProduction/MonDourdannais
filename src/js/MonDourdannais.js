@@ -18,8 +18,6 @@ class MonDourdannais {
       marker: null
     };
 
-    window._tmp = [];
-
     this._initGeolocation()
       .then(this._fetchMarkers.bind(this))
       .then(this._initMap.bind(this))

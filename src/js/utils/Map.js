@@ -50,7 +50,7 @@ class Map {
 
 
   _mapClicked(opts) {
-    console.log(opts.latlng);
+    console.log(opts.latlng, JSON.stringify(opts.latlng.lat + ', ' + opts.latlng.lng));
   }
 
 

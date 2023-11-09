@@ -35,6 +35,15 @@ export default Object.freeze({
     shadowSize: [42, 42],
     shadowAnchor: [20, 20],
   }),
+  sport: new window.L.Icon({
+    iconUrl: 'assets/img/marker/sport.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
   store: new window.L.Icon({
     iconUrl: 'assets/img/marker/store.svg',
     iconSize: [26, 26],
@@ -109,6 +118,15 @@ export default Object.freeze({
   }),
   mail: new window.L.Icon({
     iconUrl: 'assets/img/marker/mail.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
+  park: new window.L.Icon({
+    iconUrl: 'assets/img/marker/park.svg',
     iconSize: [26, 26],
     iconAnchor: [13, 13],
     popupAnchor: [0, -13],
