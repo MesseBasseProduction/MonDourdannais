@@ -1,17 +1,21 @@
-import '../scss/MonDourdannais.scss';
+import '../scss/DourdannaisExplore.scss';
 import Map from './utils/Map.js';
 import Utils from './utils/Utils.js';
 
 
-class MonDourdannais {
+class DourdannaisExplore {
 
 
   constructor() {
+    // Map internals
     this._map = null;
     this._layers = {};
-    this._data = null;
+
+    // Data object
+    this._data = {};
 
     this._user = {
+      geolocationAllowed: false,
       lat: Utils.HOME_LAT,
       lng: Utils.HOME_LNG,
       accuracy: 0,
@@ -19,50 +23,36 @@ class MonDourdannais {
     };
 
     this._initGeolocation()
-      .then(this._fetchMarkers.bind(this))
       .then(this._initMap.bind(this))
       .then(this._initEvents.bind(this))
-      .then(this._buildMarkers.bind(this))
-      .then(this._buildPolygons.bind(this));
+      .then(this._fetchMarkers.bind(this))
+      .then(() => {
+        console.log('we are done')
+      });
+//      .then(this._buildMarkers.bind(this))
+//      .then(this._buildPolygons.bind(this));
   }
+
+
+  /* Init sequence */
 
 
   _initGeolocation() {
     return new Promise(resolve => {
 			if ('geolocation' in navigator) {
-				const options = {
+        // TODO : in next version, make this a pref low/high (toggle)
+        const options = {
           enableHighAccuracy: true, // More consuption, better position
           maximumAge: 1000, // A position will last 1s maximum
           timeout: 900, // A position is updated in 0.9s maximum
         };
-				this._watchId = navigator.geolocation.watchPosition(position => {
-					// Update saved user position
-					this._user.lat = position.coords.latitude;
-					this._user.lng = position.coords.longitude;
-					this._user.accuracy = position.coords.accuracy;
-					// Only draw marker if map is already created
-					if (this._map) {
-            this._map.drawUserMarker();
-          }
-					resolve();
-				}, resolve, options);
-      } else {
-				resolve();
-			}
+        navigator.geolocation.getCurrentPosition(this._positionInitialized.bind(this), null, options);
+				this._watchId = navigator.geolocation.watchPosition(this._positionUpdate.bind(this), null, options);
+      }
+      // Don't lock initialization waiting for pos
+      resolve();
 		});
   }
-
-
-  _fetchMarkers() {
-    return new Promise(resolve => {
-      fetch(`./assets/json/MapData.json`).then(data => {
-        data.json().then(jsonData => {
-          this._data = jsonData;
-          resolve();
-        }).catch(resolve);
-      }).catch(resolve);
-    });
-  }  
 
 
   _initMap() {
@@ -84,12 +74,45 @@ class MonDourdannais {
   }
 
 
-  _buildMarkers() {
+  _fetchMarkers() {
     return new Promise(resolve => {
-      const keys = Object.keys(this._data.markers);
+      const promises = [];
+      for (let i = 0; i < Utils.CCDH_CITIES.length; ++i) {
+        promises.push(new Promise(resolveLocal => {
+          fetch(`./assets/json/${Utils.CCDH_CITIES[i]}.json`).then(data => {
+            data.json().then(jsonData => {
+              this._data[Utils.CCDH_CITIES[i]] = jsonData;
+              requestAnimationFrame(() => {
+                this._buildPolygons(this._data[Utils.CCDH_CITIES[i]].bounds).then(() => {
+                  requestAnimationFrame(() => {
+                    this._buildMarkers(this._data[Utils.CCDH_CITIES[i]].pois).then(resolveLocal);
+                  });
+                })
+              });
+            }).catch(resolveLocal);
+          }).catch(resolveLocal);
+        }));
+      }
+
+      Promise.all(promises).then(resolve);
+/*
+      fetch(`./assets/json/MapData.json`).then(data => {
+        data.json().then(jsonData => {
+          this._data = jsonData;
+          resolve();
+        }).catch(resolve);
+      }).catch(resolve);
+*/
+    });
+  }
+
+
+  _buildMarkers(markers) {
+    return new Promise(resolve => {
+      const keys = Object.keys(markers);
       for (let i = 0; i < keys.length; ++i) {
-        for (let j = 0; j < this._data.markers[keys[i]].length; ++j) {
-          this._map.addMark(this._data.markers[keys[i]][j], this._createMarkerPopup.bind(this));
+        for (let j = 0; j < markers[keys[i]].length; ++j) {
+          this._map.addMark(markers[keys[i]][j], this._createMarkerPopup.bind(this));
         }
       }
       resolve();
@@ -97,14 +120,41 @@ class MonDourdannais {
   }
 
 
-  _buildPolygons() {
+  _buildPolygons(cityBounds) {
     return new Promise(resolve => {
-      const keys = Object.keys(this._data.cityBounds);
+      this._map.addPolygon(cityBounds);
+      /*
+      const keys = Object.keys(cityBounds);
       for (let i = 0; i < keys.length; ++i) {
-        this._map.addPolygon(this._data.cityBounds[keys[i]]);
+        this._map.addPolygon(cityBounds[keys[i]]);
       }
+      */
       resolve();
     });
+  }
+
+
+  /* Geoloc callbacks */
+
+
+  _positionInitialized() {
+    this._user.geolocationAllowed = true;
+  }
+
+
+  _positionUpdate(position) {
+    // Only if user allowed geolocation;
+    // Should never be false when called back
+    if (this._user.geolocationAllowed === true) {
+      // Update saved user position
+      this._user.lat = position.coords.latitude;
+      this._user.lng = position.coords.longitude;
+      this._user.accuracy = position.coords.accuracy;
+      // Only draw marker if map is already created
+      if (this._map) {
+        this._map.drawUserMarker();
+      }
+    }
   }
 
 
@@ -142,7 +192,15 @@ class MonDourdannais {
     const button = this._markerOpenedState(opts.timetable);
     dom.appendChild(button);
 
-    if (opts.timetable.length > 0) {
+    let alwaysClosed = true;
+    for (let i = 0; i < opts.timetable.length; ++i) {
+      if (opts.timetable[i].isOpen === true) {
+        alwaysClosed = false;
+        break;
+      }
+    }
+    // Allow modal only if poi has timetable and is not always closed
+    if (opts.timetable.length > 0 && alwaysClosed === false) {
       button.addEventListener('click', this._timetbaleModal.bind(this, opts));
     }
     
@@ -173,12 +231,24 @@ class MonDourdannais {
     dom.appendChild(more);
     
     if (timetable.length) {
-      more.innerHTML = 'Voir les horaires';
-      this._checkTime(timetable, dom);
-      setInterval(this._checkTime.bind(this, timetable, dom), 30000);
+      let alwaysClosed = true;
+      for (let i = 0; i < timetable.length; ++i) {
+        if (timetable[i].isOpen === true) {
+          alwaysClosed = false;
+          break;
+        }
+      }
+
+      if (alwaysClosed === true) {
+        this._markerIsClosed(dom, true);
+      } else {
+        this._checkTime(timetable, dom);
+        // Update each minutes
+        // TODO store interval if to be ready to cancel when other navigation mode available
+        setInterval(this._checkTime.bind(this, timetable, dom), 60000);
+      }
     } else {
       this._markerIsOpened(dom, true);
-      more.innerHTML = 'Toujours ouvert';      
     }
 
     return dom;
@@ -221,15 +291,21 @@ class MonDourdannais {
   _markerIsOpened(dom, alwaysOpened) {
     dom.firstChild.innerHTML = `Ouvert`;
     if (alwaysOpened === true) {
-      dom.lastChild.innerHTML = `24h/24h et 7j/7j`;
+      dom.lastChild.innerHTML = `Toujours ouvert`;
+    } else {
+      dom.lastChild.innerHTML = `Voir les horaires`;
     }
     dom.classList.add('opened');
   }
 
 
-  _markerIsClosed(dom) {
+  _markerIsClosed(dom, alwaysClosed) {
     dom.firstChild.innerHTML = `Fermé`;
-    dom.lastChild.innerHTML = `Voir les horaires`;
+    if (alwaysClosed) {
+      dom.lastChild.innerHTML = 'Toujours fermé';
+    } else {
+      dom.lastChild.innerHTML = `Voir les horaires`;
+    }
     dom.classList.remove('opened');
   }
 
@@ -345,4 +421,4 @@ class MonDourdannais {
 }
 
 
-export default MonDourdannais;
+export default DourdannaisExplore;

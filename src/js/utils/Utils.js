@@ -76,6 +76,7 @@ export default {
     LAT: 48.53183906441962,
     LNG: 2.053756713867188
   },
+  CCDH_CITIES: ['BRX', 'COR', 'DRD', 'LFR', 'LGR', 'RIC', 'ROV', 'SCD', 'SER', 'STC', 'VSG'],
   MAP_BOUNDS: window.L.latLngBounds(
     window.L.latLng(48.679400715963894, 1.7390606689453127),
     window.L.latLng(48.38439074151866, 2.343395996093750)

@@ -8,7 +8,7 @@ const DIST = path.resolve(__dirname, '../assets/dist/');
 
 
 module.exports = {
-  entry: ['./src/js/MonDourdannais.js'],
+  entry: ['./src/js/DourdannaisExplore.js'],
   module: {
     rules: [
       loaders.JSLoader,
@@ -17,8 +17,8 @@ module.exports = {
   },
   output: {
     path: DIST,
-    filename: 'MonDourdannais.bundle.js',
-    library: 'MonDourdannais',
+    filename: 'DourdannaisExplore.bundle.js',
+    library: 'DourdannaisExplore',
     libraryTarget: 'window',
     libraryExport: 'default'    
   },

@@ -17,15 +17,6 @@ export default Object.freeze({
     shadowSize: [42, 42],
     shadowAnchor: [20, 20],
   }),
-  tobacco: new window.L.Icon({
-    iconUrl: 'assets/img/marker/tobacco.svg',
-    iconSize: [26, 26],
-    iconAnchor: [13, 13],
-    popupAnchor: [0, -13],
-    shadowUrl: 'assets/img/marker/marker-shadow.png',
-    shadowSize: [42, 42],
-    shadowAnchor: [20, 20],
-  }),
   cellar: new window.L.Icon({
     iconUrl: 'assets/img/marker/cellar.svg',
     iconSize: [26, 26],
@@ -44,8 +35,44 @@ export default Object.freeze({
     shadowSize: [42, 42],
     shadowAnchor: [20, 20],
   }),
-  sport: new window.L.Icon({
-    iconUrl: 'assets/img/marker/sport.svg',
+  foot: new window.L.Icon({
+    iconUrl: 'assets/img/marker/foot.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
+  rugby: new window.L.Icon({
+    iconUrl: 'assets/img/marker/rugby.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
+  pingpong: new window.L.Icon({
+    iconUrl: 'assets/img/marker/pingpong.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
+  bocce: new window.L.Icon({
+    iconUrl: 'assets/img/marker/bocce.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
+  tennis: new window.L.Icon({
+    iconUrl: 'assets/img/marker/tennis.svg',
     iconSize: [26, 26],
     iconAnchor: [13, 13],
     popupAnchor: [0, -13],
@@ -55,15 +82,6 @@ export default Object.freeze({
   }),
   bakery: new window.L.Icon({
     iconUrl: 'assets/img/marker/bread.svg',
-    iconSize: [26, 26],
-    iconAnchor: [13, 13],
-    popupAnchor: [0, -13],
-    shadowUrl: 'assets/img/marker/marker-shadow.png',
-    shadowSize: [42, 42],
-    shadowAnchor: [20, 20],
-  }),
-  store: new window.L.Icon({
-    iconUrl: 'assets/img/marker/store.svg',
     iconSize: [26, 26],
     iconAnchor: [13, 13],
     popupAnchor: [0, -13],
@@ -89,8 +107,8 @@ export default Object.freeze({
     shadowSize: [42, 42],
     shadowAnchor: [20, 20],
   }),
-  craft: new window.L.Icon({
-    iconUrl: 'assets/img/marker/craft.svg',
+  church: new window.L.Icon({
+    iconUrl: 'assets/img/marker/church.svg',
     iconSize: [26, 26],
     iconAnchor: [13, 13],
     popupAnchor: [0, -13],
@@ -116,8 +134,8 @@ export default Object.freeze({
     shadowSize: [42, 42],
     shadowAnchor: [20, 20],
   }),
-  gas: new window.L.Icon({
-    iconUrl: 'assets/img/marker/gas.svg',
+  train: new window.L.Icon({
+    iconUrl: 'assets/img/marker/train.svg',
     iconSize: [26, 26],
     iconAnchor: [13, 13],
     popupAnchor: [0, -13],
@@ -170,8 +188,8 @@ export default Object.freeze({
     shadowSize: [42, 42],
     shadowAnchor: [20, 20],
   }),
-  bank: new window.L.Icon({
-    iconUrl: 'assets/img/marker/bank.svg',
+  school: new window.L.Icon({
+    iconUrl: 'assets/img/marker/school.svg',
     iconSize: [26, 26],
     iconAnchor: [13, 13],
     popupAnchor: [0, -13],
@@ -179,24 +197,6 @@ export default Object.freeze({
     shadowSize: [42, 42],
     shadowAnchor: [20, 20],
   }),
-  medical: new window.L.Icon({
-    iconUrl: 'assets/img/marker/medical.svg',
-    iconSize: [26, 26],
-    iconAnchor: [13, 13],
-    popupAnchor: [0, -13],
-    shadowUrl: 'assets/img/marker/marker-shadow.png',
-    shadowSize: [42, 42],
-    shadowAnchor: [20, 20],
-  }),
-  deco: new window.L.Icon({
-    iconUrl: 'assets/img/marker/deco.svg',
-    iconSize: [26, 26],
-    iconAnchor: [13, 13],
-    popupAnchor: [0, -13],
-    shadowUrl: 'assets/img/marker/marker-shadow.png',
-    shadowSize: [42, 42],
-    shadowAnchor: [20, 20],
-  }),  
   user: new window.L.Icon({
     iconUrl: 'assets/img/marker/user.svg',
     iconSize: [26, 26],
@@ -205,14 +205,5 @@ export default Object.freeze({
     shadowUrl: 'assets/img/marker/marker-shadow.png',
     shadowSize: [42, 42],
     shadowAnchor: [20, 20]
-  }),
-  barstore: new window.L.Icon({
-    iconUrl: 'assets/img/marker/mixed/barstore.svg',
-    iconSize: [26, 26],
-    iconAnchor: [13, 13],
-    popupAnchor: [0, -13],
-    shadowUrl: 'assets/img/marker/marker-shadow.png',
-    shadowSize: [42, 42],
-    shadowAnchor: [20, 20]
-  }),
+  })
 });

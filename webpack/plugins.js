@@ -6,7 +6,7 @@ const path = require('path');
 
 
 const MiniCssExtractPlugin = new _MiniCssExtractPlugin({
-  filename: 'MonDourdannais.bundle.css',
+  filename: 'DourdannaisExplore.bundle.css',
   chunkFilename: '[id].css'
 });
 

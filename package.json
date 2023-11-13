@@ -1,21 +1,21 @@
 {
-  "name": "mondourdannais",
+  "name": "dourdannaisexplore",
   "version": "0.0.1",
   "keywords": [],
-  "main": "src/js/MonDourdannais.js",
+  "main": "src/js/DourdannaisExplore.js",
   "scripts": {
     "build": "webpack --config webpack/webpack.prod.js",
     "watch": "webpack --watch --config webpack/webpack.dev.js",
     "start": "node src/js/Server.js",
     "doc": "jsdoc -c doc/jsDoc.json"
   },
-  "homepage": "https://github.com/MesseBasseProduction/MonDourdannais/README.md",
+  "homepage": "https://github.com/MesseBasseProduction/DourdannaisExplore/README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MesseBasseProduction/MonDourdannais.git"
+    "url": "git+https://github.com/MesseBasseProduction/DourdannaisExplore.git"
   },
   "bugs": {
-    "url": "https://github.com/MesseBasseProduction/MonDourdannais/issues"
+    "url": "https://github.com/MesseBasseProduction/DourdannaisExplore/issues"
   },
   "author": "ArthurBeaulieu",
   "license": "GPL-3.0",
