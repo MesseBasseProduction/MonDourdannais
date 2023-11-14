@@ -236,6 +236,18 @@
             "break": {}
           }
         ]
+      }, {
+        "name": "Boîte aux lettres",
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.47958565834444,
+        "lng": 2.04259067773819,
+        "address": "Rue du Pont de l'Aridaine",
+        "town": "La Forêt-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": "Boîte au lettre de la Rue du Pont de l'Aridaine opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00.",
+        "timetable": []
       }
     ],
     "sport": [

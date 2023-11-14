@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="15px"
+   height="15px"
+   viewBox="0 0 15 15"
+   fill="none"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="dental.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="19.586858"
+     inkscape:cx="4.1864806"
+     inkscape:cy="6.1010296"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <circle
+     style="fill:#1acbff;fill-opacity:1;stroke:#000000;stroke-width:0.318256"
+     id="path859"
+     cx="7.5"
+     cy="7.5"
+     r="7.3187485" />
+  <path
+     d="M 6.1649797,3.6683917 C 5.858189,3.5562607 5.5675882,3.4500519 5.1176775,3.4500519 c -0.9529291,0 -1.4293941,0.952929 -1.4293941,2.1440902 0,0.7616289 0.1948029,1.2310895 0.397567,1.7197034 0.1143471,0.2755876 0.2312281,0.557225 0.3171304,0.9008513 0.070997,0.283973 0.099676,0.6948762 0.1301743,1.1318419 0.07185,1.0294013 0.153798,2.2034093 0.8227549,2.2034093 0.4283312,0 0.6160014,-0.673863 0.822625,-1.415766 0.2530651,-0.9087135 0.5345834,-1.9194852 1.3214649,-1.9194852 0.7868809,0 1.0683762,1.0107717 1.3214743,1.9194852 0.2065952,0.741903 0.3942746,1.415766 0.8226154,1.415766 0.6689564,0 0.7509084,-1.174008 0.8227604,-2.2034093 0.03049,-0.4369657 0.05918,-0.8478689 0.130169,-1.1318419 0.08591,-0.3436263 0.202783,-0.6252637 0.317135,-0.9008513 0.202784,-0.4886139 0.397563,-0.9580745 0.397563,-1.7197034 0,-1.1911612 -0.476465,-2.1440902 -1.4293949,-2.1440902 -0.4499246,0 -0.7405212,0.1062088 -1.0473164,0.2183398 C 8.4919989,3.7937543 8.1287905,3.9265164 7.5,3.9265164 c -0.6287904,0 -0.992018,-0.1327621 -1.3350203,-0.2581247 z"
+     stroke="#000000"
+     stroke-width="0.714698"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1" />
+</svg>

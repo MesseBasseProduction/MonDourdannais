@@ -1046,7 +1046,63 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 6 83 32 01 82",
         "website": "https://www.facebook.com/p/Football-CLUB-Sermaise-Roinville-100057120744121/",
-        "info": "Stade municipal géré et entretenu par la CCDH. Ce stade possède un terrain de football à 7 et un terrain de footbal à 11 en gazon. L'accès aux terrains est réservé aux adhérents du club Football Club Sermaise Roinville (FCSR).",
+        "info": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 11 est en gazon. L'accès aux terrains est réservé aux adhérents du club Football Club Sermaise Roinville (FCSR).",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Stade du Quesnois",
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.53436648965191,
+        "lng": 2.0700538158416752,
+        "address": "884 Avenue de Dourdan (Bellanger)",
+        "town": "Sermaise ‒ 91530",
+        "phone": "+33 6 83 32 01 82",
+        "website": "https://www.facebook.com/p/Football-CLUB-Sermaise-Roinville-100057120744121/",
+        "info": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 7 est en gazon. L'accès aux terrains est réservé aux adhérents du club Football Club Sermaise Roinville (FCSR).",
         "timetable": [
           {
             "name": "Lundi",
