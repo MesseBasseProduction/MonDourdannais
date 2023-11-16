@@ -316,6 +316,62 @@
           }
         ]
       }, {
+        "name": "Cimetière de Roinville",
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.53194385827498,
+        "lng": 2.043470442295075,
+        "address": "Place du Bois Carré",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
         "name": "Boîte aux lettres",
         "type": "mail",
         "subtypes": [],

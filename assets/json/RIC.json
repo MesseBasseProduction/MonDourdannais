@@ -97,6 +97,62 @@
         "info": "Boîte au lettre du Bourg opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à droite de la boîte.",
         "timetable": []
       }, {
+        "name": "Cimetière de Richarville",
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.469103258992696,
+        "lng": 1.9940641522407534,
+        "address": "Rue du Bréau",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
         "name": "Boîte aux lettres",
         "type": "mail",
         "subtypes": [],

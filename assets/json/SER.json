@@ -707,6 +707,62 @@
           }
         ]
       }, {
+        "name": "Cimetière de Sermaise",
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.5349064151594,
+        "lng": 2.082646787166596,
+        "address": "Rue du Repos",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
         "name": "Boîte aux lettres",
         "type": "mail",
         "subtypes": [],

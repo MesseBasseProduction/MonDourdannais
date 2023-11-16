@@ -271,6 +271,62 @@
             "break": {}
           }
         ]
+      }, {
+        "name": "Cimetière de Les Granges-Le-Roi",
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.50907234407129,
+        "lng": 2.023192942142487,
+        "address": "Départementale D836",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }
+        ]
       }
     ],
     "shop": [

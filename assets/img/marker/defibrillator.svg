@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="15px"
+   height="15px"
+   viewBox="0 0 15 15"
+   fill="none"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="defibrillator.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="19.586858"
+     inkscape:cx="-1.991131"
+     inkscape:cy="14.627155"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <circle
+     style="fill:#1acbff;fill-opacity:1;stroke:#000000;stroke-width:0.318256"
+     id="path859"
+     cx="7.5"
+     cy="7.5"
+     r="7.3187485" />
+  <g
+     id="g2"
+     transform="matrix(0.19256236,0,0,0.19256236,2.8785034,2.6545351)">
+    <path
+       d="m 11,32 7,-9 6,9 6,-9 5,8 h 9"
+       stroke="#000000"
+       stroke-width="4"
+       stroke-miterlimit="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path1" />
+    <path
+       d="M 44,19 C 44,12.9249 39.0751,8 33,8 29.2797,8 25.9907,9.8469 24,12.6738 22.0093,9.8469 18.7203,8 15,8 8.92487,8 4,12.9249 4,19 4,30 17,40 24,42.3262 25.1936,41.9295 26.5616,41.3098 28.0099,40.5"
+       stroke="#000000"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path2" />
+  </g>
+</svg>

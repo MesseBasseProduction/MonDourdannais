@@ -1,5 +1,20 @@
 {
   "pois": {
+    "care": [
+      {
+        "name": "Défibrillateur Cardiaque",
+        "type": "defibrillator",
+        "subtypes": [],
+        "lat": 48.56580045019394,
+        "lng": 2.0612052083015446,
+        "address": "73 Rue du Village",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": []
+      }
+    ],
     "eco": [
       {
         "name": "Conteneurs de tri",
@@ -12,6 +27,18 @@
         "phone": "+33 1 69 74 23 50",
         "website": "http://siredom.com",
         "info": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+        "timetable": []
+      }, {
+        "name": "Conteneurs de tri",
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.56301188405006,
+        "lng": 2.0643997192382817,
+        "address": "Chemin de la Vieuville",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": "Conteneurs pour verres. La collecte est assurée par le Syndicat Siredom.",
         "timetable": []
       }, {
         "name": "Parc Billard",
@@ -129,12 +156,224 @@
           }
         ]
       }, {
+        "name": "École Primaire La Remarde",
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.56514370434507,
+        "lng": 2.0604622364044194,
+        "address": "94 Rue du Village",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 1 64 59 01 32",
+        "website": "https://www.education.gouv.fr/annuaire/91530/le-val-saint-germain/ecole/0910083w/ecole-primaire-la-remarde.html",
+        "info": "École Maternelle de Le Val Saint Germain, rattachée à l'académie de Versailles. Ouverte en Septembre 1991, l'école est capable d'accueillir 148 élèves.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "16", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "16", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "16", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "16", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Bibliothèque Municipale",
+        "type": "book",
+        "subtypes": [],
+        "lat": 48.565708151292405,
+        "lng": 2.0601564645767216,
+        "address": "2 Route de la Creusée",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 6 60 35 54 76",
+        "website": "https://opac-x-bibliothequesermaise.biblixnet.net",
+        "info": "Bibliothèque municipale de Sermaise. Les prèts de livres sont gratuits pour les adhérents. L'adhésion s'effectue sur place.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "12", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "12", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "17", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "12", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Cimetière de Le Val-Saint-Germain",
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.56257521368474,
+        "lng": 2.064818143844605,
+        "address": "Chemin de la Vieuville",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Boîte aux lettres",
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.565704601331284,
+        "lng": 2.061146199703217,
+        "address": "78 Rue Du Village",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": "Boîte au lettre du Bourg opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à droite de la boîte.",
+        "timetable": []
+      }, {
+        "name": "Boîte aux lettres",
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.57082693597095,
+        "lng": 2.0590567588806157,
+        "address": "20 Route de la Creusée",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": "Boîte au lettre du Bourg opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à droite de la boîte.",
+        "timetable": []
+      }, {
         "name": "Boîte aux lettres",
         "type": "mail",
         "subtypes": [],
         "lat": 48.575634642856784,
         "lng": 2.0989841222763066,
-        "address": "26 Rue du Marais (Le Marais)",
+        "address": "20 Rue du Marais (Le Marais)",
         "town": "Le Val-Saint-Germain ‒ 91530",
         "phone": "",
         "website": "https://localiser.laposte.fr/essonne/saint-cheron",
