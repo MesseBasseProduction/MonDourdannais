@@ -155,6 +155,361 @@
         ]
       }
     ],
+    "catering": [
+      {
+        "name": "Le Palai Oriental",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.551524068603655,
+        "lng": 2.1254226565361027,
+        "address": "3 Place de la Gare",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 26 98 22",
+        "website": "https://palaisoriental.fr/",
+        "info": "Restaurant de plats gastronomiques Marocains.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }
+        ]
+      }, {
+        "name": "El Dorado",
+        "type": "restaurant",
+        "subtypes": ["bar"],
+        "lat": 48.55378420194363,
+        "lng": 2.125264406204224,
+        "address": "2 Place Edmond Vian",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 9 51 76 49 24",
+        "website": "https://eldorado91.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "14", "m": "30" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Pizza Lina",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.55404518491589,
+        "lng": 2.1253234148025517,
+        "address": "4 Place Edmond Vian",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 01 01",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "18", "m": "00" },
+            "close": { "h": "23", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Shiawase",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.55334212567421,
+        "lng": 2.122442722320557,
+        "address": "35 Bis Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 37 97",
+        "website": "http://shiawase-saintcheron.eatbu.com/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }
+        ]
+      }, {
+        "name": "Café de la Gare Saint-Chéron",
+        "type": "bar",
+        "subtypes": ["tobacco", "restaurant"],
+        "lat": 48.55151696669013,
+        "lng": 2.1253046393394475,
+        "address": "1 Place de la Gare",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 9 67 44 01 77",
+        "website": "https://www.facebook.com/profile.php?id=61551122391877&mibextid=ZbWKwL",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "13", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "13", "m": "00" },
+            "break": {}
+          }
+        ]
+      }
+    ],
     "eco": [
       {
         "name": "Déchèterie",
@@ -259,6 +614,30 @@
         "phone": "+33 1 69 74 23 50",
         "website": "http://siredom.com",
         "info": "Conteneurs de vêtements à donner (Le Relais).",
+        "timetable": []
+      }, {
+        "name": "Conteneurs de tri",
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.54504670938408,
+        "lng": 2.114334404468537,
+        "address": "Rue du Coteau Sud (Saint-Évroult)",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+        "timetable": []
+      }, {
+        "name": "Étang de la Junière",
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.54978939661454,
+        "lng": 2.113529741764069,
+        "address": "Résidence du Clos de l'Étang",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": "",
         "timetable": []
       }
     ],
@@ -1162,7 +1541,215 @@
             "break": {}
           }
         ]
-      }      
+      }, {
+        "name": "Verger des Trois Vallées",
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.553395388080006,
+        "lng": 2.123647034168244,
+        "address": "25 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 68 12",
+        "website": "https://www.petitscommerces.fr/page/verger-des-trois-vallees/",
+        "info": "Primeur, fromager et épicerie fine.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "13", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Point P",
+        "type": "diy",
+        "subtypes": [],
+        "lat": 48.551227562866245,
+        "lng": 2.1129879355430607,
+        "address": "Chemin de la Junière",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 32 22",
+        "website": "https://www.pointp.fr/infos-agence/saint-cheron-point-p-4456",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "17", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "17", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "17", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "17", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "17", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "12", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "ONIP Peinture",
+        "type": "diy",
+        "subtypes": [],
+        "lat": 48.54730002953564,
+        "lng": 2.117445766925812,
+        "address": "38 Rue Richard Vian",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 14 15 60",
+        "website": "https://www.peinture-paille.fr/",
+        "info": "Magasin de peinture pour les particuliers et les professionnels.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "12", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }
     ],
     "tourism": [
       {
@@ -1218,6 +1805,62 @@
             "isOpen": false,
             "open": {},
             "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Écomusée",
+        "type": "museum",
+        "subtypes": [],
+        "lat": 48.55323204985793,
+        "lng": 2.1218848228454594,
+        "address": "55 Bis Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 6 33 36 55 35",
+        "website": "https://saint-cheron.fr/loisirs-associations/culture/ecomusee-de-saint-cheron/",
+        "info": "L'Écomusée de Saint-Chéron propose une exposition permanente sur les anciens métiers à Saint-Chéron. Cordonnier, menuisier, carrier, maréchal ferrant-forgeron, lavandière, etc… Tous ont rythmé la vie de la commune autrefois et sont représentés dans ce musée, tant par des outils ou objets que par des reproductions de photos.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "15", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "15", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "15", "m": "00" },
+            "close": { "h": "18", "m": "00" },
             "break": {}
           }
         ]

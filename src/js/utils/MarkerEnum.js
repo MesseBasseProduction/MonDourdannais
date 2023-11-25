@@ -35,6 +35,15 @@ export default Object.freeze({
     shadowSize: [42, 42],
     shadowAnchor: [20, 20],
   }),
+  diy: new window.L.Icon({
+    iconUrl: 'assets/img/marker/diy.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
   foot: new window.L.Icon({
     iconUrl: 'assets/img/marker/foot.svg',
     iconSize: [26, 26],
@@ -118,6 +127,15 @@ export default Object.freeze({
   }),
   church: new window.L.Icon({
     iconUrl: 'assets/img/marker/church.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
+  museum: new window.L.Icon({
+    iconUrl: 'assets/img/marker/museum.svg',
     iconSize: [26, 26],
     iconAnchor: [13, 13],
     popupAnchor: [0, -13],
