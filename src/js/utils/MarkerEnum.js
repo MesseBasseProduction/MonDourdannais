@@ -143,6 +143,15 @@ export default Object.freeze({
     shadowSize: [42, 42],
     shadowAnchor: [20, 20],
   }),
+  music: new window.L.Icon({
+    iconUrl: 'assets/img/marker/music.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
   landmark: new window.L.Icon({
     iconUrl: 'assets/img/marker/landmark.svg',
     iconSize: [26, 26],
@@ -170,6 +179,15 @@ export default Object.freeze({
     shadowSize: [42, 42],
     shadowAnchor: [20, 20],
   }),
+  tourism: new window.L.Icon({
+    iconUrl: 'assets/img/marker/tourism.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
   museum: new window.L.Icon({
     iconUrl: 'assets/img/marker/museum.svg',
     iconSize: [26, 26],
@@ -190,6 +208,15 @@ export default Object.freeze({
   }),
   car: new window.L.Icon({
     iconUrl: 'assets/img/marker/car.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
+  gas: new window.L.Icon({
+    iconUrl: 'assets/img/marker/gas.svg',
     iconSize: [26, 26],
     iconAnchor: [13, 13],
     popupAnchor: [0, -13],

@@ -2,158 +2,6 @@
   "pois": {
     "care": [
       {
-        "name": "Clinique Vétérinaire des 3 Vallées",
-        "type": "animal",
-        "subtypes": [],
-        "lat": 48.5531237492243,
-        "lng": 2.1199670433998112,
-        "address": "16 Rue Céleste Boursier",
-        "town": "Saint-Chéron ‒ 91530",
-        "phone": "+33 1 64 56 31 10",
-        "website": "https://www.vetorino.com/veterinaire/saintcheron-91530/",
-        "info": "Clinique effectuant consultations et analyses pour vos chiens, chats et NACs. Consultations uniquement sur rendez-vous.",
-        "timetable": [
-          {
-            "name": "Lundi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "00" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "14", "m": "30" }
-            }
-          }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "00" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "14", "m": "30" }
-            }
-          }, {
-            "name": "Mercredi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "00" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "14", "m": "30" }
-            }
-          }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "00" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "14", "m": "30" }
-            }
-          }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "00" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "14", "m": "30" }
-            }
-          }, {
-            "name": "Samedi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "17", "m": "30" },
-            "break": {}
-          }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }
-        ]
-      }, {
-        "name": "Pharmacie des Trois Vallées",
-        "type": "pharmacy",
-        "subtypes": [],
-        "lat": 48.55347883240301,
-        "lng": 2.1220538020133977,
-        "address": "24 Rue Charles de Gaulle",
-        "town": "Saint-Chéron ‒ 91530",
-        "phone": "+33 1 64 56 67 36",
-        "website": "",
-        "info": "",
-        "timetable": [
-          {
-            "name": "Lundi",
-            "isOpen": true,
-            "open": { "h": "14", "m": "30" },
-            "close": { "h": "19", "m": "30" },
-            "break": {}
-          }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "19", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "14", "m": "30" }
-            }
-          }, {
-            "name": "Mercredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "19", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "14", "m": "30" }
-            }
-          }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "19", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "14", "m": "30" }
-            }
-          }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "19", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "14", "m": "30" }
-            }
-          }, {
-            "name": "Samedi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "14", "m": "30" }
-            }
-          }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }
-        ]
-      }, {
         "name": "Dr Caroline Chauvel, Dermatologue",
         "type": "medic",
         "subtypes": [],
@@ -476,6 +324,158 @@
             "isOpen": false,
             "open": {},
             "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Pharmacie des Trois Vallées",
+        "type": "pharmacy",
+        "subtypes": [],
+        "lat": 48.55347883240301,
+        "lng": 2.1220538020133977,
+        "address": "24 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 67 36",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "14", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Clinique Vétérinaire des 3 Vallées",
+        "type": "animal",
+        "subtypes": [],
+        "lat": 48.5531237492243,
+        "lng": 2.1199670433998112,
+        "address": "16 Rue Céleste Boursier",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 31 10",
+        "website": "https://www.vetorino.com/veterinaire/saintcheron-91530/",
+        "info": "Clinique effectuant consultations et analyses pour vos chiens, chats et NACs. Consultations uniquement sur rendez-vous.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "17", "m": "30" },
             "break": {}
           }, {
             "name": "Dimanche",
@@ -1560,7 +1560,7 @@
         "town": "Saint-Chéron ‒ 91530",
         "phone": "+33 1 64 56 63 54",
         "website": "https://www.education.gouv.fr/annuaire/91530/saint-cheron/ecole/0911232v/ecole-elementaire-le-pont-de-bois.html",
-        "info": "École Élémentaire de Saint-Chéron, rattachée à l'académie de Versailles. Lécole est capable d'accueillir 174 élèves.",
+        "info": "École Élémentaire de Saint-Chéron, rattachée à l'académie de Versailles. L'école est capable d'accueillir 174 élèves.",
         "timetable": [
           {
             "name": "Lundi",
@@ -1632,7 +1632,7 @@
         "town": "Saint-Chéron ‒ 91530",
         "phone": "+33 1 64 56 62 03",
         "website": "https://www.education.gouv.fr/annuaire/91530/saint-cheron/ecole/0910074l/ecole-elementaire-le-centre.html",
-        "info": "École Élémentaire de Saint-Chéron, rattachée à l'académie de Versailles. Lécole est capable d'accueillir 150 élèves.",
+        "info": "École Élémentaire de Saint-Chéron, rattachée à l'académie de Versailles. L'école est capable d'accueillir 150 élèves.",
         "timetable": [
           {
             "name": "Lundi",
@@ -1704,7 +1704,7 @@
         "town": "Saint-Chéron ‒ 91530",
         "phone": "+33 1 64 56 65 45",
         "website": "https://www.education.gouv.fr/annuaire/91530/saint-cheron/college/0911256w/college-du-pont-de-bois.html",
-        "info": "Collège de Saint-Chéron, rattachée à l'académie de Versailles. Lécole est capable d'accueillir 700 élèves.",
+        "info": "Collège de Saint-Chéron, rattaché à l'académie de Versailles. Le Collège est capable d'accueillir 700 élèves.",
         "timetable": [
           {
             "name": "Lundi",
@@ -2032,7 +2032,7 @@
             "break": {}
           }, {
             "name": "Dimanche",
-            "isOpen": true,
+            "isOpen": false,
             "open": {},
             "close": {},
             "break": {}
@@ -3197,7 +3197,7 @@
         "subtypes": [],
         "lat": 48.553752244752474,
         "lng": 2.1236309409141545,
-        "address": "De l'Église",
+        "address": "Cour De l'Église",
         "town": "Saint-Chéron ‒ 91530",
         "phone": "",
         "website": "https://www.pop.culture.gouv.fr/notice/merimee/PA00089060",
