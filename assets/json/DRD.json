@@ -301,7 +301,1814 @@
             "break": {}
           }
         ]
+      }, {
+        "name": "Pharmacie de la Croix Saint-Jacques",
+        "type": "lab",
+        "subtypes": [],
+        "lat": 48.534045018111755,
+        "lng": 2.001118361949921,
+        "address": "2 Rue du Potelet",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 58 92",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "16", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "16", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "16", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "16", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "16", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "15", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
       }
+    ],
+    "catering": [
+      {
+        "name": "La Fleur de Sel",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.53198293389437,
+        "lng": 2.010237872600556,
+        "address": "1 Rue Sarcey",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 90 94",
+        "website": "https://www.thefork.fr/restaurant/fleur-de-sel-r438377",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "14", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "L'Auberge de la Môme",
+        "type": "restaurant",
+        "subtypes": ["bar"],
+        "lat": 48.532634781824655,
+        "lng": 2.0083791017532353,
+        "address": "35 Rue du Faubourg de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 78 65 51 56",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "20", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "20", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "20", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "23", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "16", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Istanbul Kebab",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.532180087695835,
+        "lng": 2.009787261486054,
+        "address": "4 Rue Sarcey",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 34 39",
+        "website": "https://www.restoistanbul.com/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }
+        ]
+      }, {
+        "name": "Asaki Sushi",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.53045540995874,
+        "lng": 2.0112839341163635,
+        "address": "48 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 69 58 20 01",
+        "website": "http://asakisushi.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "30" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Saveurs d'Asie",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.530577968812,
+        "lng": 2.0111283659935,
+        "address": "52 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 88 19",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Traiteur D'Asie Du Chateau",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.52933105185303,
+        "lng": 2.012552618980408,
+        "address": "4 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 9 50 98 74 22",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "21", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "21", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "21", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "21", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "21", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "21", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "21", "m": "30" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Crêperie Les Galandières",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.52952111097968,
+        "lng": 2.010235190391541,
+        "address": "12 Rue Haute Foulerie",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 70 84",
+        "website": "https://www.facebook.com/p/Cr%C3%AAperie-Les-Galandi%C3%A8res-100063743430819/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Pizza Pronto",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.52947670470555,
+        "lng": 2.0104497671127324,
+        "address": "8 Rue Haute Foulerie",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 96 96",
+        "website": "https://pronto-restaurant-dourdan.eatbu.com/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "15", "m": "00" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "18", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Pizzeria du Chateau",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.52914099201301,
+        "lng": 2.0121717453002934,
+        "address": "2 Rue Demetz",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 23 82",
+        "website": "https://sites.google.com/view/pizzeria-dourdan/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "14", "m": "30" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Pizza Artisanale",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.52798463125863,
+        "lng": 2.0232626795768742,
+        "address": "48 Rue Raymond Laubier",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 95 40",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "30" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "17", "m": "30" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Pizza Le Délice",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.5317964363486,
+        "lng": 2.0106214284896855,
+        "address": "Avenue Carnot",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 95 05 75",
+        "website": "https://www.ledelicepizza.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "18", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "18", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "MATE House Of Goût",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.53036482278959,
+        "lng": 2.011404633522034,
+        "address": "44 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 55 77 65",
+        "website": "https://www.instagram.com/mate_houseofgout/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Le Riad Fès",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.523028500370735,
+        "lng": 2.0165920257568364,
+        "address": "51 Avenue d'Etampes",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 40 88",
+        "website": "https://www.riad-fes.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }
+        ]
+      }, {
+        "name": "Siècle d'Or",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.52352413528469,
+        "lng": 2.021049857139588,
+        "address": "7 Rue d'Orsonville",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 95 93 42",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }
+        ]
+      }, {
+        "name": "Les Saveurs d'Himalaya",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.52940743084013,
+        "lng": 2.0168334245681767,
+        "address": "3 Allée Emile Rigal",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 04 35",
+        "website": "https://www.saveurshimalaya.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "22", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "30" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }
+        ]
+      }, {
+        "name": "Restaurant la Table de Blanche",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.528888761964964,
+        "lng": 2.0121127367019658,
+        "address": "Place du Marché aux Herbes",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 19 10",
+        "website": "https://brasserie.hotel-blanchedecastille.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "19", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "14", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "McDonald's",
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.52156821447233,
+        "lng": 2.021293938159943,
+        "address": "Rue d'Orsonville",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 31 25",
+        "website": "https://www.mcdonalds.fr/restaurants/mcdonalds-dourdan/1350",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "23", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "23", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "23", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "23", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "24", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "24", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "23", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "In Vino Vivo",
+        "type": "cellar",
+        "subtypes": ["bar"],
+        "lat": 48.53040567584673,
+        "lng": 2.011361718177796,
+        "address": "46 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 67 19",
+        "website": "https://www.facebook.com/invinovivo/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "16", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "16", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "16", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "16", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "16", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Beer'S Not Dead",
+        "type": "cellar",
+        "subtypes": ["bar"],
+        "lat": 48.52943407464572,
+        "lng": 2.0099776983261113,
+        "address": "17 Rue Haute Foulerie",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 6 28 65 47 59",
+        "website": "https://www.beersnotdead.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "23", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "22", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "11", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Le Mojitoast",
+        "type": "bar",
+        "subtypes": ["restaurant"],
+        "lat": 48.52994208052417,
+        "lng": 2.012083232402802,
+        "address": "2 Rue Saint-Germain",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 01 30",
+        "website": "https://le-mojitoast.edan.io/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "45" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "45" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "45" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "45" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "45" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "45" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "45" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "45" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "45" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "45" },
+              "end": { "h": "18", "m": "30" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Chez Elles",
+        "type": "bar",
+        "subtypes": ["restaurant"],
+        "lat": 48.52783719780524,
+        "lng": 2.022074460983277,
+        "address": "48 Rue Raymond Laubier",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 42 17",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Café de la Gare",
+        "type": "bar",
+        "subtypes": ["tobacco", "restaurant"],
+        "lat": 48.533242218391166,
+        "lng": 2.009706795215607,
+        "address": "12 Rue Amedee Guenee",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 69 78 06 56",
+        "website": "",
+        "info": "Bar, tabac et brasserie de la gare.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "14", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Bar de la Tour",
+        "type": "bar",
+        "subtypes": ["tobacco", "restaurant"],
+        "lat": 48.53013568981486,
+        "lng": 2.011707723140717,
+        "address": "30 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 72 32",
+        "website": "",
+        "info": "Bar, tabac et brasserie de la place du Château.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Bar Le St. Jacques",
+        "type": "bar",
+        "subtypes": ["tobacco", "restaurant"],
+        "lat": 48.52520463906982,
+        "lng": 2.0092695951461796,
+        "address": "Rue de Balzac",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 9 60 15 08 42",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "15", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Tabac Les Arcades",
+        "type": "tobacco",
+        "subtypes": [],
+        "lat": 48.52897402296686,
+        "lng": 2.012584805488587,
+        "address": "10 Rue Demetz",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 91 41 33",
+        "website": "",
+        "info": "Tabac, papeterie, presse et jeux",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "30" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }     
     ],
     "eco": [
       {
@@ -388,6 +2195,66 @@
         "name": "Conteneurs de tri",
         "type": "recycle",
         "subtypes": [],
+        "lat": 48.52842515275481,
+        "lng": 2.0243999361991887,
+        "address": "Rue Raymond Laubier",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+        "timetable": []
+      }, {
+        "name": "Conteneurs de tri",
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.52378349785857,
+        "lng": 2.004213631153107,
+        "address": "2 Avenue d'Orléans",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+        "timetable": []
+      }, {
+        "name": "Conteneurs de tri",
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.536224235476475,
+        "lng": 2.0003458857536316,
+        "address": "Chemin Maurice Gallais",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+        "timetable": []
+      }, {
+        "name": "Conteneurs de tri",
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.52933105185303,
+        "lng": 2.0230802893638615,
+        "address": "Rue Gaston Lesage",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+        "timetable": []
+      }, {
+        "name": "Conteneurs de tri",
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.53292073971262,
+        "lng": 2.011713087558747,
+        "address": "Avenue du Docteur Jules Bals",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": "Conteneurs pour verres. La collecte est assurée par le Syndicat Siredom.",
+        "timetable": []
+      }, {
+        "name": "Conteneurs de tri",
+        "type": "recycle",
+        "subtypes": [],
         "lat": 48.53103090113064,
         "lng": 2.0015341043472294,
         "address": "30 Rue De L'Orge",
@@ -395,6 +2262,110 @@
         "phone": "+33 1 69 74 23 50",
         "website": "http://siredom.com",
         "info": "Conteneurs pour verres. La collecte est assurée par le Syndicat Siredom.",
+        "timetable": []
+      }, {
+        "name": "Parc Lejars-Rouillon",
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.52545866386032,
+        "lng": 2.0134162902832036,
+        "address": "15 Rue Jules Ferry",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 14 14",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Étang Les Fontaines Bouillantes",
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.52906816515632,
+        "lng": 1.9819808006286623,
+        "address": "Chemin du Milieu",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": []
+      }, {
+        "name": "Mare Double",
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.557452043213644,
+        "lng": 1.953549385070801,
+        "address": "Route Départementale 836",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": []
+      }, {
+        "name": "Parc du Parterre François Mitterand",
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.52901842968181,
+        "lng": 2.01799750328064,
+        "address": "Esplanade Jean Moulin",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": []
+      }, {
+        "name": "Parc d'Orsonville",
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.52315818309268,
+        "lng": 2.020416855812073,
+        "address": "Rue d'Orsonville",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "",
         "timetable": []
       }, {
         "name": "Sablière de Dourdan",
@@ -407,6 +2378,74 @@
         "phone": "",
         "website": "",
         "info": "",
+        "timetable": []
+      }, {
+        "name": "Jardin d'Enfants",
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.525870785285605,
+        "lng": 2.0121932029724126,
+        "address": "Rue Jules Ferry",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Jardin d'enfants avec de nombreux modules pour le divertissement des bambins Dourdannais et d'ailleurs!",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Jardin d'Enfants",
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.528375416648764,
+        "lng": 2.025362849235535,
+        "address": "Rue Raymond Laubier",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Jardin d'enfants avec de nombreux modules pour le divertissement des bambins Dourdannais et d'ailleurs!",
         "timetable": []
       }
     ],
@@ -1839,6 +3878,614 @@
         "website": "https://localiser.laposte.fr/essonne/dourdan",
         "info": "Boîte au lettre opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00.",
         "timetable": []
+      }, {
+        "name": "Boîte aux lettres",
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.53212502680151,
+        "lng": 2.0094010233879094,
+        "address": "Rue du Faubourg de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": "Boîte au lettre opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00.",
+        "timetable": []
+      }, {
+        "name": "La Banque Postale Dourdan",
+        "type": "bank",
+        "subtypes": ["atm"],
+        "lat": 48.53181775038859,
+        "lng": 2.009513676166535,
+        "address": "7 Rue du Faubourg de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://www.labanquepostale.fr/particulier/localisation_bureau/resultat_localisation_bureau.detail.html/dourdan-912000.html",
+        "info": "Agence et distributeur de billets à l'exterieur.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "14", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "12", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Banque Populaire Rives de Paris",
+        "type": "bank",
+        "subtypes": ["atm"],
+        "lat": 48.53173427034737,
+        "lng": 2.0098033547401433,
+        "address": "6 Rue du Faubourg de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 80 36 40 58",
+        "website": "https://agences.banquepopulaire.fr/banque-assurance/agence-dourdan-id1020700016",
+        "info": "Agence et distributeur de billets à l'exterieur.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "16", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Crédit Agricole de Dourdan",
+        "type": "bank",
+        "subtypes": ["atm"],
+        "lat": 48.53157263838693,
+        "lng": 2.0107260346412663,
+        "address": "8 Rue Emile Renault",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 72 72",
+        "website": "https://www.credit-agricole.fr/particulier/agence/paris/dourdan-2668.html",
+        "info": "Agence et distributeur de billets à l'exterieur.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "16", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "SG Dourdan",
+        "type": "bank",
+        "subtypes": ["atm"],
+        "lat": 48.531311539514846,
+        "lng": 2.0100232958793645,
+        "address": "31 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 11 20",
+        "website": "https://agences.sg.fr/banque-assurance/particulier/agence-dourdan-id3000300841",
+        "info": "Agence et distributeur de billets à l'exterieur.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "50" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "40" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "50" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "40" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "50" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "40" },
+              "end": { "h": "14", "m": "45" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "50" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "40" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "40" },
+            "close": { "h": "12", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "BNP Paribas Dourdan",
+        "type": "bank",
+        "subtypes": ["atm"],
+        "lat": 48.530764470845625,
+        "lng": 2.010589241981507,
+        "address": "60 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 13 50",
+        "website": "https://mabanque.bnpparibas/fr/nous-contacter/nous-trouver/trouver-une-agence?agence=YWc6MDA4NTU",
+        "info": "Agence et distributeur de billets à l'exterieur.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "12", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "LCL Banque et Assurance",
+        "type": "bank",
+        "subtypes": ["atm"],
+        "lat": 48.53002023482235,
+        "lng": 2.0118498802185063,
+        "address": "26 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 19 00",
+        "website": "https://www.lcl.fr/",
+        "info": "Agence et distributeur de billets à l'exterieur.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "16", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Caisse d'Épargne Dourdan",
+        "type": "bank",
+        "subtypes": ["atm"],
+        "lat": 48.529933199346274,
+        "lng": 2.0118901133537297,
+        "address": "28 Bis Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 80 36 40 01",
+        "website": "https://www.agences.caisse-epargne.fr/banque-assurance/dourdan-id17515000202",
+        "info": "Agence et distributeur de billets à l'exterieur.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "15" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "45" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "15" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "45" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "15" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "45" },
+              "end": { "h": "14", "m": "45" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "15" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "45" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "16", "m": "15" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "45" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "CIC Dourdan",
+        "type": "bank",
+        "subtypes": ["atm"],
+        "lat": 48.52908770407938,
+        "lng": 2.0128235220909123,
+        "address": "28 Bis Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 69 16 19 58",
+        "website": "https://www.cic.fr/fr/agences/30066/10823/00/000?y_source=1_MTQxNjA2MDYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "info": "Agence et distributeur de billets à l'exterieur.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "15" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "15" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "15" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "15" },
+              "end": { "h": "13", "m": "45" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "16", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "15" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
       }
     ],
     "shop": [
@@ -1895,6 +4542,174 @@
             "isOpen": true,
             "open": { "h": "9", "m": "00" },
             "close": { "h": "12", "m": "30" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Netto Dourdan",
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.52341754754051,
+        "lng": 2.0214280486106877,
+        "address": "7 Rue d'Orsonville",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 68 85",
+        "website": "https://magasin.netto.fr/295-netto-orsonville",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "12", "m": "30" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Naturéo Dourdan",
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.523341159519205,
+        "lng": 2.021723091602326,
+        "address": "7 Rue d'Orsonville",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 94 23 72",
+        "website": "https://www.natureo-bio.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "12", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "U Express",
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.529130334430775,
+        "lng": 2.0134699344635014,
+        "address": "3 Rue Debertrand",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 76 28",
+        "website": "https://www.magasins-u.com/magasin/uexpress-dourdan",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "45" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "45" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "45" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "45" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "45" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "45" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "13", "m": "00" },
             "break": {}
           }
         ]
@@ -2011,6 +4826,142 @@
           }
         ]
       }, {
+        "name": "Génération Primeurs",
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.53023871097054,
+        "lng": 2.011578977108002,
+        "address": "38 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 80 34",
+        "website": "http://www.generation-primeurs.com/",
+        "info": "Primeur, fromager et épicerie fine.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "20", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "13", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "La Galerie",
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.531153458590985,
+        "lng": 2.0101466774940495,
+        "address": "27 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Alimentation générale, produits exotiques et orientaux, cosmétique.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "20", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
         "name": "Bricomarché",
         "type": "diy",
         "subtypes": [],
@@ -2090,10 +5041,1243 @@
             "break": {}
           }
         ]
+      }, {
+        "name": "Pépinière La Maison Blanche",
+        "type": "garden",
+        "subtypes": [],
+        "lat": 48.52881415847058,
+        "lng": 1.996319890022278,
+        "address": "Route Départementale 116",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 51 14",
+        "website": "https://www.facebook.com/p/Perrin-Fleurs-100057435468553/?locale=fr_FR",
+        "info": "Fleuriste diplômée situé à Sermaise, vous accueille pour toutes sortes de compositions, mariage, deuil, ainsi que pour la récupération de vos colis (Relais Colis).",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "12", "m": "30" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Boulangerie du Château",
+        "type": "bakery",
+        "subtypes": [],
+        "lat": 48.530176543056854,
+        "lng": 2.011656761169434,
+        "address": "36 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 71 23",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "30" },
+              "end": { "h": "15", "m": "00" }
+            }
+          }
+        ]
+      }, {
+        "name": "Aux Douceurs de Dourdan",
+        "type": "bakery",
+        "subtypes": [],
+        "lat": 48.52939499705937,
+        "lng": 2.012453377246857,
+        "address": "6 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 9 67 34 08 47",
+        "website": "https://douceurspatisserie.com/",
+        "info": "Boulanger, patissier, glacier et chocolatier.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "30" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "30" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "12", "m": "30" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Boulangerie La Croix Saint-Jacques",
+        "type": "bakery",
+        "subtypes": [],
+        "lat": 48.52533609261698,
+        "lng": 2.009655833244324,
+        "address": "Centre commercial de la Croix Saint-Jacques",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 9 81 06 58 68",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "6", "m": "30" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Boucherie Alain Lallemand",
+        "type": "butcher",
+        "subtypes": [],
+        "lat": 48.52907349395427,
+        "lng": 2.01237827539444,
+        "address": "6 Rue Demetz",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 70 80",
+        "website": "https://www.petitscommerces.fr/page/boucherie-lallemand/",
+        "info": "Boucherie Charcuterie",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "13", "m": "00" },
+              "end": { "h": "15", "m": "30" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "12", "m": "30" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Boucherie Berrichi Al Baraka",
+        "type": "butcher",
+        "subtypes": [],
+        "lat": 48.52531122305316,
+        "lng": 2.009733617305756,
+        "address": "2 Rue de Balzac",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 7 68 48 30 81",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "15", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Barbershop Essonne 91",
+        "type": "beauty",
+        "subtypes": [],
+        "lat": 48.53099004857794,
+        "lng": 2.0100742578506474,
+        "address": "4 Rue Heroux",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Salon Signature",
+        "type": "beauty",
+        "subtypes": [],
+        "lat": 48.52977156163669,
+        "lng": 2.0118257403373723,
+        "address": "11 Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 06 99",
+        "website": "https://www.signaturedourdan.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Comptoir du Cheveu",
+        "type": "beauty",
+        "subtypes": [],
+        "lat": 48.528913629772,
+        "lng": 2.0126196742057805,
+        "address": "2 Rue d'Etampes",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 71 36",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "14", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Objec Tif Coiffure",
+        "type": "beauty",
+        "subtypes": [],
+        "lat": 48.52803081514368,
+        "lng": 2.013676464557648,
+        "address": "25 Rue d'Etampes",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 71 85",
+        "website": "https://www.objectif-coiffure.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "16", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "12", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "17", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Studio 48",
+        "type": "beauty",
+        "subtypes": [],
+        "lat": 48.52787272397785,
+        "lng": 2.022441923618317,
+        "address": "48 Rue Raymond Laubier",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 30 03",
+        "website": "",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Alta Coiffure",
+        "type": "beauty",
+        "subtypes": [],
+        "lat": 48.53040034718898,
+        "lng": 2.0123916864395146,
+        "address": "20 Rue Debertrand",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 33 97",
+        "website": "https://www.planity.com/alta-coiffure-91410-dourdan",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Ozene",
+        "type": "beauty",
+        "subtypes": [],
+        "lat": 48.52849087539146,
+        "lng": 2.013083696365357,
+        "address": "17 Rue d'Etampes",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 95 96 68",
+        "website": "https://www.institut-ozene.fr/",
+        "info": "Institut de Beauté",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "19", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "16", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
       }
     ],
     "sport": [
       {
+        "name": "Centre Hudolia",
+        "type": "pool",
+        "subtypes": [],
+        "lat": 48.529444732164066,
+        "lng": 2.026344537734986,
+        "address": "70 Avenue de Paris",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 21 70",
+        "website": "https://www.hudolia.fr/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "17", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "17", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "12", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "14", "m": "00" },
+              "end": { "h": "17", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "00" },
+            "close": { "h": "21", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "several": [{
+                "start": { "h": "8", "m": "45" },
+                "end": { "h": "12", "m": "00" }
+              }, {
+                "start": { "h": "14", "m": "00" },
+                "end": { "h": "17", "m": "00" }
+              }]
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "14", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": true,
+            "open": { "h": "9", "m": "30" },
+            "close": { "h": "13", "m": "00" },
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Courts de Tennis Intérieur",
+        "type": "tennis",
+        "subtypes": [],
+        "lat": 48.529554859722,
+        "lng": 2.029536366462708,
+        "address": "1 Bis Chemin de Roinville",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://tenup.fft.fr/club/57910085",
+        "info": "Comprends trois courts municipaux de Tennis, en résine et en intérieur. Accueil les membres adhérents du TC Dourdan.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Courts de Tennis Extérieur",
+        "type": "tennis",
+        "subtypes": [],
+        "lat": 48.52905395502572,
+        "lng": 2.0296409726142888,
+        "address": "1 Bis Chemin de Roinville",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://tenup.fft.fr/club/57910085",
+        "info": "Comprends trois courts municipaux de Tennis, en terre artificielle et en extérieur. Accueil les membres adhérents du TC Dourdan.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Stade Maurice Gallais",
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.53627929191304,
+        "lng": 2.0014321804046635,
+        "address": "6 Chemin Maurice Gallais",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://www.fff.fr/competition/club/500530-dourdan-sports/information.html",
+        "info": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 11 est en gazon. Le stade est entouré d'une piste d'athlétisme.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Stade d'Honneur Maurice Gallais",
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.53695417239914,
+        "lng": 2.0002144575119023,
+        "address": "6 Chemin Maurice Gallais",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://www.fff.fr/competition/club/500530-dourdan-sports/information.html",
+        "info": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 11 est en gazon.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Stade Municipal",
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.522360540269325,
+        "lng": 2.004339694976807,
+        "address": "Route de l'Ouye",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 11 est en gazon.",
+        "timetable": []
+      }, {
+        "name": "Stade Maurice Gallais",
+        "type": "rugby",
+        "subtypes": [],
+        "lat": 48.53767166704904,
+        "lng": 2.000691890716553,
+        "address": "Chemin Maurice Gallais",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 81 96 07",
+        "website": "https://rc-dourdan.ffr.fr/",
+        "info": "Stade municipal géré et entretenu par la CCDH. Ce stade accueil le Rugby Club de Dourdan.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "City-Stade",
+        "type": "foot",
+        "subtypes": ["basket"],
+        "lat": 48.52825462875928,
+        "lng": 2.024719119071961,
+        "address": "Rue Raymond Laubier",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Un city-stade municipal doté de paniers de basket et de cages de football, sur un terrain synthétique.",
+        "timetable": []
+      }, {
+        "name": "City-Stade",
+        "type": "foot",
+        "subtypes": ["basket"],
+        "lat": 48.5221438066415,
+        "lng": 2.016731500625611,
+        "address": "Avenue d'Etampes",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Un city-stade municipal doté de paniers de basket et de cages de football, sur un terrain béton.",
+        "timetable": []
+      }, {
+        "name": "Terrain de Basket",
+        "type": "basket",
+        "subtypes": [],
+        "lat": 48.52745884252098,
+        "lng": 2.0117157697677617,
+        "address": "15 Rue Jubé de la Perelle",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Double terrain de basket en béton.",
+        "timetable": []
+      }, {
         "name": "Skatepark de Dourdan",
         "type": "skate",
         "subtypes": [],
@@ -2104,6 +6288,54 @@
         "phone": "",
         "website": "",
         "info": "",
+        "timetable": []
+      }, {
+        "name": "Tennis de Table",
+        "type": "pingpong",
+        "subtypes": [],
+        "lat": 48.527739500702104,
+        "lng": 2.011777460575104,
+        "address": "15 Rue Jubé de la Perelle",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Un terrain de tennis de table en béton et en extérieur.",
+        "timetable": []
+      }, {
+        "name": "Courts de pétanque",
+        "type": "bocce",
+        "subtypes": [],
+        "lat": 48.52771463231847,
+        "lng": 2.0119893550872807,
+        "address": "15 Rue Jubé de la Perelle",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Trois courts de pétanque en terre battue.",
+        "timetable": []
+      }, {
+        "name": "Courts de pétanque",
+        "type": "bocce",
+        "subtypes": [],
+        "lat": 48.53735021649546,
+        "lng": 2.0018532872200017,
+        "address": "Rue de Rambouillet",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Trois courts de pétanque en terre battue.",
+        "timetable": []
+      }, {
+        "name": "Courts de pétanque",
+        "type": "bocce",
+        "subtypes": [],
+        "lat": 48.52315463014583,
+        "lng": 2.0201808214187627,
+        "address": "Rue d'Orsonville",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Deux courts de pétanque en terre battue.",
         "timetable": []
       }
     ],
@@ -2277,6 +6509,42 @@
           }
         ]
       }, {
+        "name": "Monument aux Morts",
+        "type": "landmark",
+        "subtypes": [],
+        "lat": 48.53082130942405,
+        "lng": 2.01025664806366,
+        "address": "Rue de Chartres",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": []
+      }, {
+        "name": "Halles de Dourdan",
+        "type": "landmark",
+        "subtypes": [],
+        "lat": 48.529270659084006,
+        "lng": 2.0123219490051274,
+        "address": "1 Rue Demetz",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": []
+      }, {
+        "name": "Panneau Floral Dourdan",
+        "type": "landmark",
+        "subtypes": [],
+        "lat": 48.52902020594959,
+        "lng": 2.016052901744843,
+        "address": "Allée Emile Rigal",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "",
+        "timetable": []
+      }, {
         "name": "Dolmen",
         "type": "landmark",
         "subtypes": [],
@@ -2314,6 +6582,578 @@
         "phone": "",
         "website": "https://www.transilien.com/fr/gare/dourdan-la-foret-8754017",
         "info": "Gare de la SNCF desservie par les trains de la branche C4 (Dourdan/Brétigny) du RER C.",
+        "timetable": []
+      }, {
+        "name": "Linat Auto Dourdan",
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.524790735807755,
+        "lng": 2.015591561794281,
+        "address": "29 Avenue d'Etampes",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 72 69",
+        "website": "https://linatauto.fr/",
+        "info": "Réparation, mécanique, carrosserie et entretien de la voiture à Dourdan.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "17", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Renault Dourdan Automobiles",
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.521017487446734,
+        "lng": 2.0184373855590825,
+        "address": "2 Avenue du 14 Juillet 1789",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 71 86",
+        "website": "https://www.dourdan-automobiles.com/",
+        "info": "Concessionnaire, réparation, mécanique, carrosserie et entretien de la voiture à Dourdan.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Garage Baubion",
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.521033476380246,
+        "lng": 2.02174186706543,
+        "address": "Impasse des Jalots",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 70 74",
+        "website": "",
+        "info": "Concessionnaire, réparation, mécanique et entretien de la voiture à Dourdan.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "SAGA Mercedes-Benz",
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.51976145212026,
+        "lng": 2.0202130079269414,
+        "address": "4 Rue des Jalots",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 73 23 73 24",
+        "website": "",
+        "info": "Concessionnaire, réparation, mécanique et entretien de la voiture à Dourdan.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "30" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "30" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Garage Citroën Desicy SA",
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.525263260288405,
+        "lng": 2.025684714317322,
+        "address": "Impasse de la Gaudrée",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 64 00",
+        "website": "",
+        "info": "Concessionnaire, réparation, mécanique et entretien de la voiture à Dourdan.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "7", "m": "30" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Garage Peugeot Trujas Dourdan",
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.5246432930561,
+        "lng": 2.0282971858978276,
+        "address": "4 Rue Antoine Laurent de Lavoisier",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 60 82 91 91",
+        "website": "https://peugeot-dourdan.bytrujas.fr/",
+        "info": "Concessionnaire, réparation, mécanique et entretien de la voiture à Dourdan.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "8", "m": "00" },
+            "close": { "h": "19", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "13", "m": "30" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "30" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Vulco Centre Auto Moto",
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.52259326141089,
+        "lng": 2.0283186435699467,
+        "address": "1 Rue des Soufflets",
+        "town": "Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 54 54",
+        "website": "https://www.vulco.fr/all-dealers/dourdan/vulco-dourdan-321678.html",
+        "info": "Réparation, mécanique et entretien de la voiture et de la moto à Dourdan.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Mercredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Jeudi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "18", "m": "00" },
+            "break": {
+              "hasBreak": true,
+              "start": { "h": "12", "m": "00" },
+              "end": { "h": "14", "m": "00" }
+            }
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "9", "m": "00" },
+            "close": { "h": "12", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Station de lavage Intermarché",
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.52805923597509,
+        "lng": 2.023568451404572,
+        "address": "48 Rue Raymond Laubier",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Station de Lavage automatique pour automobilles.",
+        "timetable": []
+      }, {
+        "name": "Hydrowash Auto Clean",
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.51871325169936,
+        "lng": 2.01886922121048,
+        "address": "Rue du Faubourg d'Etampes",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Station de Lavage automatique et manuelle pour automobilles.",
+        "timetable": []
+      }, {
+        "name": "Centre de lavage haute pression",
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.522801110686856,
+        "lng": 2.0289275050163273,
+        "address": "Rue des Soufflets",
+        "town": "Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Station de Lavage manuelle pour automobilles, équipée d'un gonfleur de pneu.",
         "timetable": []
       }, {
         "name": "Total Energies",

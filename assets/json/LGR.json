@@ -500,7 +500,7 @@
       }, {
         "name": "City-Stade du Marchais",
         "type": "foot",
-        "subtypes": [],
+        "subtypes": ["basket"],
         "lat": 48.5025095787072,
         "lng": 2.023345828056336,
         "address": "Rue de Marchais",

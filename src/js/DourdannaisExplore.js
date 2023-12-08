@@ -271,13 +271,32 @@ class DourdannaisExplore {
     if (timetable[dayOfWeek].isOpen && isNaN(openingTime)) { // 24/7 opening
       this._markerIsOpened(dom, true);
     } else if (timetable[dayOfWeek].isOpen && currentTime >= openingTime && currentTime < closingTime) {
+      // Check for day breaks
       if (timetable[dayOfWeek].break.hasBreak) {
-        const breakOpeningTime = parseInt(`${timetable[dayOfWeek].break.end.h}${timetable[dayOfWeek].break.end.m}`);
-        const breakClosingTime = parseInt(`${timetable[dayOfWeek].break.start.h}${timetable[dayOfWeek].break.start.m}`);
-        if (currentTime >= breakClosingTime && currentTime < breakOpeningTime) {
-          this._markerIsClosed(dom);
+        // In case of several day breaks
+        if (timetable[dayOfWeek].break.several) {
+          let isClosed = false;
+          for (let i = 0; i < timetable[dayOfWeek].break.several.length; ++i) {
+            const breakOpeningTime = parseInt(`${timetable[dayOfWeek].break.several[i].end.h}${timetable[dayOfWeek].break.several[i].end.m}`);
+            const breakClosingTime = parseInt(`${timetable[dayOfWeek].break.several[i].start.h}${timetable[dayOfWeek].break.several[i].start.m}`);
+            if (currentTime >= breakClosingTime && currentTime < breakOpeningTime) {
+              this._markerIsClosed(dom);
+              isClosed = true;
+              break;
+            }
+
+            if (!isClosed) {
+              this._markerIsOpened(dom);
+            }
+          }
         } else {
-          this._markerIsOpened(dom);
+          const breakOpeningTime = parseInt(`${timetable[dayOfWeek].break.end.h}${timetable[dayOfWeek].break.end.m}`);
+          const breakClosingTime = parseInt(`${timetable[dayOfWeek].break.start.h}${timetable[dayOfWeek].break.start.m}`);
+          if (currentTime >= breakClosingTime && currentTime < breakOpeningTime) {
+            this._markerIsClosed(dom);
+          } else {
+            this._markerIsOpened(dom);
+          }
         }
       } else {
         this._markerIsOpened(dom);
@@ -329,12 +348,31 @@ class DourdannaisExplore {
           const morning = dayDom.lastElementChild.firstElementChild;
           const afternoon = dayDom.lastElementChild.lastElementChild;
           if (opts.timetable[i].break && opts.timetable[i].break.hasBreak === true) {
-            morning.innerHTML = `<p>${opts.timetable[i].open.h}:${opts.timetable[i].open.m} ‒ ${opts.timetable[i].break.start.h}:${opts.timetable[i].break.start.m}</p>`;
-            morning.classList.add('filled'); // Morning
-            morning.classList.add('splited'); // Morning
-            afternoon.innerHTML = `<p>${opts.timetable[i].break.end.h}:${opts.timetable[i].break.end.m} ‒ ${opts.timetable[i].close.h}:${opts.timetable[i].close.m}</p>`;
-            afternoon.classList.add('filled'); // Afternoon
-            afternoon.classList.add('splited'); // Afternoon
+            if (opts.timetable[i].break.several) {
+              morning.innerHTML = `<p>${opts.timetable[i].open.h}:${opts.timetable[i].open.m} ‒ ${opts.timetable[i].break.several[0].start.h}:${opts.timetable[i].break.several[0].start.m}</p>`;
+              morning.classList.add('filled'); // Morning
+              morning.classList.add('splited'); // Morning
+              for (let j = 0; j < opts.timetable[i].break.several.length - 1; ++j) {
+                const div = document.createElement('DIV');
+                div.innerHTML = `<p>${opts.timetable[i].break.several[j].end.h}:${opts.timetable[i].break.several[j].end.m} ‒ ${opts.timetable[i].break.several[j + 1].start.h}:${opts.timetable[i].break.several[j + 1].start.m}</p>`;
+                div.classList.add('filled');
+                div.classList.add('splited');
+                div.style.borderRadius = '.5rem';
+                div.style.justifyContent = 'center';
+                dayDom.lastElementChild.insertBefore(div, dayDom.lastElementChild.lastElementChild);
+              }
+
+              afternoon.innerHTML = `<p>${opts.timetable[i].break.several[opts.timetable[i].break.several.length - 1].end.h}:${opts.timetable[i].break.several[opts.timetable[i].break.several.length - 1].end.m} ‒ ${opts.timetable[i].close.h}:${opts.timetable[i].close.m}</p>`;
+              afternoon.classList.add('filled'); // Afternoon
+              afternoon.classList.add('splited'); // Afternoon
+            } else {
+              morning.innerHTML = `<p>${opts.timetable[i].open.h}:${opts.timetable[i].open.m} ‒ ${opts.timetable[i].break.start.h}:${opts.timetable[i].break.start.m}</p>`;
+              morning.classList.add('filled'); // Morning
+              morning.classList.add('splited'); // Morning
+              afternoon.innerHTML = `<p>${opts.timetable[i].break.end.h}:${opts.timetable[i].break.end.m} ‒ ${opts.timetable[i].close.h}:${opts.timetable[i].close.m}</p>`;
+              afternoon.classList.add('filled'); // Afternoon
+              afternoon.classList.add('splited'); // Afternoon
+            }
           } else if (opts.timetable[i].open.h && opts.timetable[i].close.h) {
             morning.innerHTML = `<p>${opts.timetable[i].open.h}:${opts.timetable[i].open.m}</p>`;
             morning.classList.add('filled'); // Morning

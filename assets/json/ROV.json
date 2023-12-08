@@ -617,6 +617,74 @@
             "break": {}
           }
         ]
+      }, {
+        "name": "Stade Grange de Malassis",
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.52657067347061,
+        "lng": 2.0410108566284184,
+        "address": "2 Chemin de Malassis",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 11 est en gazon.",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
+        "name": "Panier de Basket Ball",
+        "type": "basket",
+        "subtypes": [],
+        "lat": 48.52727588097049,
+        "lng": 2.040997445583344,
+        "address": "2 Chemin de Malassis",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": "Un terrain à l'unique panier, idéal pour s'entrainer aux lancers francs ou faire un 21.",
+        "timetable": []
       }
     ],
     "tourism": [

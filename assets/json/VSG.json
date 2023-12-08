@@ -459,6 +459,62 @@
           }
         ]
       }, {
+        "name": "La Ferme des Sueurs",
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.55434167414212,
+        "lng": 2.070386409759522,
+        "address": "Route des Sueurs",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 6 73 09 31 63",
+        "website": "https://www.fermedessueurs.com/",
+        "info": "",
+        "timetable": [
+          {
+            "name": "Lundi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mardi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Mercredi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Jeudi",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }, {
+            "name": "Vendredi",
+            "isOpen": true,
+            "open": { "h": "14", "m": "30" },
+            "close": { "h": "18", "m": "30" },
+            "break": {}
+          }, {
+            "name": "Samedi",
+            "isOpen": true,
+            "open": { "h": "10", "m": "00" },
+            "close": { "h": "12", "m": "00" },
+            "break": {}
+          }, {
+            "name": "Dimanche",
+            "isOpen": false,
+            "open": {},
+            "close": {},
+            "break": {}
+          }
+        ]
+      }, {
         "name": "La Boulangerie du Val",
         "type": "bakery",
         "subtypes": [],

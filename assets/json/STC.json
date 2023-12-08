@@ -2249,7 +2249,7 @@
       }, {
         "name": "BNP Paribas Saint Cheron",
         "type": "bank",
-        "subtypes": [],
+        "subtypes": ["atm"],
         "lat": 48.5534202438502,
         "lng": 2.123794555664063,
         "address": "23 Rue Charles de Gaulle",

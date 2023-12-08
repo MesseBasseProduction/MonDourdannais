@@ -216,7 +216,7 @@
             }
           }
         ]
-      }   
+      } 
     ],
     "eco": [
       {
@@ -943,7 +943,7 @@
       }, {
         "name": "City-Stade",
         "type": "foot",
-        "subtypes": [],
+        "subtypes": ["basket"],
         "lat": 48.495281201221786,
         "lng": 1.9578596949577334,
         "address": "Rue du Fourneau",

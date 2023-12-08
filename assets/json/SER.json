@@ -2,78 +2,6 @@
   "pois": {
     "care": [
       {
-        "name": "Dr José Rego, Généraliste",
-        "type": "medic",
-        "subtypes": [],
-        "lat": 48.554952400964865,
-        "lng": 2.125221490859986,
-        "address": "6 Rue des Écoles",
-        "town": "Saint-Chéron ‒ 91530",
-        "phone": "+33 1 60 82 56 20",
-        "website": "",
-        "info": "",
-        "timetable": [
-          {
-            "name": "Lundi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "18", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "13", "m": "20" },
-              "end": { "h": "15", "m": "00" }
-            }
-          }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "18", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "13", "m": "20" },
-              "end": { "h": "15", "m": "00" }
-            }
-          }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "18", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "13", "m": "20" },
-              "end": { "h": "15", "m": "00" }
-            }
-          }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "18", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "13", "m": "20" },
-              "end": { "h": "15", "m": "00" }
-            }
-          }, {
-            "name": "Samedi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "12", "m": "00" },
-            "break": {}
-          }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }
-        ]
-      }, {
         "name": "Clinique Vétérinaire du Marais",
         "type": "animal",
         "subtypes": [],
@@ -1332,6 +1260,18 @@
             "break": {}
           }
         ]
+      }, {
+        "name": "Courts de pétanque",
+        "type": "bocce",
+        "subtypes": [],
+        "lat": 48.53745322297242,
+        "lng": 2.0815041661262517,
+        "address": "Avenue Paul Blot",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": "Deux courts de pétanque en terre battue.",
+        "timetable": []
       }
     ],
     "tourism": [

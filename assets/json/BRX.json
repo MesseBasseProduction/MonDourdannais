@@ -429,7 +429,7 @@
       }, {
         "name": "City-Stade du Marchais (Jouy)",
         "type": "foot",
-        "subtypes": [],
+        "subtypes": ["basket"],
         "lat": 48.55695674039227,
         "lng": 2.152907252311707,
         "address": "Rue de Rimoron",
