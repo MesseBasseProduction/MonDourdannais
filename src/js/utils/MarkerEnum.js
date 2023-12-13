@@ -260,6 +260,15 @@ export default Object.freeze({
     shadowSize: [42, 42],
     shadowAnchor: [20, 20],
   }),
+  bus: new window.L.Icon({
+    iconUrl: 'assets/img/marker/bus.svg',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13],
+    shadowUrl: 'assets/img/marker/marker-shadow.png',
+    shadowSize: [42, 42],
+    shadowAnchor: [20, 20],
+  }),
   animal: new window.L.Icon({
     iconUrl: 'assets/img/marker/animal.svg',
     iconSize: [26, 26],

@@ -38,8 +38,17 @@ body {
   padding: 1rem 0;
   text-align: center;
 
+  img {
+    width: 5rem;
+  }
+
   h3 {
     font-size: 1.8rem;
+  }
+
+  h4 {
+    font-style: italic;
+    margin-bottom: 1rem;
   }
 
   i {

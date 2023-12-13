@@ -71,6 +71,28 @@ const precisionRound = (value, precision) => {
 };
 
 
+const fetchModal = (url) => {
+  return new Promise(resolve => {
+    fetch(`./assets/html/${url}.html`).then(data => {
+      data.text().then(html => {
+        resolve(document.createRange().createContextualFragment(html));
+      });
+    });
+  });
+};
+
+
+const closeModal = (event, force) => {
+  if (force === true || event.target.id === 'modal-overlay' || event.target.id.indexOf('close') !== -1) {
+    document.getElementById('modal-overlay').style.opacity = 0;
+    setTimeout(() => {
+      document.getElementById('modal-overlay').style.display = 'none';
+      document.getElementById('modal-overlay').innerHTML = '';
+    }, 300);
+  }
+};
+
+
 export default {
   CCDH_CENTER: {
     LAT: 48.53183906441962,
@@ -78,8 +100,8 @@ export default {
   },
   CCDH_CITIES: ['BRX', 'COR', 'DRD', 'LFR', 'LGR', 'RIC', 'ROV', 'SCD', 'SER', 'STC', 'VSG'],
   MAP_BOUNDS: window.L.latLngBounds(
-    window.L.latLng(48.679400715963894, 1.7390606689453127),
-    window.L.latLng(48.38439074151866, 2.343395996093750)
+    window.L.latLng(4.679400715963894, 1.7390606689453127),
+    window.L.latLng(98.38439074151866, 2.343395996093750)
   ),
   OSM_LAYER: window.L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -94,5 +116,7 @@ export default {
   getDistanceBetweenCoords: getDistanceBetweenCoords,
   convertDistanceToString: convertDistanceToString,
   buildDistanceETA: buildDistanceETA,
-  precisionRound: precisionRound
+  precisionRound: precisionRound,
+  fetchModal: fetchModal,
+  closeModal: closeModal
 };
