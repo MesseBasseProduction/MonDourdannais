@@ -63,7 +63,7 @@ class Map {
   drawUserMarker() {
     if (!window.dx.user.marker) {
       window.dx.user.marker = window.L.marker([window.dx.user.lat, window.dx.user.lng], {
-        icon: Markers.user
+        icon: Markers.subtypes.user
       });
       window.dx.user.marker.addTo(this._map);
     } else {
@@ -82,17 +82,16 @@ class Map {
   }
 
 
-  addMarker(opts) {
+  createMarker(opts) {
     return new Promise(resolve => {
       let type = opts.mark.type;
       const marker = window.L.marker([opts.mark.lat, opts.mark.lng], { 
-        icon: Markers[type]
+        icon: Markers.subtypes[type]
       }).on('click', () => {
         this._map.flyTo([opts.mark.lat, opts.mark.lng], 18);
       });
   
       marker.bindPopup(MapFactory.createMarkerPopup(opts));
-      marker.addTo(this._map);
       if (opts.mark.subtypes.length > 0) {
         for (let i = 0; i < opts.mark.subtypes.length; ++i) {
           if (!this._marks[opts.mark.subtypes[i]]) {
@@ -112,11 +111,47 @@ class Map {
   }
 
 
+  showCategory(category) {
+    const subCategories = Markers.types[category];
+    for (let i = 0; i < subCategories.length; ++i) {
+      this.showSubCategory(subCategories[i]);
+    }
+  }
+
+
+  showSubCategory(subCategory) {
+    const marks = this._marks[subCategory];
+    if (marks) {
+      for (let i = 0; i < marks.length; ++i) {
+        marks[i].addTo(this._map);
+      }
+    }
+  }
+
+
+  hideCategory(category) {
+    const subCategories = Markers.types[category];
+    for (let i = 0; i < subCategories.length; ++i) {
+      this.hideSubCategory(subCategories[i]);
+    }
+  }
+
+
+  hideSubCategory(subCategory) {
+    const marks = this._marks[subCategory];
+    if (marks) {
+      for (let i = 0; i < marks.length; ++i) {
+        marks[i].removeFrom(this._map);
+      }
+    }
+  }
+
+
   addTransportationStop(opts) {
     return new Promise(resolve => {
       const type = opts.stop.type;
       const marker = window.L.marker([opts.stop.lat, opts.stop.lng], { 
-        icon: Markers[type]
+        icon: Markers.subtypes[type]
       }).on('click', () => {
         this._map.flyTo([opts.stop.lat, opts.stop.lng], 18);
       });
@@ -133,7 +168,7 @@ class Map {
         line.removeFrom(this._map);
       });
       
-      marker.addTo(this._map);
+      //marker.addTo(this._map);
   
       if (!this._marks[type]) {
         this._marks[type] = [];

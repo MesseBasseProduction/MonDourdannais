@@ -1,6 +1,11 @@
 import '../scss/DourdannaisExplore.scss';
+import Markers from './utils/MarkerEnum.js';
 import Map from './map/Map.js';
+import Events from './utils/Evts.js';
 import Utils from './utils/Utils.js';
+
+
+window.Evts = new Events();
 
 
 class DourdannaisExplore {
@@ -13,6 +18,9 @@ class DourdannaisExplore {
     this._cityBounds = {};
     this._cityMarkers = {};
     this._transportationLines = {};
+    // Used for markers
+    this._displayedTypes = [];
+    this._markerTokens = [];
     // User object
     this._user = {
       geolocationAllowed: false,
@@ -75,6 +83,11 @@ class DourdannaisExplore {
     return new Promise(resolve => {
       // Listening to modal event
       document.getElementById('modal-overlay').addEventListener('click', Utils.closeModal.bind(this));
+      const items = document.getElementById('marker-selector').children;
+      for (let i = 0; i < items.length; ++i) {
+        items[i].addEventListener('click', this._markerCategoryClicked.bind(this, items[i]));        
+      }
+
       resolve();
     });
   }
@@ -147,7 +160,7 @@ class DourdannaisExplore {
           const markers = categories[keys[j]];
           for (let k = 0; k < markers.length; ++k) {
             promises.push(new Promise(resolveLocal => {
-              this._map.addMarker({
+              this._map.createMarker({
                 mark: markers[k],
                 user: this._user
               }).then(() => {
@@ -198,6 +211,52 @@ class DourdannaisExplore {
   }
 
 
+  /* Marker toggling clicked */
+
+
+  _markerCategoryClicked(e) {
+    e.classList.toggle('activated');
+    if (e.classList.contains('activated')) {
+      this._map.showCategory(e.dataset.type);
+      const markers = Markers.types[e.dataset.type];
+      for (let i = 0; i < markers.length; ++i) {
+        const element = document.createElement('IMG');
+        element.src = `./assets/img/marker/${markers[i]}.svg`;
+        element.dataset.type = markers[i];
+        document.getElementById('subitems-wrapper').appendChild(element);
+        this._markerTokens.push(window.Evts.addEvent('click', element, this._markerTypeClicked, { scope: this, element: element }));
+      }
+      this._displayedTypes.push(e.dataset.type);
+    } else {
+      this._map.hideCategory(e.dataset.type);
+      this._displayedTypes.splice(this._displayedTypes.indexOf(e.dataset.type), 1);
+      const children = document.getElementById('subitems-wrapper').children;
+      for (let i = children.length - 1; i >= 0; --i) {
+        if (Markers.types[e.dataset.type].indexOf(children[i].dataset.type) !== -1) {
+          document.getElementById('subitems-wrapper').removeChild(children[i]);
+        }
+      }
+    }
+    
+    if (this._displayedTypes.length === 0) {
+      document.getElementById('subitems-wrapper').classList.remove('show');
+    } else {
+      document.getElementById('subitems-wrapper').classList.add('show');      
+    }
+  }
+
+
+  _markerTypeClicked() {
+    const e = this.element;
+    e.classList.toggle('deactivated');
+    if (e.classList.contains('deactivated')) {
+      this.scope._map.hideSubCategory(e.dataset.type);
+    } else {
+      this.scope._map.showSubCategory(e.dataset.type);
+    }
+  }
+
+ 
   /* Geoloc callbacks */
 
 

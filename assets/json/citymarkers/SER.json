@@ -2,6 +2,18 @@
   "markers": {
     "care": [
       {
+        "name": "Défibrillateur Cardiaque",
+        "type": "defibrillator",
+        "subtypes": [],
+        "lat": 48.53564169918915,
+        "lng": 2.068940699100495,
+        "address": "Avenue de Dourdan",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": "Sur le quai, direction Paris",
+        "timetable": []
+      }, {
         "name": "Clinique Vétérinaire du Marais",
         "type": "animal",
         "subtypes": [],

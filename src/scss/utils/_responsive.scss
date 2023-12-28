@@ -1,0 +1,29 @@
+@media (max-width: 800px) {
+  aside {
+    bottom: 0;
+    box-shadow: 0 -.25rem .5rem #bac1c4;
+    height: 30rem;
+    top: inherit;
+    width: 100%;
+
+    .content {
+      overflow-y: auto;
+
+      .marker-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  }
+
+  .map-container {
+    nav {
+      left: 1rem;
+      right: 1rem;
+      width: calc(100% - 2rem);
+    }
+  }
+
+  .leaflet-control-layers.leaflet-control {
+    margin-bottom: 30rem;
+  }
+}

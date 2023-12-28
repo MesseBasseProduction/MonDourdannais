@@ -14,8 +14,56 @@
   <link rel="stylesheet" type="text/css" href="./assets/dist/DourdannaisExplore.bundle.css">
 </head>
 <body>
-  <div style="position: absolute; top: 10px; left: 10px; background: white; z-index:99999; padding: 10px;">Attention <b>version alpha</b> ; le contenu du site reste incomplet. <a href="mailto:contact@messe-basse-production.com">contact@messebasse-production.com</a> pour toute demande.</div>
-  <div id="ccdh-map" class="map-container"></div>
+  <aside>
+    <header>
+      <h1>Le Dourdannais en Hurepoix</h1>
+    </header>
+    <div class="content">
+      <h2></h2>
+      <div id="marker-selector" class="marker-wrapper">
+        <div class="item" data-type="service">
+          <img src="./assets/img/marker/administration.svg">
+          <p>Services</p>
+        </div>
+        <div class="item" data-type="care">
+          <img src="./assets/img/marker/medic.svg">
+          <p>Soins</p>
+        </div>
+        <div class="item" data-type="catering">
+          <img src="./assets/img/marker/restaurant.svg">
+          <p>Gastronomie</p>
+        </div>
+        <div class="item" data-type="sport">
+          <img src="./assets/img/marker/foot.svg">
+          <p>Sport</p>
+        </div>
+        <div class="item" data-type="shop">
+          <img src="./assets/img/marker/grocery.svg">
+          <p>Magasins</p>
+        </div>
+        <div class="item" data-type="nature">
+          <img src="./assets/img/marker/park.svg">
+          <p>Parcs</p>
+        </div>
+        <div class="item" data-type="transport">
+          <img src="./assets/img/marker/train.svg">
+          <p>Transports</p>
+        </div>
+        <div class="item" data-type="tourism">
+          <img src="./assets/img/marker/landmark.svg">
+          <p>Tourisme</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="#" id="about-modal">À propos</a>
+    </footer>
+  </aside>
+  <main id="ccdh-map" class="map-container">
+    <nav>
+      <div id="subitems-wrapper"></div>
+    </nav>
+  </main>
   <div id="modal-overlay" class="modal-overlay"></div>
   <!-- Leaflet script -->
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
