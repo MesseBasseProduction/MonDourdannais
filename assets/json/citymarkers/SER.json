@@ -1273,6 +1273,18 @@
           }
         ]
       }, {
+        "name": "Tennis de Table",
+        "type": "pingpong",
+        "subtypes": [],
+        "lat": 48.5376805468696,
+        "lng": 2.081367373466492,
+        "address": "Avenue Paul Blot",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": "Un terrain de tennis de table en béton et en extérieur.",
+        "timetable": []
+      }, {
         "name": "Courts de pétanque",
         "type": "bocce",
         "subtypes": [],

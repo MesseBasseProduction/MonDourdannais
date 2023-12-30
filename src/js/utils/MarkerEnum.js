@@ -1,11 +1,11 @@
 export default Object.freeze({
   types: {
-    service: ['administration', 'bank', 'book', 'cemetery', 'firefighter', 'mail', 'music', 'police', 'school', 'recycle'],
+    service: ['administration', 'bank', 'book', 'cemetery', 'firefighter', 'mail', 'music', 'police', 'school'],
     care: ['animal', 'defibrillator', 'dental', 'lab', 'medic', 'pharmacy'],
     catering: ['bar', 'cellar', 'restaurant', 'tobacco'],
     sport: ['basket', 'bocce', 'foot', 'pingpong', 'pool', 'rugby', 'skate', 'tennis'],
     shop: ['beauty', 'bakery', 'butcher', 'diy', 'fish', 'garden', 'grocery'],
-    nature: ['park'],
+    nature: ['park', 'recycle'],
     transport: ['bus', 'car', 'gas', 'train'],
     tourism: ['castle', 'church', 'landmark', 'museum', 'tourism']
   },

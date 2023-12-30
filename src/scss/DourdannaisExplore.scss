@@ -71,6 +71,35 @@ aside {
   .content {
     height: calc(100% - 8rem);
 
+    .section-header {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 var(--padding);
+
+      h2 {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+      }
+
+      .controls {
+        align-items: center;
+        display: flex;
+
+        img {
+          cursor: pointer;
+          height: 1.6rem;
+          filter: opacity(0.5);
+          
+          transition: filter .2s;
+
+          &.active {
+            filter: none;
+          }
+        }
+      }
+    }
+
     .marker-wrapper {
       display: grid;
       grid-gap: 1rem;
@@ -80,7 +109,7 @@ aside {
       .item {
         align-items: center;
         background-color: #a3b7bd66;
-        border: dashed 2px #a3b7bd66;
+        border: dashed 2px transparent;
         border-radius: .5rem;
         cursor: pointer;
         display: flex;
@@ -144,10 +173,9 @@ aside {
       top: -6rem;
       width: auto;
 
-      transition: top .2s;
-
       &.show {
         top: 0;
+        transition: top .2s;
       }
 
       img {

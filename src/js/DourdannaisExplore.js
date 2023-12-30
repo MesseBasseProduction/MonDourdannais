@@ -19,7 +19,7 @@ class DourdannaisExplore {
     this._cityMarkers = {};
     this._transportationLines = {};
     // Used for markers
-    this._displayedTypes = [];
+    this._displayedCategories = [];
     this._markerTokens = [];
     // User object
     this._user = {
@@ -81,7 +81,7 @@ class DourdannaisExplore {
 
   _initEvents() {
     return new Promise(resolve => {
-      // Listening to modal event
+      document.getElementById('clear-filters').addEventListener('click', this._clearFilters.bind(this));
       document.getElementById('modal-overlay').addEventListener('click', Utils.closeModal.bind(this));
       const items = document.getElementById('marker-selector').children;
       for (let i = 0; i < items.length; ++i) {
@@ -217,42 +217,80 @@ class DourdannaisExplore {
   _markerCategoryClicked(e) {
     e.classList.toggle('activated');
     if (e.classList.contains('activated')) {
-      this._map.showCategory(e.dataset.type);
-      const markers = Markers.types[e.dataset.type];
-      for (let i = 0; i < markers.length; ++i) {
-        const element = document.createElement('IMG');
-        element.src = `./assets/img/marker/${markers[i]}.svg`;
-        element.dataset.type = markers[i];
-        document.getElementById('subitems-wrapper').appendChild(element);
-        this._markerTokens.push(window.Evts.addEvent('click', element, this._markerTypeClicked, { scope: this, element: element }));
-      }
-      this._displayedTypes.push(e.dataset.type);
+      this._showCategory(e.dataset.type);
     } else {
-      this._map.hideCategory(e.dataset.type);
-      this._displayedTypes.splice(this._displayedTypes.indexOf(e.dataset.type), 1);
-      const children = document.getElementById('subitems-wrapper').children;
-      for (let i = children.length - 1; i >= 0; --i) {
-        if (Markers.types[e.dataset.type].indexOf(children[i].dataset.type) !== -1) {
-          document.getElementById('subitems-wrapper').removeChild(children[i]);
-        }
-      }
-    }
-    
-    if (this._displayedTypes.length === 0) {
-      document.getElementById('subitems-wrapper').classList.remove('show');
-    } else {
-      document.getElementById('subitems-wrapper').classList.add('show');      
+      this._hideCategory(e.dataset.type);
     }
   }
 
 
+  _showCategory(category) {
+    this._map.showCategory(category);
+    const subcategories = Markers.types[category];
+    for (let i = 0; i < subcategories.length; ++i) {
+      const element = document.createElement('IMG');
+      element.src = `./assets/img/marker/${subcategories[i]}.svg`;
+      element.dataset.type = subcategories[i];
+      document.getElementById('subitems-wrapper').appendChild(element);
+      this._markerTokens.push(window.Evts.addEvent('click', element, this._markerTypeClicked, { scope: this, element: element }));
+    }
+    // Append global category to displayed array
+    this._displayedCategories.push(category);
+    document.getElementById('subitems-wrapper').classList.add('show');
+    document.getElementById('clear-filters').classList.add('active');
+  }
+
+
+  _hideCategory(category) {
+    this._map.hideCategory(category);
+    this._displayedCategories.splice(this._displayedCategories.indexOf(category), 1);
+
+    if (this._displayedCategories.length === 0) {
+      document.getElementById('subitems-wrapper').classList.remove('show');
+      for (let i = 0; i < this._markerTokens.length; ++i) {
+        window.Evts.removeEvent(this._markerTokens[i]);
+      }
+      document.getElementById('clear-filters').classList.remove('active');
+    }
+
+    this._clearSpecificMarkers(category);
+  }
+
+
   _markerTypeClicked() {
+    // Specific binding of this, see caller
     const e = this.element;
     e.classList.toggle('deactivated');
     if (e.classList.contains('deactivated')) {
       this.scope._map.hideSubCategory(e.dataset.type);
     } else {
       this.scope._map.showSubCategory(e.dataset.type);
+    }
+  }
+
+
+  // Method to remove items from navbar
+  _clearSpecificMarkers(type) {
+    const children = document.getElementById('subitems-wrapper').children;
+    for (let i = children.length - 1; i >= 0; --i) {
+      if (Markers.types[type].indexOf(children[i].dataset.type) !== -1) {
+        document.getElementById('subitems-wrapper').removeChild(children[i]);
+      }
+    }        
+  }
+
+
+  _clearFilters() {
+    if (document.getElementById('clear-filters').classList.contains('active')) {
+      document.getElementById('clear-filters').classList.remove('active');
+      const keys = Object.keys(Markers.types);
+      for (let i = 0; i < keys.length; ++i) {
+        this._hideCategory(keys[i]);
+      }
+      const items = document.getElementById('marker-selector').children;
+      for (let i = 0; i < items.length; ++i) {
+        items[i].classList.remove('activated');
+      }
     }
   }
 
