@@ -5,20 +5,24 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:toastification/toastification.dart';
 
-import '/src/help/welcome_screen_view.dart';
-import '/src/map/map_view.dart';
-import '/src/settings/settings_controller.dart';
-import '/src/settings/settings_view.dart';
+import '/src/data/data_controller.dart';
 import '/src/utils/app_const.dart';
 import '/src/utils/theme_config.dart';
+import '/src/view/about_view.dart';
+import '/src/view/map_explore_view.dart';
+import '/src/view/menu_view.dart';
+import '/src/view/my_city_view.dart';
+import '/src/view/startup_help_view.dart';
+import '/src/view/search_view.dart';
+import '/src/view/settings_view.dart';
 
 class MonDourdannais extends StatelessWidget {
   const MonDourdannais({
     super.key,
-    required this.settingsController,
+    required this.dataController,
   });
   // Global app settings controller
-  final SettingsController settingsController;
+  final DataController dataController;
   // Main widget building
   @override
   Widget build(
@@ -36,7 +40,7 @@ class MonDourdannais extends StatelessWidget {
     ThemeData lightTheme = ThemeConfig.lightTheme();
     // MaterialApp encapsulated in loading overlay, itself encapsulated in Listenable for settings updates
     return ListenableBuilder(
-      listenable: settingsController,
+      listenable: dataController,
       builder: (
         BuildContext context,
         Widget? child,
@@ -70,12 +74,12 @@ class MonDourdannais extends StatelessWidget {
             // App supported locale, based on AppConst.supportedLocales
             supportedLocales: supportedLocales,
             // Attach app locale to settings value
-            locale: settingsController.appLocale,
+            locale: dataController.appLocale,
             onGenerateTitle: (BuildContext context) => AppLocalizations.of(context)!.appTitle,
             theme: lightTheme,
             darkTheme: darkTheme,
             // Attach app theme to settings value
-            themeMode: settingsController.themeMode,
+            themeMode: dataController.themeMode,
             onGenerateRoute: (
               RouteSettings routeSettings,
             ) {
@@ -85,23 +89,38 @@ class MonDourdannais extends StatelessWidget {
                   BuildContext context,
                 ) {
                   switch (routeSettings.name) {
-                    case MapView.routeName:
-                      return MapView(
-                        settingsController: settingsController,
+                    case MenuView.routeName:
+                      return MenuView(
+                        dataController: dataController,
+                      );
+                    case MapExploreView.routeName:
+                      return MapExploreView(
+                        dataController: dataController,
+                      );
+                    case SearchView.routeName:
+                      return SearchView(
+                        dataController: dataController,
+                      );
+                    case MyCityView.routeName:
+                      return MyCityView(
+                        dataController: dataController,
+                      );
+                    case AboutView.routeName:
+                      return AboutView(
+                        dataController: dataController,
                       );
                     case SettingsView.routeName:
                       return SettingsView(
-                        settingsController: settingsController,
+                        dataController: dataController,
                       );
                     default:
-                      // Redirect to MapView if pref set to false
-                      if (settingsController.showWelcomeScreen == false) {
-                        return MapView(
-                          settingsController: settingsController,
+                      if (dataController.startupHelpFlag == true) {
+                        return StartupHelpView(
+                          dataController: dataController,
                         );
                       }
-                      return WelcomeScreenView(
-                        settingsController: settingsController,
+                      return MenuView(
+                        dataController: dataController,
                       );
                   }
                 },

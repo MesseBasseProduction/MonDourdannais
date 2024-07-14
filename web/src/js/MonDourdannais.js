@@ -98,7 +98,7 @@ class MonDourdannais {
       const promises = [];
       for (let i = 0; i < Utils.CCDH_CITIES.length; ++i) {
         promises.push(new Promise(resolveLocal => {
-          fetch(`/assets/json/citybounds/${Utils.CCDH_CITIES[i]}.json`).then(data => {
+          fetch(`./assets/json/citybounds/${Utils.CCDH_CITIES[i]}.json`).then(data => {
             data.json().then(jsonData => {
               this._cityBounds[Utils.CCDH_CITIES[i]] = jsonData;
               resolveLocal();
@@ -133,7 +133,7 @@ class MonDourdannais {
       const promises = [];
       for (let i = 0; i < Utils.CCDH_CITIES.length; ++i) {
         promises.push(new Promise(resolveLocal => {
-          fetch(`/assets/json/citymarkers/${Utils.CCDH_CITIES[i]}.json`).then(data => {
+          fetch(`./assets/json/citymarkers/${Utils.CCDH_CITIES[i]}.json`).then(data => {
             data.json().then(jsonData => {
               this._cityMarkers[Utils.CCDH_CITIES[i]] = jsonData.markers;
               resolveLocal();
@@ -178,7 +178,7 @@ class MonDourdannais {
 
   _fetchTransportationLines() {
     return new Promise(resolve => {
-      fetch(`/assets/json/transportation/transportation.json`).then(data => {
+      fetch(`./assets/json/transportation/transportation.json`).then(data => {
         data.json().then(jsonData => {
           this._transportationLines = jsonData;
           resolve();

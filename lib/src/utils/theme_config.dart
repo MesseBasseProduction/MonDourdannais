@@ -10,7 +10,7 @@ class ThemeConfig {
         brightness: Brightness.light,
         background: Color.fromARGB(255, 214, 207, 184),
         onBackground: Color.fromARGB(255, 0, 0, 0),
-        primary: Color(0xffffbf00),
+        primary: Color(0xff4ca7c8),
         onPrimary: Color(0xff000000),
         secondary: Color(0xff5581AD),
         onSecondary: Color(0xff000000),

@@ -73,7 +73,7 @@ const precisionRound = (value, precision) => {
 
 const fetchModal = (url) => {
   return new Promise(resolve => {
-    fetch(`/assets/html/${url}.html`).then(data => {
+    fetch(`./assets/html/${url}.html`).then(data => {
       data.text().then(html => {
         resolve(document.createRange().createContextualFragment(html));
       });

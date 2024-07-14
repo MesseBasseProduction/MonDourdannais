@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 
-import 'src/mondourdannais.dart';
-import '/src/settings/settings_controller.dart';
-import '/src/settings/settings_service.dart';
+import '/src/mondourdannais.dart';
+import '/src/data/data_controller.dart';
+import '/src/data/data_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // Global app settings controller
-  final settingsController = SettingsController(
-    SettingsService(),
+  // Global app data controller
+  final dataController = DataController(
+    DataService(),
   );
   // Loading settings during splash screen
-  await settingsController.loadSettings();
-  // Finally start BeerCrackerzMobile app
+  await dataController.initAppData();
+  // Finally start MonDourdannais app
   runApp(
     MonDourdannais(
-      settingsController: settingsController,
+      dataController: dataController,
     ),
   );
 }

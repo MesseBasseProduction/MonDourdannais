@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_settings_ui/flutter_settings_ui.dart';
 
-import '/src/settings/settings_controller.dart';
+import '/src/data/data_controller.dart';
 import '/src/utils/app_const.dart';
 import '/src/utils/size_config.dart';
 // This settings view handle global app settings.
@@ -11,11 +11,11 @@ import '/src/utils/size_config.dart';
 class SettingsView extends StatefulWidget {
   const SettingsView({
     super.key,
-    required this.settingsController,
+    required this.dataController,
   });
 
   static const routeName = '/settings';
-  final SettingsController settingsController;
+  final DataController dataController;
 
   @override
   SettingsViewState createState() {
@@ -29,7 +29,7 @@ class SettingsViewState extends State<SettingsView> {
     BuildContext context,
   ) {
     SizeConfig().init(context);
-    Locale localeValue = widget.settingsController.appLocale;
+    Locale localeValue = widget.dataController.appLocale;
 
     return Scaffold(
       appBar: AppBar(
@@ -154,14 +154,14 @@ class SettingsViewState extends State<SettingsView> {
                     },
                   ).then((_) async {
                     // Update app locale then update SettingsView state
-                    await widget.settingsController.updateAppLocale(localeValue);
+                    await widget.dataController.setAppLocale(localeValue);
                     setState(() {});
                   });
                 }
               ),
               // UI dark theme switch
               SettingsTile.switchTile(
-                initialValue: (widget.settingsController.themeMode == ThemeMode.dark)
+                initialValue: (widget.dataController.themeMode == ThemeMode.dark)
                   ? true
                   : false,
                 leading: const Icon(
@@ -174,9 +174,9 @@ class SettingsViewState extends State<SettingsView> {
                   checked,
                 ) async {
                   if (checked == true) {
-                    await widget.settingsController.updateThemeMode(ThemeMode.dark);
+                    await widget.dataController.setThemeMode(ThemeMode.dark);
                   } else {
-                    await widget.settingsController.updateThemeMode(ThemeMode.light);
+                    await widget.dataController.setThemeMode(ThemeMode.light);
                   }
                 },
               ),
@@ -189,7 +189,7 @@ class SettingsViewState extends State<SettingsView> {
             tiles: [
               // App welcome screen to explain BeerCrackerz
               SettingsTile.switchTile(
-                initialValue: (widget.settingsController.showWelcomeScreen == true)
+                initialValue: (widget.dataController.startupHelpFlag == true)
                   ? true
                   : false,
                 leading: const Icon(
@@ -204,11 +204,7 @@ class SettingsViewState extends State<SettingsView> {
                 onToggle: (
                   checked,
                 ) async {
-                  if (checked == true) {
-                    await widget.settingsController.updateShowWelcomeScreen(true);
-                  } else {
-                    await widget.settingsController.updateShowWelcomeScreen(false);
-                  }
+                  await widget.dataController.setStartupHelpFlag(checked);
                 },
               ),
             ],

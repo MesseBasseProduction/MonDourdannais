@@ -21,6 +21,7 @@ class SizeConfig {
   // Icon sizes
   static late double inputIcon;
   static late double iconSize;
+  static late double iconSizeLarge;
   static late double mapMarkerSize;
   // Font sizes
   static late double fontTextSmallSize;
@@ -51,6 +52,7 @@ class SizeConfig {
     // Icon sizes
     inputIcon = (defaultSize * 2);
     iconSize = 24;
+    iconSizeLarge = 32;
     mapMarkerSize = 30;
     // Font sizes
     fontTextSmallSize = 12;
