@@ -170,7 +170,7 @@ class MapFactory {
       minutes = `0${minutes}`;
     }
 
-    const dayOfWeek = now.getDay() - 1;
+    const dayOfWeek = (now.getDay() - 1 + 7) % 7;
     const openingTime = parseInt(`${timetable[dayOfWeek].open.h}${timetable[dayOfWeek].open.m}`);
     const closingTime = parseInt(`${timetable[dayOfWeek].close.h}${timetable[dayOfWeek].close.m}`);
     const currentTime = parseInt(`${hour}${minutes}`);
@@ -248,7 +248,7 @@ class MapFactory {
       dom.querySelector('#mark-state').appendChild(this.markerOpenedState(opts.timetable));
       // Now update day by day
       const now = new Date();
-      const dayOfWeek = now.getDay() - 1;
+      const dayOfWeek = (now.getDay() - 1 + 7) % 7;
       for (let i = 0; i < opts.timetable.length; ++i) {
         const dayDom = dom.querySelector('#timetable').children[i];
         if (opts.timetable[i].isOpen === true) {
