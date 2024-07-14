@@ -1,0 +1,55 @@
+name: mondourdannais
+description: "L'application indispensable à tout habitant ou visiteur du Dourdannais en Hurepoix!"
+
+publish_to: 'none'
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_settings_ui: ^3.0.0
+  flutter_map: ^7.0.1
+  flutter_map_location_marker: ^9.0.0
+  flutter_rating_bar: ^4.0.1
+  flutter_svg: ^2.0.9
+  shared_preferences: ^2.2.3
+  geolocator: ^12.0.0
+  http: ^1.2.0
+  latlong2: ^0.9.0
+  url_launcher: ^6.2.5
+  toggle_switch: ^2.1.0
+  flutter_secure_storage: ^9.0.0
+  toastification: ^2.0.0
+  loader_overlay: ^4.0.0
+  image_picker: ^1.1.0
+  image_cropper: ^7.0.5
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # Enable generation of localized Strings from arb files.
+  generate: true
+  # Add assets from the images directory into the application.
+  assets:
+    - assets/images/
+    - assets/images/help/
+    - assets/images/icon/
+    - assets/images/marker/
+
+flutter_launcher_icons: # To update icon, run "flutter pub run flutter_launcher_icons"
+  android: "launcher_icon"
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: #FFFFBF
+  min_sdk_android: 21

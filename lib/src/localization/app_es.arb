@@ -1,0 +1,217 @@
+{
+  "@@locale": "es",
+  "appTitle": "BeerCrackerz",
+  "appTitleWithCase": "BeerCrackerz",
+  "@appTitle": {
+    "description": "¡La aplicación para los amantes de la cerveza, para compartir el mejor lugar para tomar una cerveza o para rellenar fácilmente esta bebida de los dioses!"
+  },
+  "httpServerErrorToastTitle": "El servidor parece desordenado",
+  "httpServerErrorToastDescription": "El servidor no respondió como debería. Comuníquese con el soporte para obtener ayuda con el código de error {field}.",
+  "@httpServerErrorToastDescription": {
+    "placeholders": {
+      "field": {
+        "type": "String",
+        "example": "XXX1"
+      }
+    }
+  },
+  "httpWrongResponseToastTitle": "Respuesta inesperada del servidor",
+  "httpWrongResponseToastDescription": "El servidor no respondió como de costumbre. Comuníquese con el soporte para obtener ayuda con el código de error {field}.",
+  "@httpWrongResponseToastDescription": {
+    "placeholders": {
+      "field": {
+        "type": "String",
+        "example": "XXX1"
+      }
+    }
+  },
+  "httpFrontErrorToastTitle": "Error de la aplicación",
+  "httpFrontErrorToastDescription": "Algo salió mal al intentar comunicarse con el servidor. Comuníquese con el soporte para obtener ayuda con el código de error {field}.",
+  "authLoginTitle": "Acceso",
+  "authLoginUsernameInput": "Nombre de usuario o correo electrónico",
+  "authLoginUsername": "nombre de usuario",
+  "authLoginPasswordInput": "Contraseña",
+  "authLoginPassword": "contraseña",
+  "authLoginForgotPassword": "¿Olvidaste tu contraseña?",
+  "authLoginSubmit": "Acceso",
+  "authLoginNoAccount": "¿No tienes una cuenta? ",
+  "authLoginRegister": "Inscribirse",
+  "authLoginInvalidCredentials": "Credenciales no válidas, ya sean incorrectas o inexistentes",
+  "authLoginEmptyCredentials": "Credenciales vacías recibidas",
+  "authLoginSuccessToastTitle": "¡Bienvenido de nuevo!",
+  "authLoginSuccessToastDescription": "Ingresó exitosamente a su cuenta BeerCrackerz. ¡Coge un lugar y una cerveza y disfruta!",
+  "authLoginTokenErrorToastTitle": "Simbolo no valido",
+  "authLoginTokenErrorToastDescription": "El token enviado desde el servidor no es válido o está vacío. Comuníquese con el soporte para obtener ayuda con el código de error LGI4.",
+  "authLoginUserInfoErrorToastTitle": "No se puede obtener información del usuario",
+  "authLoginUserInfoErrorToastDescription": "El servidor no pudo devolver la información del usuario. Comuníquese con el soporte para obtener ayuda con el código de error LGI5.",
+  "authRegisterTitle": "Inscribirse",
+  "authRegisterUsernameInput": "Ingrese su nombre de usuario",
+  "authRegisterUsername": "nombre de usuario",
+  "authRegisterUsernameAlreadyTaken": "Este nombre de usuario ya está registrado",
+  "authRegisterEmailInput": "Introduce tu correo electrónico",
+  "authRegisterEmail": "correo electrónico",
+  "authRegisterEmailInvalid": "este email es invalido",
+  "authRegisterEmailAlreadyTaken": "Este correo electrónico ya está registrado",
+  "authRegisterPasswordInput": "Ingresa tu contraseña",
+  "authRegisterPassword": "contraseña",
+  "authRegisterPasswordTooCommon": "Esta contraseña es demasiado común.",
+  "authRegisterPasswordNotStrongEnough": "La contraseña no es lo suficientemente segura",
+  "authRegisterPasswordNotStrongEnoughToastTitle": "Acerca de la seguridad de la contraseña",
+  "authRegisterPasswordNotStrongEnoughToastDescription": "Tu contraseña debe contener 8 o más caracteres, con al menos una letra mayúscula, un dígito y un carácter especial.",
+  "authRegisterPasswordNotMatching": "Las contraseñas no coinciden",
+  "authRegisterRepeatPasswordInput": "Repita su contraseña",
+  "authRegisterRepeatPassword": "repita su contraseña",
+  "authRegisterSubmit": "Inscribirse",
+  "authRegisterHaveAccount": "¿Tienes una cuenta? ",
+  "authRegisterLogin": "Acceso",
+  "authRegisterSuccessTitle": "Registro enviado",
+  "authRegisterSuccessHeader": "¡Ya casi estás dentro!",
+  "authRegisterSuccessContent": "¡Estás un paso más cerca de editar el mapa y disfrutar plenamente de BeerCrackerz! Vaya a revisar su correo, valide su cuenta y luego inicie sesión.",
+  "authRegisterSuccessSubmit": "Despedir",
+  "authResetPasswordTitle": "Restablecer la contraseña",
+  "authResetPasswordInput": "Introduce tu correo electrónico",
+  "authResetPassword": "correo electrónico",
+  "authResetPasswordInvalidEmail": "Este email es invalido",
+  "authResetPasswordSubmit": "Restablecer la contraseña",
+  "authResetPasswordSuccessTitle": "Restablecer contraseña enviada",
+  "authResetPasswordSuccessHeader": "¡La contraseña casi se restablece!",
+  "authResetPasswordSuccessContent": "Ahora consulte sus correos electrónicos y siga el enlace para establecer una nueva contraseña en la interfaz web, luego inicie sesión nuevamente.",
+  "authResetPasswordSuccessSubmit": "Despedir",
+  "authProfileTitle": "Perfil",
+  "authProfileCropTitle": "Delimitar imagen",
+  "authProfileFatalErrorTitle": "Error al recortar imagen",
+  "authProfileFatalErrorContent": "Se produjo un error fatal al abrir el recortador de imágenes. Comuníquese con el soporte para obtener ayuda.",
+  "authProfileErrorMinimalPPSizeTitle": "Tamaño de imagen no válido",
+  "authProfileErrorMinimalPPSizeContent": "La imagen recortada tiene menos de 512x512 píxeles. Proporcione una imagen con más píxeles.",
+  "authProfileErrorPPUploadErrorTitle": "Error de procesamiento de imagen",
+  "authProfileErrorPPUploadErrorDescription": "Algo salió mal en el servidor con la imagen proporcionada. Comuníquese con el soporte para obtener ayuda con el código de error {field}.",
+  "@authProfileErrorPPUploadErrorDescription": {
+    "placeholders": {
+      "field": {
+        "type": "String",
+        "example": "XXX1"
+      }
+    }
+  },
+  "authProfileAboutBeerCrackerz": "BeerCrackerz es la comunidad de amantes de la cerveza, llena de amantes de las pintas y de los cereales. ¡Una idea brillante de David Béché, materializada por Messe Basse Production! BeerCrackerz es un sitio web y una aplicación móvil de código abierto publicado bajo la licencia GPL-3.0.",
+  "authProfileAboutVersion": "BeerCrackerz – v0.1.0 / BeerCrackerzMobile – v0.0.6",
+  "authProfileLogout": "Cerrar sesión",
+  "authProfileLogoutSuccessToastTitle": "Cierre de sesión exitoso",
+  "authProfileLogoutSuccessToastDescription": "Has cerrado sesión exitosamente en tu cuenta. ¡Nos vemos pronto!",
+  "helpWelcomeTitle": "Bienvenido",
+  "helpWelcomeSlideTitle": "¡Bienvenido a BeerCrackerz!",
+  "helpWelcomeSlideDescription": "La app hecha por y para los amantes de la Cerveza; un mapa de la comunidad donde encontrarás los mejores lugares para disfrutar de una deliciosa cerveza. También ofrece las tiendas y bares más cercanos para rellenar tu bolso con las mejores cervezas del lugar. Cualquiera puede registrarse para contribuir agregando sus mejores lugares personales para relajarse y disfrutar de una cerveza. Dicho todo esto, ¡siéntete bienvenido y disfruta del viaje!",
+  "helpWelcomeMapSlideDescription": "Los puntos usan marcadores verdes, las tiendas usan marcadores azules y las barras están en rojo. Simplificando, hasta lo esencial: la cerveza.",
+  "helpWelcomeMarkSlideDescription": "Al tocar una marca, obtendrá información útil sobre ella, completada por nuestros generosos colaboradores.",
+  "helpWelcomeNewMarkSlideDescription": "Finalmente, si quieres contribuir y tener tus propias ubicaciones en el mapa, simplemente debes registrar una cuenta. ¡Tus contribuciones son bienvenidas!",
+  "helpWelcomeCTASlideDescription": "Ya está todo configurado, ahora puedes navegar libremente por el mundo para encontrar el mejor lugar para tomar una bebida fría a tu alrededor, o puedes registrar una cuenta y comenzar tu carrera como colaborador, en ambos casos, ¡diviértete!",
+  "helpWelcomeCTASlideShowWelcomeScreen": "Mostrar este ayudante al inicio",
+  "helpWelcomeCTASlideAuth": "Cuenta",
+  "helpWelcomeCTASlideMap": "Mapa",
+  "settingsTitle": "Ajustes",
+  "settingsInterfaceSection": "Interfaz",
+  "settingsInterfaceLanguageSetting": "Idioma",
+  "settingsInterfaceLanguageDialogTitle": "Seleccione el idioma",
+  "settingsInterfaceLanguage": "{feature, select, en{🇬🇧 Inglés} fr{🇫🇷 Francés} es{🇪🇸 Español} de{🇩🇪 Alemán} it{🇮🇹 Italiano} pt{🇵🇹 Portugués} other{Desconocido}}",
+  "settingsInterfaceClose": "Cerca",
+  "settingsInterfaceTheme": "Tema oscuro",
+  "settingsAppSection": "Aplicación",
+  "settingsAppShowWelcomeScreenSetting": "Mostrar pantalla de bienvenida",
+  "settingsAppShowWelcomeScreenSettingDescription": "Panel de ayuda al iniciar la aplicación",
+  "emptyInput": "El campo {field} no puede estar vacío",
+  "@emptyInput": {
+    "placeholders": {
+      "field": {
+        "type": "String",
+        "example": "selected"
+      }
+    }
+  },
+  "spotFeatures": "{feature, select, forest{Bosque} river{Río} lake{Lago} cliff{Acantilado} mountain{Montaña} beach{Playa} sea{Mar} city{Ciudad} pov{Punto de Vista} bench{Banco} covered{Cubierto} toilet{Baño} store{Tienda cercana} trash{Basura} parking{Estacionamiento} other{Otro}}",
+  "@spotFeatures": {
+    "placeholders": {
+      "feature": {}
+    }
+  },
+  "shopFeatures": "{feature, select, store{Tienda de comestibles} super{Supermercado} hyper{Hipermercado} cellar{Cava} bio{Bio} craft{Artesanal} fresh{Refrigerado} card{Tarjeta de crédito} choice{Amplia selección} other{Otro}}",
+  "@shopFeatures": {
+    "placeholders": {
+      "feature": {}
+    }
+  },
+  "barFeatures": "{feature, select, regular{Regular} snack{Bocadillo} cellar{Cervecería} rooftop{Techo} tobacco{Cigarrillos} food{Alimento} card{Tarjeta de crédito} choice{Amplia selección} outdoor{Exterior} other{Otro}}",
+  "@barFeatures": {
+    "placeholders": {
+      "feature": {}
+    }
+  },
+  "newMarkSpotType": "Spot",
+  "newMarkShopType": "Tienda",
+  "newMarkBarType": "Bar",
+  "newSpotTitle": "Nuevo spot",
+  "newSpotInformation": "¡Un spot es un lugar extraordinario para tomar una cerveza! Compártelo con la comunidad, ya sea por la vista asombrosa o por lo que sea agradable tomar una cerveza.",
+  "newSpotNameInput": "Nombre del spot",
+  "newSpotNameInputEmpty": "nombre del spot",
+  "newSpotTypesTitle": "¿Qué tipo de spot es?",
+  "newSpotDescriptionInput": "Describe ese spot",
+  "newSpotModifiersTitle": "¿Tiene alguna característica específica?",
+  "newSpotRatingTitle": "Dale una nota",
+  "newSpotSubmit": "Guardar spot",
+  "newShopTitle": "Nueva tienda",
+  "newShopInformation": "El lugar imprescindible para rellenar tu stock de cerveza. ¡Cuanta más información proporciones, mejor ayudarás a tus compañeros BeerCrackerz!",
+  "newShopNameInput": "Nombre de tienda",
+  "newShopNameInputEmpty": "nombre de tienda",
+  "newShopTypesTitle": "¿Qué tipo de tienda es?",
+  "newShopDescriptionInput": "Describe esa tienda",
+  "newShopModifiersTitle": "¿Tiene alguna característica específica?",
+  "newShopRatingTitle": "Dale una nota",
+  "newShopPriceTitle": "Dale una tarifa",
+  "newShopSubmit": "Guardar tienda",
+  "newBarTitle": "Nueva barra",
+  "newBarInformation": "¡Un bar es un lugar sagrado donde puedes tomar unas cervezas de barril bien frías!",
+  "newBarNameInput": "Nombre del bar",
+  "newBarNameInputEmpty": "nombre del bar",
+  "newBarTypesTitle": "¿Qué tipo de bar es?",
+  "newBarDescriptionInput": "Describe esa bar",
+  "newBarModifiersTitle": "¿Tiene alguna característica específica?",
+  "newBarRatingTitle": "Dale una nota",
+  "newBarPriceTitle": "Dale una tarifa",
+  "newBarSubmit": "Guardar bar",
+  "newMarkErrorToastTitle": "Datos incompletos",
+  "editSpotTitle": "Editar spot",
+  "editShopTitle": "Editar tienda",
+  "editBarTitle": "Editar bar",
+  "editMarkErrorToastTitle": "Datos incompletos",
+  "editMarkErrorToastDescription": "Por favor complete un título y un tipo para esta marca. Comuníquese con el soporte para obtener ayuda con el código de error {field}.",
+  "@editMarkErrorToastDescription": {
+    "placeholders": {
+      "field": {
+        "type": "String",
+        "example": "XXX1"
+      }
+    }
+  },
+  "deleteMarkDialogTitle": "Eliminar marcador",
+  "deleteMarkDialogDescription": "Estás a punto de eliminar este punto de interés. ¿Es eso realmente lo que quieres?",
+  "deleteMarkDialogYes": "Sí",
+  "deleteMarkDialogNo": "No",
+  "spotDiscoveredBy": "Un spot descubierto por",
+  "shopDiscoveredBy": "Una tienda descubierta por",
+  "barDiscoveredBy": "Un bar descubierto por",
+  "markDiscoveredSince": "Desde",
+  "markEdit": "Editar",
+  "markDelete": "Borrar",
+  "mapLoginInfoTitle": "Acerca de agregar marca",
+  "mapLoginInfoDescription": "Para agregar su propia marca al mapa, debe iniciar sesión en su cuenta. ¡Puedes registrar una nueva cuenta si aún no eres miembro de BeerCrackerz!",
+  "mapOptionsTitle": "Opciones de mapa",
+  "mapOptionsLayerStyle": "Estilo de capa de mapa",
+  "mapOptionsLayerPlan": "Plan",
+  "mapOptionsLayerSatellite": "Satélite",
+  "mapOptionsDisplayedMarkers": "Visibilidad de los marcadores",
+  "mapOptionsDisplaySpots": "Mostrar spots",
+  "mapOptionsDisplayShops": "Mostrar tiendas",
+  "mapOptionsDisplayBars": "Mostrar bars",
+  "mapOSMContributors": "Colaboradores de OpenStreeMap",
+  "mapEsriContributors": "Desarrollado por Esri",
+  "mapFlutterMapContributors": "Desarrolladores de mapas de Flutter"
+}
