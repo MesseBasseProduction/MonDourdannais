@@ -15,6 +15,7 @@ dependencies:
     sdk: flutter
   flutter_settings_ui: ^3.0.0
   flutter_map: ^7.0.1
+  flutter_map_compass: ^1.0.0
   flutter_map_location_marker: ^9.0.0
   flutter_rating_bar: ^4.0.1
   flutter_svg: ^2.0.9
@@ -46,6 +47,8 @@ flutter:
     - assets/images/help/
     - assets/images/icon/
     - assets/images/marker/
+    - assets/json/citybounds/
+    - assets/json/citymarkers/
 
 flutter_launcher_icons: # To update icon, run "flutter pub run flutter_launcher_icons"
   android: "launcher_icon"

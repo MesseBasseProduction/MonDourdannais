@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_map/flutter_map.dart';
+import 'package:flutter_map_compass/flutter_map_compass.dart';
 import 'package:flutter_map_location_marker/flutter_map_location_marker.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -10,6 +11,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '/src/data/data_controller.dart';
 import '/src/utils/map_utils.dart';
 import '/src/utils/size_config.dart';
+import '/src/view/settings_view.dart';
 // Hold the main widget map view, that contains
 // all spots, shops and bars saved on server. Handle
 // the user interaction with map to add/edit/remove markers.
@@ -31,6 +33,9 @@ class MapExploreView extends StatefulWidget {
 class MapExploreViewState extends State<MapExploreView> with TickerProviderStateMixin {
   // FlutterMap controller
   late MapController _mapController;
+  // Map data
+  late List<Polygon> citiesBoundsPolygons;
+  late List<Marker> citiesMarkers;
   // Map user session settings (not saved upon restart)
   String mapLayer = 'osm';
   bool doubleTap = false; // Enter double tap mode
@@ -48,6 +53,14 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
     _alignPositionStreamController = StreamController<double?>();
     // Create internal MapController
     _mapController = MapController();
+    // Map data
+    citiesBoundsPolygons = MapUtils.buildCitiesBoundsAsPolygons(widget.dataController.citiesBounds);
+    citiesMarkers = MapUtils.buildCitiesMarkers(
+      context,
+      _mapController,
+      this,
+      widget.dataController.citiesMarkers,
+    );
     // Allow map build while gettings marks from server
     setState(() {});
   }
@@ -65,26 +78,43 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
   ) {
     SizeConfig().init(context);
     return Scaffold(
-      appBar: null,
+      appBar: AppBar(
+        title: Text(
+          AppLocalizations.of(context)!.exploreAppBarTitle,
+        ),
+        shadowColor: Theme.of(context).colorScheme.shadow,
+        actions: [
+          // Open application SettingsView
+          IconButton(
+            icon: const Icon(
+              Icons.settings
+            ),
+            onPressed: () => Navigator.restorablePushNamed(
+              context,
+              SettingsView.routeName
+            ),
+          ),
+        ],
+      ),
       resizeToAvoidBottomInset: false, // Do not move map when keyboard appear
       body: FlutterMap(
         mapController: _mapController,
         options: MapOptions(
           initialCenter: const LatLng(
-            48.52778,
-            2.068244,
+            48.53183906441962,
+            2.053756713867188,
           ),
           initialZoom: 11.0,
           interactionOptions: const InteractionOptions(
-            flags: InteractiveFlag.pinchZoom | InteractiveFlag.drag
+            flags: InteractiveFlag.pinchZoom | InteractiveFlag.drag | InteractiveFlag.rotate
           ),
-          minZoom: 2,
+          minZoom: 11.0,
           maxZoom: 19,
           // Force camera to remain on LatLng ranges
           cameraConstraint: CameraConstraint.contain(
             bounds: LatLngBounds(
-              const LatLng(-90, -180),
-              const LatLng(90, 180),
+              const LatLng(48.75361871872025, 1.7690606689453127),
+              const LatLng(48.24456366049887, 2.343395996093750),
             ),
           ),
           // User position tracking on map
@@ -108,22 +138,6 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
               // Restore flag 
               Future.delayed(const Duration(milliseconds: 300), () {
                 doubleTap = false;
-                if (doubleTapPerformed == false) {
-                  // Compute current map bound and lat/lng range for those bounds
-                  LatLngBounds bounds = _mapController.camera.visibleBounds;
-                  double mapLatRange = (SizeConfig.modalHeightRatio * (bounds.northWest.latitude - bounds.southEast.latitude).abs()) / 400;
-                  // Move map to the marker position, with modal opened offset
-                  MapUtils.animatedMapMove(
-                    LatLng(
-                      latLng.latitude - (mapLatRange / 2),
-                      latLng.longitude,
-                    ),
-                    _mapController.camera.zoom + 2,
-                    _mapController,
-                    this,
-                  );
-                }
-                setState(() {});
               });
             } else {
               doubleTapPerformed = true;
@@ -159,6 +173,25 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
             style: const LocationMarkerStyle(
               showHeadingSector: false,
               showAccuracyCircle: true,
+            ),
+          ),
+          PolygonLayer(
+            polygons: citiesBoundsPolygons,
+          ),
+          MarkerLayer(
+            markers: citiesMarkers,
+          ),
+          MapCompass.cupertino(
+            padding: EdgeInsets.only(
+              right: SizeConfig.padding,
+              top: SizeConfig.padding,
+            ),
+          ),
+          Scalebar(
+            alignment: Alignment.bottomRight,
+            padding: EdgeInsets.only(
+              bottom: SizeConfig.padding,
+              right: (SizeConfig.padding * 2) + 48.0, // Default floating button width and twice padding
             ),
           ),
           RichAttributionWidget(
@@ -211,7 +244,7 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
       floatingActionButton: Wrap(
         direction: Axis.vertical,
         children: <Widget>[
-          // Center on user (and lock position on it)
+           // Center on user (and lock position on it)
           Container(
             margin: EdgeInsets.symmetric(
               vertical: SizeConfig.paddingTiny,
@@ -243,18 +276,51 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
               ),
             ),
           ),
-          // Map filtering operations
+          // Zoom out
           Container(
             margin: EdgeInsets.symmetric(
               vertical: SizeConfig.paddingTiny,
             ),
             child: FloatingActionButton(
-              heroTag: 'homeButton',
-              onPressed: () => Navigator.of(context).pop(),
+              heroTag: 'zoomOutButton',
+              onPressed: () {
+                if (_mapController.camera.zoom - 1 >= 11) {
+                  MapUtils.animatedMapMove(
+                    _mapController.camera.center,
+                    _mapController.camera.zoom - 1,
+                    _mapController,
+                    this,
+                  );
+                }
+              },
               foregroundColor: null,
               backgroundColor: null,
               child: const Icon(
-                Icons.home,
+                Icons.zoom_out,
+              ),
+            ),
+          ),
+          // Zoom in
+          Container(
+            margin: EdgeInsets.symmetric(
+              vertical: SizeConfig.paddingTiny,
+            ),
+            child: FloatingActionButton(
+              heroTag: 'zoomInButton',
+              onPressed: () {
+                if (_mapController.camera.zoom + 1 <= 19) {
+                  MapUtils.animatedMapMove(
+                    _mapController.camera.center,
+                    _mapController.camera.zoom + 1,
+                    _mapController,
+                    this,
+                  );
+                }
+              },
+              foregroundColor: null,
+              backgroundColor: null,
+              child: const Icon(
+                Icons.zoom_in,
               ),
             ),
           ),

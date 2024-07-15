@@ -1,4 +1,7 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'data_service.dart';
 
@@ -19,12 +22,17 @@ class DataController with ChangeNotifier {
   late Locale _appLocale;
   late bool _startupHelpFlag;
   late String _userMainCity;
+  // Map and marks utils
+  final Map<String, List<dynamic>> _citiesBounds = {};
+  final Map<String, dynamic> _citiesMarkers = {};
 
   // Data getters
   ThemeMode get themeMode => _themeMode;
   Locale get appLocale => _appLocale;
   bool get startupHelpFlag => _startupHelpFlag;
   String get userMainCity => _userMainCity;
+  Map<String, List<dynamic>> get citiesBounds => _citiesBounds;
+  Map<String, dynamic> get citiesMarkers => _citiesMarkers;
 
   // Load settings from storage. Required before loading app
   Future<void> initAppData() async {
@@ -32,6 +40,18 @@ class DataController with ChangeNotifier {
     _appLocale = await _dataService.getAppLocale();
     _startupHelpFlag = await _dataService.getStartupHelpFlag();
     _userMainCity = await _dataService.getUserMainCity();
+
+    for (var i = 0; i < AppConst.citiesCode.length; ++i) {
+      // Get cities boundaries from assets
+      String rawJson = await rootBundle.loadString('assets/json/citybounds/${AppConst.citiesCode[i]}.json');
+      var decoded = await json.decode(rawJson);
+      _citiesBounds[AppConst.citiesCode[i]] = decoded['bounds'];
+      // Then get cities markers from assets
+      rawJson = await rootBundle.loadString('assets/json/citymarkers/${AppConst.citiesCode[i]}.json');
+      decoded = await json.decode(rawJson);
+      _citiesMarkers[AppConst.citiesCode[i]] = decoded['markers'];
+    }
+
     notifyListeners();
   }
 

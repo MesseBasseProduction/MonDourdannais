@@ -36,7 +36,7 @@ class SizeConfig {
     _mediaQueryData = MediaQuery.of(context);
     screenWidth = _mediaQueryData.size.width;
     screenHeight = _mediaQueryData.size.height;
-    modalHeightRatio = 66;
+    modalHeightRatio = 50;
     borderRadius = 10.0;
     orientation = _mediaQueryData.orientation;
     defaultSize = (orientation == Orientation.landscape)
