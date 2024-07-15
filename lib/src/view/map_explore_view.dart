@@ -5,10 +5,16 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map_compass/flutter_map_compass.dart';
 import 'package:flutter_map_location_marker/flutter_map_location_marker.dart';
+import 'package:flutter_map_math/flutter_geo_math.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:loader_overlay/loader_overlay.dart';
+import 'package:open_route_service/open_route_service.dart';
+import 'package:toastification/toastification.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '/src/data/data_controller.dart';
+import '/src/utils/app_const.dart';
 import '/src/utils/map_utils.dart';
 import '/src/utils/size_config.dart';
 import '/src/view/settings_view.dart';
@@ -40,10 +46,15 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
   String mapLayer = 'osm';
   bool doubleTap = false; // Enter double tap mode
   bool doubleTapPerformed = false; // Double tap actually happened
+  final OpenRouteService ors = OpenRouteService(
+    apiKey: AppConst.osrApiKey!,
+  );
   // Position alignment stream controller
   late AlignOnUpdate _alignPositionOnUpdate;
   late final StreamController<double?> _alignPositionStreamController;
   double restoredZoomed = 0; // To restore zoom level when unlocking position
+  // Navigation route points
+  List<LatLng> navRoutePoints = [];
   // InitState main purpose is to async load spots/shops/bars
   @override
   void initState() {
@@ -59,6 +70,7 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
       context,
       _mapController,
       this,
+      computeRouteToMark,
       widget.dataController.citiesMarkers,
     );
     // Allow map build while gettings marks from server
@@ -70,6 +82,133 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
     // Release user position stream on dispose widget
     _alignPositionStreamController.close();
     super.dispose();
+  }
+
+  // Navigation routing
+  void computeRouteToMark(
+    LatLng destination,
+  ) async {
+    // Clear any previous route
+    setState(() => navRoutePoints = []);
+    // Get latest known position to start the path with
+    Position? position = await Geolocator.getLastKnownPosition();
+    // First ensure route is not over threshold
+    double distance = FlutterMapMath().distanceBetween(
+      position!.latitude,
+      position.longitude,
+      destination.latitude,
+      destination.longitude,
+      'meters',
+    );
+    if (distance > AppConst.maxDistanceForRoute) {
+      if (mounted) {
+        // Mark too far from user
+        toastification.show(
+          context: context,
+          title: Text(
+            AppLocalizations.of(context)!.mapRouteTooFarToastTitle,
+          ),
+          description: Text(
+            AppLocalizations.of(context)!.mapRouteTooFarToastDescription,
+            style: const TextStyle(
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          type: ToastificationType.error,
+          style: ToastificationStyle.flatColored,
+          autoCloseDuration: const Duration(
+            seconds: 5,
+          ),
+          showProgressBar: false,
+        );
+      }
+      return;
+    }
+    // Now perform ORS route request
+    if (mounted) {
+      // Put loading overlay to notify user a computation is in progress
+      context.loaderOverlay.show();
+      // Request route from ORS
+      try {
+        final List<ORSCoordinate> routeCoordinates = await ors.directionsRouteCoordsGet(
+          startCoordinate: ORSCoordinate(
+            latitude: position.latitude,
+            longitude: position.longitude,
+          ),
+          endCoordinate: ORSCoordinate(
+            latitude: destination.latitude,
+            longitude: destination.longitude,
+          ),
+        );
+        // Build final polyline points
+        final List<LatLng> routePoints = routeCoordinates
+          .map((coordinate) => LatLng(
+            coordinate.latitude,
+            coordinate.longitude,
+          )).toList();
+        // Center map between path bounds
+        LatLngBounds bounds = LatLngBounds.fromPoints(routePoints);
+        _mapController.fitCamera(
+          CameraFit.bounds(
+            bounds: bounds,
+            padding: EdgeInsets.all(
+              SizeConfig.paddingLarge,
+            ),
+          ),
+        );
+        // Set widget state with found route
+        setState(() {
+          navRoutePoints = routePoints;
+          // Hide overlay loader
+          context.loaderOverlay.hide();
+          // Notify user the route was found and is displayed
+          toastification.show(
+            context: context,
+            title: Text(
+              AppLocalizations.of(context)!.mapRouteFoundToastTitle,
+            ),
+            description: Text(
+              AppLocalizations.of(context)!.mapRouteFoundToastDescription,
+              style: const TextStyle(
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+            type: ToastificationType.success,
+            style: ToastificationStyle.flatColored,
+            autoCloseDuration: const Duration(
+              seconds: 5,
+            ),
+            showProgressBar: false,
+          );
+        });
+      } catch (e) {
+        if (mounted) {
+          // Hide overlay loader anyway
+          context.loaderOverlay.hide();
+          // Unable to get route from ORS
+          // Error ORS1
+          toastification.show(
+            context: context,
+            title: Text(
+              AppLocalizations.of(context)!.mapRouteNotFoundToastTitle,
+            ),
+            description: Text(
+              AppLocalizations.of(context)!.mapRouteNotFoundToastDescription,
+              style: const TextStyle(
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+            type: ToastificationType.error,
+            style: ToastificationStyle.flatColored,
+            autoCloseDuration: const Duration(
+              seconds: 5,
+            ),
+            showProgressBar: false,
+          );
+        }
+        return;
+      }
+    }
   }
   // Map widget builing
   @override
@@ -131,7 +270,6 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
             TapPosition position,
             LatLng latLng,
           ) {
-            print(latLng);
             // First user tap
             if (doubleTap == false) {
               doubleTap = true;
@@ -180,6 +318,16 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
           ),
           MarkerLayer(
             markers: citiesMarkers,
+          ),
+          // Navigation route layer, positionned to be bottom all other layers
+          PolylineLayer(
+            polylines: [
+              Polyline(
+                points: navRoutePoints,
+                color: Theme.of(context).colorScheme.primary,
+                strokeWidth: 5,
+              ),
+            ],
           ),
           MapCompass.cupertino(
             padding: EdgeInsets.only(

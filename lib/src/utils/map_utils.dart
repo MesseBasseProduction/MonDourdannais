@@ -101,6 +101,7 @@ class MapUtils {
     BuildContext context,
     MapController mapController,
     TickerProvider tickerProvider,
+    Function computeRouteToMark,
     Map<String, dynamic> input, 
   ) {
     List<Marker> output = [];
@@ -115,6 +116,7 @@ class MapUtils {
               context,
               mapController,
               tickerProvider,
+              computeRouteToMark,
               category[i],
             ),
           );

@@ -17,6 +17,7 @@ dependencies:
   flutter_map: ^7.0.1
   flutter_map_compass: ^1.0.0
   flutter_map_location_marker: ^9.0.0
+  flutter_map_math: ^0.1.7
   flutter_rating_bar: ^4.0.1
   flutter_svg: ^2.0.9
   shared_preferences: ^2.2.3
@@ -30,6 +31,8 @@ dependencies:
   image_picker: ^1.1.0
   image_cropper: ^7.0.5
   cupertino_icons: ^1.0.8
+  open_route_service: ^1.2.6
+  flutter_dotenv: ^5.1.0
 
 dev_dependencies:
   flutter_test:
@@ -43,6 +46,7 @@ flutter:
   generate: true
   # Add assets from the images directory into the application.
   assets:
+    - .env
     - assets/images/
     - assets/images/help/
     - assets/images/icon/

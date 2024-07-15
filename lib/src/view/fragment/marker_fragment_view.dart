@@ -4,6 +4,7 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:mondourdannais/src/utils/map_utils.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '/src/utils/size_config.dart';
 // MarkerView clas shandle the whole content for the flutter_map ;
@@ -14,18 +15,9 @@ class MarkerFragmentView {
     BuildContext context,
     MapController mapController,
     TickerProvider tickerProvider,
-    Map<String, dynamic> input,
-
-/*
-    BuildContext context,
-    MapController mapController,
-    TickerProvider tickerProvider,
     Function computeRouteToMark,
-    Function removeCallback,
-    Function editCallback,
-*/
+    Map<String, dynamic> input,
   ) {
-//    SizeConfig().init(context);
     return Marker(
       height: SizeConfig.mapMarkerSize,
       width: SizeConfig.mapMarkerSize,
@@ -38,6 +30,7 @@ class MarkerFragmentView {
           context,
           mapController,
           tickerProvider,
+          computeRouteToMark,
           input,
         ),
         child: SvgPicture.asset(
@@ -53,6 +46,7 @@ class MarkerFragmentView {
     BuildContext context,
     MapController mapController,
     TickerProvider tickerProvider,
+    Function computeRouteToMark,
     Map<String, dynamic> input,
   ) {
     SizeConfig().init(context);
@@ -86,9 +80,125 @@ class MarkerFragmentView {
             horizontal: SizeConfig.padding,
           ),
           child: SingleChildScrollView(
+            padding: EdgeInsets.all(
+              SizeConfig.padding,
+            ),
             child: Column(
               children: [
-                Text(input['name']),
+                Text(
+                  input['name'],
+                  style: TextStyle(
+                    fontSize: SizeConfig.fontTextBigSize,
+                    fontWeight: FontWeight.bold,
+                    color: Theme.of(context).colorScheme.onPrimary,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                SizedBox(
+                  height: SizeConfig.padding,
+                ),
+                Text(
+                  input['address'],
+                  style: TextStyle(
+                    fontStyle: FontStyle.italic,
+                    color: Theme.of(context).colorScheme.onPrimary,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                Text(
+                  input['town'],
+                  style: TextStyle(
+                    fontStyle: FontStyle.italic,
+                    color: Theme.of(context).colorScheme.onPrimary,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                SizedBox(
+                  height: SizeConfig.padding,
+                ),
+                ElevatedButton(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      const Icon(
+                        Icons.route,
+                      ),
+                      SizedBox(
+                        width: SizeConfig.paddingSmall,
+                      ),
+                      Text(
+                        AppLocalizations.of(context)!.markerFragmentRoute,
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
+                  ),
+                  onPressed: () {
+                    Navigator.of(context).pop(false);
+                    computeRouteToMark(
+                      LatLng(
+                        input['lat'],
+                        input['lng'],
+                      ),
+                    );                    
+                  },
+                ),
+                SizedBox(
+                  height: SizeConfig.padding,
+                ),
+                Text(
+                  input['info'],
+                  style: TextStyle(
+                    color: Theme.of(context).colorScheme.onPrimary,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                SizedBox(
+                  height: SizeConfig.padding,
+                ),
+                (input['phone'] != '')
+                  ? ElevatedButton(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Icon(
+                            Icons.phone,
+                          ),
+                          SizedBox(
+                            width: SizeConfig.paddingSmall,
+                          ),
+                          Text(
+                            AppLocalizations.of(context)!.markerFragmentPhone,
+                            textAlign: TextAlign.center,
+                          ),
+                        ],
+                      ),
+                      onPressed: () => launchUrl(
+                        Uri.parse('tel:${input['phone']}'),
+                      ),
+                    )
+                  : const SizedBox.shrink(),
+                (input['website'] != '')
+                  ? ElevatedButton(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Icon(
+                            Icons.language,
+                          ),
+                          SizedBox(
+                            width: SizeConfig.paddingSmall,
+                          ),
+                          Text(
+                            AppLocalizations.of(context)!.markerFragmentWebsite,
+                            textAlign: TextAlign.center,
+                          ),
+                        ],
+                      ),
+                      onPressed: () => launchUrl(
+                        Uri.parse(input['website']),
+                      ),
+                    )
+                  : const SizedBox.shrink(),                
               ],
             ),
           ),
@@ -96,15 +206,15 @@ class MarkerFragmentView {
       }
     ).whenComplete(() {
       // Move back camera only
-        MapUtils.animatedMapMove(
-          LatLng(
-            input['lat'],
-            input['lng'],            
-          ),
-          mapController.camera.zoom - 2,
-          mapController,
-          tickerProvider,
-        );
+      MapUtils.animatedMapMove(
+        LatLng(
+          input['lat'],
+          input['lng'],
+        ),
+        mapController.camera.zoom - 2,
+        mapController,
+        tickerProvider,
+      );
     });
   }
 }
