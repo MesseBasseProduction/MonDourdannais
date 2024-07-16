@@ -68,6 +68,7 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
     citiesBoundsPolygons = MapUtils.buildCitiesBoundsAsPolygons(widget.dataController.citiesBounds);
     citiesMarkers = MapUtils.buildCitiesMarkers(
       context,
+      widget.dataController,
       _mapController,
       this,
       computeRouteToMark,

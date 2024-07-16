@@ -2,7 +2,10 @@
   "markers": {
     "care": [
       {
-        "name": "Défibrillateur Cardiaque",
+        "name": {
+          "fr": "Défibrillateur Cardiaque",
+          "en": "Cardiac Defibrillator"
+        },
         "type": "defibrillator",
         "subtypes": [],
         "lat": 48.53564169918915,
@@ -11,10 +14,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "",
-        "info": "Sur le quai, direction Paris",
-        "timetable": []
+        "info": {
+          "fr": "Le défibrilateur cardiaque se trouve sur le quai de la gare direction Paris.",
+          "en": "The cardiac defibrillator is located on the station platform towards Paris."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Clinique Vétérinaire du Marais",
+        "name": {
+          "fr": "Clinique Vétérinaire du Marais",
+          "en": "Veterinary Clinic"
+        },
         "type": "animal",
         "subtypes": [],
         "lat": 48.53647642898522,
@@ -23,74 +32,68 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 1 64 59 29 00",
         "website": "https://www.lacliniquedumarais.com/",
-        "info": "Clinique effectuant consultations, chirurgies, hospitalisations, analyses et imageries pour vos chiens, chats et NACs. Consultations uniquement sur rendez-vous.",
+        "info": {
+          "fr": "Clinique effectuant consultations, chirurgies, hospitalisations, analyses et imageries pour vos chiens, chats et NACs. Consultations uniquement sur rendez-vous.",
+          "en": "Clinic carrying out consultations, surgeries, hospitalizations, analyzes and imaging for your dogs, cats and exotic pets. Consultations by appointment only."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "13", "m": "00" },
-              "end": { "h": "14", "m": "30" }
-            }
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 19, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 13, "m": 0 },
+                "end": { "h": 14, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "13", "m": "00" },
-              "end": { "h": "14", "m": "30" }
-            }
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 19, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 13, "m": 0 },
+                "end": { "h": 14, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Mercredi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "13", "m": "00" },
-              "end": { "h": "14", "m": "30" }
-            }
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 19, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 13, "m": 0 },
+                "end": { "h": 14, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "13", "m": "00" },
-              "end": { "h": "14", "m": "30" }
-            }
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 19, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 13, "m": 0 },
+                "end": { "h": 14, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "13", "m": "00" },
-              "end": { "h": "14", "m": "30" }
-            }
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 19, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 13, "m": 0 },
+                "end": { "h": 14, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Samedi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 18, "m": 0 }
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }
         ]
       }, {
-        "name": "Toilettage Dog K'ouaff",
+        "name": {
+          "fr": "Toilettage Dog K’ouaff",
+          "en": "Dog K’ouaff Grooming"
+        },
         "type": "animal",
         "subtypes": [],
         "lat": 48.53944982004559,
@@ -99,57 +102,40 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 6 58 52 17 13",
         "website": "https://toilettage-sermaise-dog-kouaff.business.site/",
-        "info": "Toilettage de chiens et de chats.",
+        "info": {
+          "fr": "Salon de toilettage pour chiens et de chats.",
+          "en": "Dog and cat grooming salon."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "19", "m": "00" },
-            "break": {}
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 19, "m": 0 }
           }, {
-            "name": "Mardi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Mercredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 0 }
           }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 0 }
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "16", "m": "00" },
-            "break": {}
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 16, "m": 0 }
           }, {
-            "name": "Samedi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 18, "m": 0 }
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }
         ]
       }
     ],
     "catering": [
       {
-        "name": "Le Petit Resto",
+        "name": {
+          "fr": "Le Petit Resto",
+          "en": "The Petit Resto"
+        },
         "type": "restaurant",
         "subtypes": ["bar"],
         "lat": 48.53561505864988,
@@ -158,54 +144,37 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 1 60 81 92 15",
         "website": "",
-        "info": "Dans un cadre chaleureux, venez déguster une cuisine familiale au « Petit Resto ». Chaque midi, un menu varié vous est proposé. Le service restauration est proposé uniquement de 12h à 14h. Le bar en resvanche est ouvert de 8h à 20h.",
+        "info": {
+          "fr": "Dans un cadre chaleureux, venez déguster une cuisine familiale au « Petit Resto ». Chaque midi, un menu varié vous est proposé. Le service restauration est proposé uniquement de 12h à 14h. Le bar en resvanche est ouvert de 8h à 20h.",
+          "en": "In a warm setting, come and enjoy family cuisine at the “Petit Resto”. Every lunchtime, a varied menu is offered to you. The catering service is only offered from 12 p.m. to 2 p.m. The bar, on the other hand, is open from 8 a.m. to 8 p.m."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "00" },
-            "close": { "h": "20", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 0 },
+            "close": { "h": 20, "m": 0 }
           }, {
-            "name": "Mercredi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "00" },
-            "close": { "h": "20", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 0 },
+            "close": { "h": 20, "m": 0 }
           }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "00" },
-            "close": { "h": "20", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 0 },
+            "close": { "h": 20, "m": 0 }
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "00" },
-            "close": { "h": "20", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 0 },
+            "close": { "h": 20, "m": 0 }
           }, {
-            "name": "Samedi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "00" },
-            "close": { "h": "20", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 0 },
+            "close": { "h": 20, "m": 0 }
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }
         ]
       }, {
-        "name": "La Forge à Pizza",
+        "name": {
+          "fr": "Food Truck La Forge à Pizza",
+          "en": "Food Truck The Forge à Pizza"
+        },
         "type": "restaurant",
         "subtypes": [],
         "lat": 48.537510054042414,
@@ -214,54 +183,33 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 7 66 48 13 23",
         "website": "http://laforgeapizza.fr",
-        "info": "Food truck de délicieuses pizza artisanales, que vous retrouverez à Sermaise le vendredi en début de soirée (et dans les communes alentours du Dourdannais les autres soirs de la semaine).",
+        "info": {
+          "fr": "Food truck de délicieuses pizza artisanales, que vous retrouverez à Sermaise le vendredi en début de soirée (et dans les communes alentours du Dourdannais les autres soirs de la semaine).",
+          "en": "Food truck for delicious artisanal pizzas, which you will find in Sermaise on Fridays in the early evening (and in the surrounding towns of Dourdannais the other evenings of the week)."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Mardi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Jeudi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "17", "m": "00" },
-            "close": { "h": "21", "m": "30" },
-            "break": {}
+            "open": { "h": 17, "m": 0 },
+            "close": { "h": 21, "m": 30 }
           }, {
-            "name": "Samedi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }
         ]
       }, {
-        "name": "La Cave du Gourmet",
+        "name": {
+          "fr": "La Cave du Gourmet",
+          "en": "Cellar La Cave du Gourmet"
+        },
         "type": "cellar",
         "subtypes": [],
         "lat": 48.53556000149098,
@@ -270,73 +218,64 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 1 64 59 42 63",
         "website": "http://s515799295.siteweb-initial.fr/",
-        "info": "Fournissant à ses clients une gamme complète de vins, spiritueux, bières, cidres et produits gastronomiques, c'est aujourd'hui une sélection de plus de 900 références qui vous laissera l'embarras du choix pour satisfaire vos goûts et vos budgets.",
+        "info": {
+          "fr": "Fournissant à ses clients une gamme complète de vins, spiritueux, bières, cidres et produits gastronomiques, c’est aujourd’hui une sélection de plus de 900 références qui vous laissera l’embarras du choix pour satisfaire vos goûts et vos budgets.",
+          "en": "Providing its customers with a complete range of wines, spirits, beers, ciders and gourmet products, today there is a selection of more than 900 references which will leave you spoiled for choice to satisfy your tastes and your budgets."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Mardi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Mercredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "15" },
-            "close": { "h": "19", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "45" },
-              "end": { "h": "15", "m": "00" }
-            }
+            "open": { "h": 9, "m": 15 },
+            "close": { "h": 19, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 45 },
+                "end": { "h": 15, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "15" },
-            "close": { "h": "19", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "45" },
-              "end": { "h": "15", "m": "00" }
-            }
+            "open": { "h": 9, "m": 15 },
+            "close": { "h": 19, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 45 },
+                "end": { "h": 15, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "15" },
-            "close": { "h": "19", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "45" },
-              "end": { "h": "15", "m": "00" }
-            }
+            "open": { "h": 9, "m": 15 },
+            "close": { "h": 19, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 45 },
+                "end": { "h": 15, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Samedi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "15" },
-            "close": { "h": "19", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "45" },
-              "end": { "h": "15", "m": "00" }
-            }
+            "open": { "h": 9, "m": 15 },
+            "close": { "h": 19, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 45 },
+                "end": { "h": 15, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "13", "m": "00" },
-            "break": {}
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 13, "m": 0 }
           }
         ]
       }
     ],
     "eco": [
       {
-        "name": "Conteneurs de tri",
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": "Waste sorting containers"
+        },
         "type": "recycle",
         "subtypes": [],
         "lat": 48.53856052936306,
@@ -345,10 +284,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 1 69 74 23 50",
         "website": "http://siredom.com",
-        "info": "Conteneurs pour déchets plastiques, verres et de vêtements à donner (Le Relais). La collecte est assurée par le Syndicat Siredom.",
-        "timetable": []
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques, verres et de vêtements à donner (Le Relais). La collecte est assurée par le Syndicat Siredom.",
+          "en": "Containers for plastic waste, glass and clothing to donate (Le Relais). Collection is ensured by the Siredom Syndicate."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Conteneurs de tri",
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": "Waste sorting containers"
+        },
         "type": "recycle",
         "subtypes": [],
         "lat": 48.535245641727045,
@@ -357,10 +302,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 1 69 74 23 50",
         "website": "http://siredom.com",
-        "info": "Conteneurs pour verres. La collecte est assurée par le Syndicat Siredom.",
-        "timetable": []
+        "info": {
+          "fr": "Conteneurs pour verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": "Containers for glass. Collection is ensured by the Siredom Syndicate."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Square du 19 Mars 1962",
+        "name": {
+          "fr": "Square du 19 Mars 1962",
+          "en": "The Square of March 19, 1962"
+        },
         "type": "park",
         "subtypes": [],
         "lat": 48.53568254798882,
@@ -369,10 +320,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "",
-        "info": "Le Square du 19 Mars 1962 commémmore journée nationale du souvenir et de recueillement à la mémoire des victimes civiles et militaires de la Guerre d’Algérie et des combats en Tunisie et au Maroc. Le 19 mars est le jour anniversaire du cessez-le-feu en Algérie.",
-        "timetable": []
+        "info": {
+          "fr": "Le Square du 19 Mars 1962 commémmore journée nationale du souvenir et de recueillement à la mémoire des victimes civiles et militaires de la Guerre d’Algérie et des combats en Tunisie et au Maroc. Le 19 mars est le jour anniversaire du cessez-le-feu en Algérie.",
+          "en": "The Square of March 19, 1962 commemorates the national day of remembrance and contemplation in memory of the civilian and military victims of the Algerian War and the fighting in Tunisia and Morocco. March 19 is the anniversary of the ceasefire in Algeria."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Jardin d'Enfants",
+        "name": {
+          "fr": "Jardin d’Enfants",
+          "en": "Kindergarten"
+        },
         "type": "park",
         "subtypes": [],
         "lat": 48.53728095340171,
@@ -381,10 +338,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "",
-        "info": "Jardin d'enfants avec de nombreux modules pour le divertissement des bambins Sarmates et d'ailleurs!",
-        "timetable": []
+        "info": {
+          "fr": "Jardin d’enfants avec de nombreux modules pour le divertissement des bambins Sarmates et d’ailleurs!",
+          "en": "Kindergarten with many modules for the entertainment of Sarmatian toddlers and elsewhere!"
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Mare de Mondétour",
+        "name": {
+          "fr": "Mare de Mondétour",
+          "en": "Mondétour’s pond"
+        },
         "type": "park",
         "subtypes": [],
         "lat": 48.519699271344535,
@@ -392,11 +355,17 @@
         "address": "Rue des Maugrenautes (Mondétour)",
         "town": "Sermaise ‒ 91530",
         "phone": "",
-        "website": "",
-        "info": "Mare du Hameau de Mondétour, qui abrite le Lavoir qualifié d’exceptionnel par le service « Patrimoines et Inventaire de la région Île-de-France ».",
-        "timetable": []
+        "website": "http://www.sermaisepatrimoine.fr/index.php/2020/01/22/la-rehabilitation-de-nos-mares/",
+        "info": {
+          "fr": "Mare du Hameau de Mondétour, qui abrite le Lavoir qualifié d’exceptionnel par le service « Patrimoines et Inventaire de la région Île-de-France ».",
+          "en": "Mondétour’s pond, which houses the Lavoir described as exceptional by the “Heritage and Inventory of the Île-de-France region” service."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Mare des Saules Pleureurs",
+        "name": {
+          "fr": "Mare des Saules Pleureurs",
+          "en": "Weeping Willows’ pond"
+        },
         "type": "park",
         "subtypes": [],
         "lat": 48.52103169983235,
@@ -404,11 +373,17 @@
         "address": "Rue des Maugrenautes (Mondétour)",
         "town": "Sermaise ‒ 91530",
         "phone": "",
-        "website": "",
-        "info": "",
-        "timetable": []
+        "website": "http://www.sermaisepatrimoine.fr/index.php/2020/01/22/la-rehabilitation-de-nos-mares/",
+        "info": {
+          "fr": "Une mare au coeur de Mondétour, bordée de saules pleureurs bien souvent habitée par des canards.",
+          "en": "A pond in the heart of Mondétour, lined with weeping willows, often inhabited by ducks."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Mare à la Folle",
+        "name": {
+          "fr": "Mare à la Folle",
+          "en": "Mare à la Folle"
+        },
         "type": "park",
         "subtypes": [],
         "lat": 48.52706449738527,
@@ -417,10 +392,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "http://www.sermaisepatrimoine.fr/index.php/2020/01/22/la-rehabilitation-de-nos-mares/",
-        "info": "",
-        "timetable": []
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Mare de la Chapelle",
+        "name": {
+          "fr": "Mare de la Chapelle",
+          "en": "Chapel’s pond"
+        },
         "type": "park",
         "subtypes": [],
         "lat": 48.52778746112174,
@@ -429,10 +410,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "http://www.sermaisepatrimoine.fr/index.php/2020/01/22/la-rehabilitation-de-nos-mares/",
-        "info": "",
-        "timetable": []
+        "info": {
+          "fr": "Une mare qui borde la chapelle de blancheface, un oasis de fraicheur dans le hameau.",
+          "en": "A pond which borders the chapel of blancheface, an oasis of freshness in the hamlet."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Mare du Mesnil",
+        "name": {
+          "fr": "Mare du Mesnil",
+          "en":  "Mesnil’s pond"
+        },
         "type": "park",
         "subtypes": [],
         "lat": 48.53327951689023,
@@ -441,13 +428,19 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "http://www.sermaisepatrimoine.fr/index.php/2020/01/22/la-rehabilitation-de-nos-mares/",
-        "info": "",
-        "timetable": []
+        "info": {
+          "fr": "La mare au centre du hameau du Mesnil.",
+          "en": "The pond in the center of the hamlet of Mesnil."
+        },
+        "alwaysOpened": true
       }
     ],
     "service": [
       {
-        "name": "Mairie de Sermaise",
+        "name": {
+          "fr": "Mairie de Sermaise",
+          "en": "Sermaise Town Hall"
+        },
         "type": "administration",
         "subtypes": [],        
         "lat": 48.53681031705,
@@ -456,142 +449,123 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 1 64 59 82 27",
         "website": "https://mairie-sermaise.com/",
-        "info": "Pour les horaires du samedi, la Mairie est ouverte seulement le 1er du mois.",
+        "info": {
+          "fr": "Pour les horaires du samedi, la Mairie est ouverte seulement le 1er du mois.",
+          "en": "For Saturday hours, the Town Hall is only open on the 1st of the month."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "18", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "14", "m": "00" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 18, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 14, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "18", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "14", "m": "00" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 18, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 14, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "18", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "14", "m": "00" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 18, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 14, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "18", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "14", "m": "00" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 18, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 14, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Samedi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "12", "m": "00" },
-            "break": {}
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 12, "m": 0 }
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }
         ]
       }, {
-        "name": "École Maternelle Georges Debono",
+        "name": {
+          "fr": "École Maternelle Georges Debono",
+          "en": "Georges Debono Nursery School"
+        },
         "type": "school",
         "subtypes": [],
         "lat": 48.53618338711389,
         "lng": 2.0803830027580266,
-        "address": "31 Place Michel Duchon d'Engenières",
+        "address": "31 Place Michel Duchon d’Engenières",
         "town": "Sermaise ‒ 91530",
         "phone": "+33 1 64 59 32 87",
         "website": "https://www.education.gouv.fr/annuaire/91530/sermaise/ecole/0911968v/ecole-maternelle-georges-debono.html",
-        "info": "École Maternelle de Sermaise, rattachée à l'académie de Versailles. Ouverte en Septembre 1991, l'école est capable d'accueillir 55 élèves.",
+        "info": {
+          "fr": "École Maternelle de Sermaise, rattachée à l’académie de Versailles. Ouverte en Septembre 1991, l’école est capable d’accueillir 55 élèves.",
+          "en": "Sermaise Nursery School, attached to the Versailles academy. Opened in September 1991, the school is capable of accommodating 55 students."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "16", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "13", "m": "30" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 16, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "16", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "13", "m": "30" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 16, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "16", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "13", "m": "30" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 16, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "16", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "13", "m": "30" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 16, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Samedi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }
         ]
       }, {
-        "name": "École Élémentaire Georges Debono",
+        "name": {
+          "fr": "École Élémentaire Georges Debono",
+          "en": "Georges Debono Elementary School"
+        },
         "type": "school",
         "subtypes": [],
         "lat": 48.53486556573351,
@@ -600,126 +574,97 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 1 64 59 88 32",
         "website": "https://www.education.gouv.fr/annuaire/91530/sermaise/ecole/0910080t/ecole-elementaire-georges-debono.html",
-        "info": "École Élémentaire de Sermaise, rattachée à l'académie de Versailles. Ouverte en Septembre 1991, l'école est capable d'accueillir 93 élèves.",
+        "info": {
+          "fr": "École Élémentaire de Sermaise, rattachée à l’académie de Versailles. Ouverte en Septembre 1991, l’école est capable d’accueillir 93 élèves.",
+          "en": "Sermaise Elementary School, attached to the Versailles academy. Opened in September 1991, the school is capable of accommodating 93 students."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "16", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "13", "m": "30" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 16, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "16", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "13", "m": "30" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 16, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "16", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "13", "m": "30" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 16, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "16", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "13", "m": "30" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 16, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Samedi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }
         ]
       }, {
-        "name": "Bibliothèque Municipale",
+        "name": {
+          "fr": "Bibliothèque Municipale",
+          "en": "Public Library"
+        },
         "type": "book",
         "subtypes": [],
         "lat": 48.53618782715489,
         "lng": 2.080534547567368,
-        "address": "13 Place Michel Duchon d'Engenières",
+        "address": "13 Place Michel Duchon d’Engenières",
         "town": "Sermaise ‒ 91530",
         "phone": "+33 6 60 35 54 76",
         "website": "https://opac-x-bibliothequesermaise.biblixnet.net",
-        "info": "Bibliothèque municipale de Sermaise. Les prèts de livres sont gratuits pour les adhérents. L'adhésion s'effectue sur place.",
+        "info": {
+          "fr": "Bibliothèque municipale de Sermaise. Les prèts de livres sont gratuits pour les adhérents. L’adhésion s’effectue sur place.",
+          "en": "Municipal library of Sermaise. Book loans are free for members. Membership takes place on site."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "15", "m": "00" },
-            "close": { "h": "17", "m": "30" },
-            "break": {}
+            "open": { "h": 15, "m": 0 },
+            "close": { "h": 17, "m": 30 }
           }, {
-            "name": "Mercredi",
-            "isOpen": true,
-            "open": { "h": "14", "m": "30" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 14, "m": 30 },
+            "close": { "h": 18, "m": 0 }
           }, {
-            "name": "Jeudi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "15", "m": "00" },
-            "close": { "h": "17", "m": "30" },
-            "break": {}
+            "open": { "h": 15, "m": 0 },
+            "close": { "h": 17, "m": 30 }
           }, {
-            "name": "Samedi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }
         ]
       }, {
-        "name": "Cimetière de Sermaise",
+        "name": {
+          "fr": "Cimetière de Sermaise",
+          "en": "Sermaise Cemetery"
+        },
         "type": "cemetery",
         "subtypes": [],
         "lat": 48.5349064151594,
@@ -728,54 +673,39 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "",
-        "info": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 18, "m": 0 }
           }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 18, "m": 0 }
           }, {
-            "name": "Mercredi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 18, "m": 0 }
           }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 18, "m": 0 }
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 18, "m": 0 }
           }, {
-            "name": "Samedi",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 18, "m": 0 }
           }, {
-            "name": "Dimanche",
-            "isOpen": true,
-            "open": { "h": "8", "m": "30" },
-            "close": { "h": "18", "m": "00" },
-            "break": {}
+            "open": { "h": 8, "m": 30 },
+            "close": { "h": 18, "m": 0 }
           }
         ]
       }, {
-        "name": "Boîte aux lettres",
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": "Letter box"
+        },
         "type": "mail",
         "subtypes": [],
         "lat": 48.53681164904584,
@@ -784,10 +714,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://localiser.laposte.fr/essonne/saint-cheron",
-        "info": "Boîte au lettre du Bourg opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à gauche de la boîte.",
-        "timetable": []
+        "info": {
+          "fr": "Boîte au lettre du Bourg opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d’un affichage municipal à gauche de la boîte.",
+          "en": "Bourg mailbox operated by the Saint-Chéron post office (Parc Des Tourelles). Theoretical collection of mail at 9:00 a.m. Presence of a municipal display to the left of the box."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Boîte aux lettres",
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": "Letter box"
+        },
         "type": "mail",
         "subtypes": [],
         "lat": 48.53958745225493,
@@ -796,10 +732,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://localiser.laposte.fr/essonne/saint-cheron",
-        "info": "Boîte au lettre de l'Avenue de Paris opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
-        "timetable": []
+        "info": {
+          "fr": "Boîte au lettre de l’Avenue de Paris opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": "Avenue de Paris letterbox operated by the Saint-Chéron post office (Parc Des Tourelles). Theoretical collection of mail at 9:00 a.m."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Boîte aux lettres",
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": "Letter box"
+        },
         "type": "mail",
         "subtypes": [],
         "lat": 48.533380311506235,
@@ -808,10 +750,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://localiser.laposte.fr/essonne/saint-cheron",
-        "info": "Boîte au lettre du Hameau de Bellanger opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
-        "timetable": []
+        "info": {
+          "fr": "Boîte au lettre du Hameau de Bellanger opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": "Bellanger’s hamlet letterbox operated by the Saint-Chéron post office (Parc Des Tourelles). Theoretical collection of mail at 9:00 a.m."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Boîte aux lettres",
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": "Letter box"
+        },
         "type": "mail",
         "subtypes": [],
         "lat": 48.520528045984165,
@@ -820,10 +768,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://localiser.laposte.fr/essonne/saint-cheron",
-        "info": "Boîte au lettre du Hameau de Mondétour opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à droite de la boîte.",
-        "timetable": []
+        "info": {
+          "fr": "Boîte au lettre du Hameau de Mondétour opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d’un affichage municipal à droite de la boîte.",
+          "en": "Mondétour’s hamlet letterbox operated by the Saint-Chéron post office (Parc Des Tourelles). Theoretical collection of mail at 9:00 a.m. Presence of a municipal display to the right of the box."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Boîte aux lettres",
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": "Letter box"
+        },
         "type": "mail",
         "subtypes": [],
         "lat": 48.51305259462698,
@@ -832,10 +786,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://localiser.laposte.fr/essonne/saint-cheron",
-        "info": "Boîte au lettre du Hameau de Montflix opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
-        "timetable": []
+        "info": {
+          "fr": "Boîte au lettre du Hameau de Montflix opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": "Montflix’s hamlet letterbox operated by the Saint-Chéron post office (Parc Des Tourelles). Theoretical collection of mail at 9:00 a.m."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Boîte aux lettres",
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": "Letter box"
+        },
         "type": "mail",
         "subtypes": [],
         "lat": 48.52859212361072,
@@ -844,10 +804,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://localiser.laposte.fr/essonne/saint-cheron",
-        "info": "Boîte au lettre du Hameau de Blancheface opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à droite de la boîte.",
-        "timetable": []
+        "info": {
+          "fr": "Boîte au lettre du Hameau de Blancheface opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d’un affichage municipal à droite de la boîte.",
+          "en": "Blancheface’s hamlet letterbox operated by the Saint-Chéron post office (Parc Des Tourelles). Theoretical collection of mail at 9:00 a.m. Presence of a municipal display to the right of the box."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Boîte aux lettres",
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": "Letter box"
+        },
         "type": "mail",
         "subtypes": [],
         "lat": 48.53329550195286,
@@ -856,25 +822,37 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://localiser.laposte.fr/essonne/saint-cheron",
-        "info": "Boîte au lettre du Hameau Le Mesnil opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à gauche de la boîte.",
-        "timetable": []
+        "info": {
+          "fr": "Boîte au lettre du Hameau Le Mesnil opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d’un affichage municipal à gauche de la boîte.",
+          "en": "Mesnil’s hamlet letterbox operated by the Saint-Chéron post office (Parc Des Tourelles). Theoretical collection of mail at 9:00 a.m. Presence of a municipal display to the left of the box."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Boîte aux lettres",
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": "Letter box"
+        },
         "type": "mail",
         "subtypes": [],
         "lat": 48.53852234678727,
         "lng": 2.0955039560794835,
-        "address": "22 Rue des Sources (La Charpentrie)",
+        "address": "22 Rue des Sources (La Charpenterie)",
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://localiser.laposte.fr/essonne/saint-cheron",
-        "info": "Boîte au lettre du Hameau de La Charpentrie opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
-        "timetable": []
+        "info": {
+          "fr": "Boîte au lettre du Hameau de La Charpenterie opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": "La Charpenterie’s hamlet letterbox operated by the Saint-Chéron post office (Parc Des Tourelles). Theoretical collection of mail at 9:00 a.m."
+        },
+        "alwaysOpened": true
       }
     ],
     "shop": [
       {
-        "name": "Perrin Fleurs",
+        "name": {
+          "fr": "Perrin Fleurs",
+          "en": "Florist Perrin Fleurs"
+        },
         "type": "garden",
         "subtypes": [],
         "lat": 48.53947557061641,
@@ -883,78 +861,74 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 9 65 33 21 68",
         "website": "https://www.facebook.com/p/Perrin-Fleurs-100057435468553/?locale=fr_FR",
-        "info": "Fleuriste diplômée situé à Sermaise, vous accueille pour toutes sortes de compositions, mariage, deuil, ainsi que pour la récupération de vos colis (Relais Colis).",
+        "info": {
+          "fr": "Fleuriste diplômée situé à Sermaise, vous accueille pour toutes sortes de compositions, mariage, deuil, ainsi que pour la récupération de vos colis (Relais Colis).",
+          "en": "Qualified florist located in Sermaise, welcomes you for all kinds of arrangements, weddings, mourning, as well as for the recovery of your packages (Relais Colis)."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "16", "m": "00" }
-            }
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 19, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 30 },
+                "end": { "h": 16, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "16", "m": "00" }
-            }
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 19, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 30 },
+                "end": { "h": 16, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Mercredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "16", "m": "00" }
-            }
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 19, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 30 },
+                "end": { "h": 16, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "16", "m": "00" }
-            }
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 19, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 30 },
+                "end": { "h": 16, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "15", "m": "00" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 19, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 30 },
+                "end": { "h": 15, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Samedi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "00" },
-            "close": { "h": "19", "m": "00" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "30" },
-              "end": { "h": "15", "m": "00" }
-            }
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 19, "m": 0 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 30 },
+                "end": { "h": 15, "m": 0 }
+              }
+            ]
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }
         ]
       }, {
-        "name": "VillaVerde",
+        "name": {
+          "fr": "Jardinerie VillaVerde",
+          "en": "Garden center VillaVerde"
+        },
         "type": "garden",
         "subtypes": [],
         "lat": 48.53707937949993,
@@ -963,78 +937,74 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 1 64 59 30 96",
         "website": "https://www.villaverde.fr/sermaise/",
-        "info": "Magasin spécialiste du jardin, de la décoration et de l'animalerie : un large choix de produits à découvrir.",
+        "info": {
+          "fr": "Magasin spécialiste du jardin, de la décoration et de l’animalerie : un large choix de produits à découvrir.",
+          "en": "Store specializing in gardens, decoration and pets: a wide choice of products to discover."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Mardi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "18", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "14", "m": "30" }
-            }
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 14, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Mercredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "18", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "14", "m": "30" }
-            }
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 14, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Jeudi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "18", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "14", "m": "30" }
-            }
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 14, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "18", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "14", "m": "30" }
-            }
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 14, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Samedi",
-            "isOpen": true,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "18", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "14", "m": "30" }
-            }
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 14, "m": 30 }
+              }
+            ]
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": { "h": "9", "m": "30" },
-            "close": { "h": "18", "m": "30" },
-            "break": {
-              "hasBreak": true,
-              "start": { "h": "12", "m": "00" },
-              "end": { "h": "14", "m": "30" }
-            }
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 14, "m": 30 }
+              }
+            ]
           }
         ]
       }, {
-        "name": "Distributeur des Six Moulins",
+        "name": {
+          "fr": "Distributeur des Six Moulins",
+          "eb": "Baguette vending machine Six Moulins"
+        },
         "type": "bakery",
         "subtypes": [],
         "lat": 48.53739283989066,
@@ -1043,10 +1013,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 1 30 41 90 67",
         "website": "https://boulangerie-sixmoulins.com/",
-        "info": "Distributeur automatique de Baguettes Traditions géré par la Boulangerie des Six moulins, dont la boutique se situe à Bullion.",
-        "timetable": []
+        "info": {
+          "fr": "Distributeur automatique de Baguettes Traditions géré par la Boulangerie des Six moulins, dont la boutique se situe à Bullion.",
+          "en": "Vending machine for Baguettes Traditions managed by the Boulangerie des Six Moulins, whose shop is located in Bullion."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Le Haricot Magique",
+        "name": {
+          "fr": "Épicerie ambulante Le Haricot Magique",
+          "en": "Mobile grocery store Le Haricot Magique"
+        },
         "type": "grocery",
         "subtypes": [],
         "lat": 48.53748696642794,
@@ -1055,57 +1031,36 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 6 51 72 95 80",
         "website": "https://le-haricot-magique.fr/",
-        "info": "Food truck proposant des produits frais locaux, fruits et légumes le vendredi en fin d'après midi à Sermaise (et dans les communes alentours du Dourdannais les autres soirs de la semaine).",
+        "info": {
+          "fr": "Épicerie ambulante proposant des produits frais locaux, fruits et légumes le vendredi en fin d’après midi à Sermaise (et dans les communes alentours du Dourdannais les autres soirs de la semaine).",
+          "en": "Mobile grocery store offering fresh local produce, fruits and vegetables on Friday late afternoon in Sermaise (and in the surrounding towns of Dourdannais the other evenings of the week)."
+        },
         "timetable": [
           {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Mardi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Jeudi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Vendredi",
-            "isOpen": true,
-            "open": { "h": "16", "m": "00" },
-            "close": { "h": "19", "m": "30" },
-            "break": {}
+            "open": { "h": 16, "m": 0 },
+            "close": { "h": 19, "m": 30 }
           }, {
-            "name": "Samedi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
+            "isOpen": false
           }
         ]
       }
     ],
     "sport": [
       {
-        "name": "Stade du Quesnois",
+        "name": {
+          "fr": "Stade du Quesnois",
+          "en": "Stadium du Quesnois"
+        },
         "type": "foot",
         "subtypes": [],
         "lat": 48.534901086975296,
@@ -1114,54 +1069,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 6 83 32 01 82",
         "website": "https://www.facebook.com/p/Football-CLUB-Sermaise-Roinville-100057120744121/",
-        "info": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 11 est en gazon. L'accès aux terrains est réservé aux adhérents du club Football Club Sermaise Roinville (FCSR).",
-        "timetable": [
-          {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mardi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Jeudi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Vendredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Samedi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }
-        ]
+        "info": {
+          "fr": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 11 est en gazon. L’accès aux terrains est réservé aux adhérents du club Football Club Sermaise Roinville (FCSR).",
+          "en": "Municipal stadium managed and maintained by the CCDH. This 11-a-side football pitch is made of grass. Access to the pitches is reserved for members of the Football Club Sermaise Roinville (FCSR)."
+        },
+        "alwaysClosed": true
       }, {
-        "name": "Stade du Quesnois",
+        "name": {
+          "fr": "Stade du Quesnois",
+          "en": "Stadium du Quesnois"
+        },
         "type": "foot",
         "subtypes": [],
         "lat": 48.53436648965191,
@@ -1170,54 +1087,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 6 83 32 01 82",
         "website": "https://www.facebook.com/p/Football-CLUB-Sermaise-Roinville-100057120744121/",
-        "info": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 7 est en gazon. L'accès aux terrains est réservé aux adhérents du club Football Club Sermaise Roinville (FCSR).",
-        "timetable": [
-          {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mardi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Jeudi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Vendredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Samedi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }
-        ]
+        "info": {
+          "fr": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 7 est en gazon. L’accès aux terrains est réservé aux adhérents du club Football Club Sermaise Roinville (FCSR).",
+          "en": "Municipal stadium managed and maintained by the CCDH. This 7-a-side football pitch is made of grass. Access to the pitches is reserved for members of the Football Club Sermaise Roinville (FCSR)."
+        },
+        "alwaysClosed": true
       }, {
-        "name": "Courts de Tennis",
+        "name": {
+          "fr": "Courts de Tennis",
+          "en": "Tennis courts"
+        },
         "type": "tennis",
         "subtypes": [],
         "lat": 48.53388872181891,
@@ -1226,54 +1105,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "+33 6 51 30 79 22",
         "website": "https://tenup.fft.fr/club/57910111",
-        "info": "Comprends deux courts municipaux de Tennis, en béton poreux et en extérieur. Le court principal est éclairé. Accueil les membres du TC Sermaise et les particuliers sur réservation en ligne (15€/H).",
-        "timetable": [
-          {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mardi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Jeudi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Vendredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Samedi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }
-        ]
+        "info": {
+          "fr": "Comprends deux courts municipaux de Tennis, en béton poreux et en extérieur. Le court principal est éclairé. Accueil les membres du TC Sermaise et les particuliers sur réservation en ligne (15€/H).",
+          "en": "Includes two municipal tennis courts, made of porous concrete and outdoors. The main court is lit. Welcoming members of TC Sermaise and individuals by online reservation (15€/hour)."
+        },
+        "alwaysClosed": true
       }, {
-        "name": "Tennis de Table",
+        "name": {
+          "fr": "Tennis de Table",
+          "en": "Table tennis"
+        },
         "type": "pingpong",
         "subtypes": [],
         "lat": 48.5376805468696,
@@ -1282,10 +1123,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "",
-        "info": "Un terrain de tennis de table en béton et en extérieur.",
-        "timetable": []
+        "info": {
+          "fr":  "Un terrain de tennis de table en béton et en extérieur.",
+          "en":  "An outdoor concrete table tennis court."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Courts de pétanque",
+        "name": {
+          "fr": "Courts de pétanque",
+          "en": "Pétanque courts"
+        },
         "type": "bocce",
         "subtypes": [],
         "lat": 48.53745322297242,
@@ -1294,69 +1141,37 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "",
-        "info": "Deux courts de pétanque en terre battue.",
-        "timetable": []
+        "info": {
+          "fr": "Deux courts de pétanque en terre battue.",
+          "en": "Two clay pétanque courts."
+        },
+        "alwaysOpened": true
       }
     ],
     "tourism": [
       {
-        "name": "Église Notre-Dame de la Nativité-de-la-Vierge",
+        "name": {
+          "fr": "Église Notre-Dame de la Nativité-de-la-Vierge",
+          "en": "Church Notre-Dame de la Nativité-de-la-Vierge"
+        },
         "type": "church",
         "subtypes": [],
         "lat": 48.53633257227851,
         "lng": 2.0801147818565373,
-        "address": "4 Place Michel Duchon d'Engenières",
+        "address": "4 Place Michel Duchon d’Engenières",
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://www.pop.culture.gouv.fr/notice/merimee/PA00088018",
-        "info": "Église paroissiale catholique du Diocèse d'Évry-Corbeil-Essonnes, batie au XIIe siècle et agrandie au XVe siècle. L'église est inscrite au titre des monuments historiques depuis un arrêté du 27 Août 1953. Une messe y est donnée un dimanche par mois. L'église se visite selon les évènements où ses portes s'ouvrent.",
-        "timetable": [
-          {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mardi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Jeudi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Vendredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Samedi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }
-        ]
+        "info": {
+          "fr": "Église paroissiale catholique du Diocèse d’Évry-Corbeil-Essonnes, batie au XIIe siècle et agrandie au XVe siècle. L’église est inscrite au titre des monuments historiques depuis un arrêté du 27 Août 1953. Une messe y est donnée un dimanche par mois. L’église se visite selon les évènements où ses portes s’ouvrent.",
+          "en": "Catholic parish church of the Diocese of Évry-Corbeil-Essonnes, built in the 12th century and enlarged in the 15th century. The church has been listed as a historic monument since an order of August 27, 1953. A mass is given there one Sunday per month. The church can be visited according to the events where its doors open."
+        },
+        "alwaysClosed": true
       }, {
-        "name": "Chapelle Saint Georges",
+        "name": {
+          "fr": "Chapelle Saint-Georges",
+          "en": "Saint-Georges Chapel"
+        },
         "type": "church",
         "subtypes": [],
         "lat": 48.52760272444107,
@@ -1365,54 +1180,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://www.patrimoine-religieux.fr/eglises_edifices/91-Essonne/91593-Sermaise/173248-ChapelleSaintGeorgesduHameaudeBlancheface",
-        "info": "La chapelle a été consacrée le 18 février 1329. Jusqu’au début du XVIIe siècle, il appartient à la famille de Crosne ; il passe ensuite à M. de Lamoignon, qui le revend à l’Hôtel-Dieu de Paris en 1662. À partir de cette date et jusqu’en 1946, il est détenu par plusieurs propriétaires, puis enfin rendu au culte. La chapelle se visite selon les évènements où ses portes s'ouvrent.",
-        "timetable": [
-          {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mardi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Jeudi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Vendredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Samedi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }
-        ]
+        "info": {
+          "fr": "La chapelle a été consacrée le 18 février 1329. Jusqu’au début du XVIIe siècle, il appartient à la famille de Crosne ; il passe ensuite à M. de Lamoignon, qui le revend à l’Hôtel-Dieu de Paris en 1662. À partir de cette date et jusqu’en 1946, il est détenu par plusieurs propriétaires, puis enfin rendu au culte. La chapelle se visite selon les évènements où ses portes s’ouvrent.",
+          "en": "The chapel was consecrated on February 18, 1329. Until the beginning of the 17th century, it belonged to the Crosne family; it then passed to Mr. de Lamavoine, who sold it to the Hôtel-Dieu in Paris in 1662. From this date until 1946, it was held by several owners, then finally returned to worship. The chapel can be visited according to the events where its doors open."
+        },
+        "alwaysClosed": true
       }, {
-        "name": "Lavoir du Bourg de Sermaise",
+        "name": {
+          "fr": "Lavoir du Bourg de Sermaise",
+          "en": "Wash-house of the Bourg de Sermaise"
+        },
         "type": "landmark",
         "subtypes": [],
         "lat": 48.538854445435874,
@@ -1422,9 +1199,12 @@
         "phone": "",
         "website": "",
         "info": "",
-        "timetable": []
+        "alwaysOpened": true
       }, {
-        "name": "Lavoir de Mondétour",
+        "name": {
+          "fr": "Lavoir de Mondétour",
+          "en": "Wash-house of Mondétour"
+        },
         "type": "landmark",
         "subtypes": [],
         "lat": 48.51965663305419,
@@ -1433,10 +1213,16 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "",
-        "info": "Ce petit lavoir a été qualifié d’exceptionnel par le service « Patrimoines et Inventaire de la région Île-de-France » en raison de la préservation de l’ensemble de ses traits d’origine.",
-        "timetable": []
+        "info": {
+          "fr": "Ce petit lavoir a été qualifié d’exceptionnel par le service « Patrimoines et Inventaire de la région Île-de-France » en raison de la préservation de l’ensemble de ses traits d’origine.",
+          "en": "This small wash-house has been described as exceptional by the “Heritage and Inventory of the Île-de-France region” service due to the preservation of all of its original features."
+        },
+        "alwaysOpened": true
       }, {
-        "name": "Tour Hertzienne de Montflix",
+        "name": {
+          "fr": "Tour Hertzienne de Montflix",
+          "en": "Montflix Hertzian Tower"
+        },
         "type": "landmark",
         "subtypes": [],
         "lat": 48.516515513628356,
@@ -1445,57 +1231,19 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://rncmobile.net/site/8431",
-        "info": "Opérée par TDF, cette tour d'une hauteur de 105m est un point de repère immanquable de la plaine. Tour fermée au public.",
-        "timetable": [
-          {
-            "name": "Lundi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mardi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Mercredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Jeudi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Vendredi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Samedi",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }, {
-            "name": "Dimanche",
-            "isOpen": false,
-            "open": {},
-            "close": {},
-            "break": {}
-          }
-        ]
+        "info": {
+          "fr": "Opérée par TDF, cette tour d'une hauteur de 105m est un point de repère immanquable de la plaine. La tour est fermée au public.",
+          "en": "Operated by TDF, this 105m high tower is an unmissable landmark in the plain. The tower is closed to the public."
+        },
+        "alwaysClosed": true
       }
     ],
     "transportation": [
       {
-        "name": "Gare de Sermaise",
+        "name": {
+          "fr": "Gare de Sermaise",
+          "en": "Sermaise station"
+        },
         "type": "train",
         "subtypes": [],
         "lat": 48.53570918849256,
@@ -1504,8 +1252,11 @@
         "town": "Sermaise ‒ 91530",
         "phone": "",
         "website": "https://www.transilien.com/fr/gare/sermaise-8754551",
-        "info": "Gare de la SNCF desservie par les trains de la branche C4 (Dourdan/Brétigny) du RER C.",
-        "timetable": []
+        "info": {
+          "fr": "Gare de la SNCF desservie par les trains de la branche C4 (Dourdan/Brétigny) du RER C. Cette gare ne possède plus d'accueil ni de point de vente.",
+          "en": "SNCF station served by trains from the C4 branch (Dourdan/Brétigny) of the RER C. This station no longer has a reception or sales point."
+        },
+        "alwaysClosed": true
       }
     ]
   }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:mondourdannais/src/data/data_controller.dart';
 
 import '/src/view/fragment/marker_fragment_view.dart';
 
@@ -66,7 +67,7 @@ class MapUtils {
 
     controller.forward();
   }
-
+  // Build all cities bounds as polygon
   static List<Polygon> buildCitiesBoundsAsPolygons(
     Map<String, List<dynamic>> input, 
   ) {
@@ -76,7 +77,7 @@ class MapUtils {
     ));
     return output;
   }
-
+  // Build a given city bounds as polygon
   static Polygon buildCityBoundsAsPolygon(
     List<dynamic> pointList,
   ) {
@@ -96,9 +97,10 @@ class MapUtils {
       color: Colors.blue.withOpacity(0.1),
     );
   }
-
+  // Build all cities markers
   static List<Marker> buildCitiesMarkers(
     BuildContext context,
+    DataController dataController,
     MapController mapController,
     TickerProvider tickerProvider,
     Function computeRouteToMark,
@@ -114,6 +116,7 @@ class MapUtils {
           output.add(
             MarkerFragmentView.buildMarker(
               context,
+              dataController,
               mapController,
               tickerProvider,
               computeRouteToMark,

@@ -26,15 +26,6 @@
   "mapRouteFoundToastDescription": "Vous pouvez maintenant suivre la route tracée sur la carte pour vous rendre au marqueur.",
   "mapRouteNotFoundToastTitle": "Impossible de calculer l'itinéraire",
   "mapRouteNotFoundToastDescription": "Un problème est survenue en contactant Open Route Service. Veuillez contacter le support et communiquer le code d'erreur ORS1.",
-  "settingsInterfaceSection": "Interface",
-  "settingsInterfaceLanguageSetting": "Langue",
-  "settingsInterfaceLanguageDialogTitle": "Choix de la nague",
-  "settingsInterfaceLanguage": "{feature, select, en{🇬🇧 Anglais} fr{🇫🇷 Français} other{Inconnu}}",
-  "settingsInterfaceClose": "Fermer",
-  "settingsInterfaceTheme": "Thème sombre",
-  "settingsAppSection": "Application",
-  "settingsAppShowWelcomeScreenSetting": "Aide au démarrage",
-  "settingsAppShowWelcomeScreenSettingDescription": "Montrer l'aide au lancement",
   "mapOptionsTitle": "Paramètres de la carte",
   "mapOptionsLayerStyle": "Style du fond de carte",
   "mapOptionsLayerPlan": "Plan",
@@ -45,5 +36,20 @@
   "mapOptionsDisplayBars": "Afficher les bars",
   "mapOSMContributors": "Contributeurs OpenStreeMap",
   "mapEsriContributors": "Alimenté par Esri",
-  "mapFlutterMapContributors": "Développeurs de Flutter Maps"
+  "mapFlutterMapContributors": "Développeurs de Flutter Maps",
+  "weekDays": "{feature, select, 0{Lundi} 1{Mardi} 2{Mercredi} 3{Jeudi} 4{Vendredi} 5{Samedi} 6{Dimanche} other{Erreur}}",
+  "@weekDays": {
+    "placeholders": {
+      "feature": {}
+    }
+  },
+  "settingsInterfaceSection": "Interface",
+  "settingsInterfaceLanguageSetting": "Langue",
+  "settingsInterfaceLanguageDialogTitle": "Choix de la nague",
+  "settingsInterfaceLanguage": "{feature, select, en{🇬🇧 Anglais} fr{🇫🇷 Français} other{Inconnu}}",
+  "settingsInterfaceClose": "Fermer",
+  "settingsInterfaceTheme": "Thème sombre",
+  "settingsAppSection": "Application",
+  "settingsAppShowWelcomeScreenSetting": "Aide au démarrage",
+  "settingsAppShowWelcomeScreenSettingDescription": "Montrer l'aide au lancement"
 }
