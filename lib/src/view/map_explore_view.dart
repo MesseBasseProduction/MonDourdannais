@@ -17,6 +17,7 @@ import '/src/data/data_controller.dart';
 import '/src/utils/app_const.dart';
 import '/src/utils/map_utils.dart';
 import '/src/utils/size_config.dart';
+import '/src/view/fragment/map_options_fragment_view.dart';
 import '/src/view/settings_view.dart';
 // Hold the main widget map view, that contains
 // all spots, shops and bars saved on server. Handle
@@ -42,8 +43,6 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
   // Map data
   late List<Polygon> citiesBoundsPolygons;
   late List<Marker> citiesMarkers;
-  // Map user session settings (not saved upon restart)
-  String mapLayer = 'osm';
   bool doubleTap = false; // Enter double tap mode
   bool doubleTapPerformed = false; // Double tap actually happened
   final OpenRouteService ors = OpenRouteService(
@@ -84,7 +83,6 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
     _alignPositionStreamController.close();
     super.dispose();
   }
-
   // Navigation routing
   void computeRouteToMark(
     LatLng destination,
@@ -211,6 +209,16 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
       }
     }
   }
+// Calback function to set MapView internal values according to option changed
+  void mapOptionsSetter(
+    String type,
+    dynamic value,
+  ) {
+    if (type == 'mapLayer') {
+      widget.dataController.setMapLayer(value);
+    }
+    setState(() {});
+  }
   // Map widget builing
   @override
   Widget build(
@@ -301,11 +309,32 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
         ),
         children: [
           TileLayer(
-            urlTemplate: (mapLayer == 'osm')
+            urlTemplate: (widget.dataController.mapLayer == 'osm')
               ? 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
               : 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
             userAgentPackageName: 'com.messebasseproduction.mondourdannais',
           ),
+          // For satelite layer, adding lines and labels tile overlays
+          (widget.dataController.mapLayer == 'esri')
+            ? TileLayer(//&api_key=${AppConst.stadiaMapsApiKey}
+                urlTemplate: 'https://tiles-eu.stadiamaps.com/tiles/stamen_terrain-lines/{z}/{x}/{y}{r}.png?api_key=${AppConst.stadiaMapsApiKey}',
+                userAgentPackageName: 'com.messebasseproduction.mondourdannais',
+                retinaMode: true,
+                additionalOptions: {
+                  'api_key': AppConst.stadiaMapsApiKey!,
+                },
+              )
+            : const SizedBox.shrink(),
+          (widget.dataController.mapLayer == 'esri')
+            ? TileLayer(
+                urlTemplate: 'https://tiles-eu.stadiamaps.com/tiles/stamen_terrain-labels/{z}/{x}/{y}{r}.png?api_key=${AppConst.stadiaMapsApiKey}',
+                userAgentPackageName: 'com.messebasseproduction.mondourdannais',
+                retinaMode: true,
+                additionalOptions: {
+                  'api_key': AppConst.stadiaMapsApiKey!,
+                },
+              )
+            : const SizedBox.shrink(),
           CurrentLocationLayer(
             alignPositionStream: _alignPositionStreamController.stream,
             alignPositionOnUpdate: _alignPositionOnUpdate,
@@ -362,7 +391,7 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
             },
             attributions: [
               TextSourceAttribution(
-                (mapLayer == 'osm')
+                (widget.dataController.mapLayer == 'osm')
                   ? AppLocalizations.of(context)!.mapOSMContributors
                   : AppLocalizations.of(context)!.mapEsriContributors,
                 textStyle: TextStyle(
@@ -370,7 +399,7 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
                   fontStyle: FontStyle.italic,
                 ),
                 onTap: () => launchUrl(
-                  (mapLayer == 'osm')
+                  (widget.dataController.mapLayer == 'osm')
                     ? Uri.parse('https://openstreetmap.org/copyright')
                     : Uri.parse('https://www.esri.com'),
                 ),
@@ -422,6 +451,25 @@ class MapExploreViewState extends State<MapExploreView> with TickerProviderState
                 color: (_alignPositionOnUpdate == AlignOnUpdate.always)
                   ? Theme.of(context).colorScheme.secondary
                   : null,
+              ),
+            ),
+          ),
+          // Map filtering operations
+          Container(
+            margin: EdgeInsets.symmetric(
+              vertical: SizeConfig.paddingTiny,
+            ),
+            child: FloatingActionButton(
+              heroTag: 'filterButton',
+              onPressed: () => MapOptionsFragmentView.showModal(
+                context,
+                widget.dataController,
+                mapOptionsSetter,
+              ),
+              foregroundColor: null,
+              backgroundColor: null,
+              child: const Icon(
+                Icons.map,
               ),
             ),
           ),

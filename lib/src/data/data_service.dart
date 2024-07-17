@@ -97,6 +97,22 @@ class DataService {
     // Return stored value
     return value;
   }
+  // The user map layer preference
+  Future<String> getMapLayer() async {
+    final SharedPreferences appPreferences = await SharedPreferences.getInstance();
+    // Read preference from device shared preference storage
+    String? value = appPreferences.getString('md-map-layer');
+    // First app launch, set pref value to 'BRX' and return it
+    if (value == null) {
+      await appPreferences.setString(
+        'md-map-layer',
+        'osm',
+      );
+      return 'osm';
+    }
+    // Return stored value
+    return value;
+  }
 
   /* Data service setters */
 
@@ -152,5 +168,15 @@ class DataService {
       'md-user-main-city',
       newValue,
     );    
+  }
+  // Persists the user's selected map layer
+  Future<void> setMapLayer(
+    String newValue,
+  ) async {
+    final SharedPreferences appPreferences = await SharedPreferences.getInstance();
+    await appPreferences.setString(
+      'md-map-layer',
+      newValue,
+    );  
   }
 }

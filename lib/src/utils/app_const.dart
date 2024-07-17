@@ -2,6 +2,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class AppConst {
   static String? osrApiKey = dotenv.env['OSR_API_KEY'];
+  static String? stadiaMapsApiKey = dotenv.env['STADIA_MAPS_KEY'];
   static const int maxDistanceForRoute = 30000; // 30km max range to trace routes
   static const List<String> supportedLang = ['en', 'fr'];
 

@@ -23,6 +23,7 @@ class DataController with ChangeNotifier {
   late bool _startupHelpFlag;
   late String _userMainCity;
   // Map and marks utils
+  late String _mapLayer;
   final Map<String, List<dynamic>> _citiesBounds = {};
   final Map<String, dynamic> _citiesMarkers = {};
 
@@ -31,6 +32,7 @@ class DataController with ChangeNotifier {
   Locale get appLocale => _appLocale;
   bool get startupHelpFlag => _startupHelpFlag;
   String get userMainCity => _userMainCity;
+  String get mapLayer => _mapLayer;
   Map<String, List<dynamic>> get citiesBounds => _citiesBounds;
   Map<String, dynamic> get citiesMarkers => _citiesMarkers;
 
@@ -40,6 +42,7 @@ class DataController with ChangeNotifier {
     _appLocale = await _dataService.getAppLocale();
     _startupHelpFlag = await _dataService.getStartupHelpFlag();
     _userMainCity = await _dataService.getUserMainCity();
+    _mapLayer = await _dataService.getMapLayer();
 
     for (var i = 0; i < AppConst.citiesCode.length; ++i) {
       // Get cities boundaries from assets
@@ -95,6 +98,17 @@ class DataController with ChangeNotifier {
     if (AppConst.citiesCode.contains(newValue) == false) return; // Avoid writing value not supported
     _userMainCity = newValue; // Update controller value
     await _dataService.setUserMainCity(_userMainCity); // Save into storage
+    notifyListeners();
+  }
+  // Update map layer
+  Future<void> setMapLayer(
+    String? newValue,
+  ) async {
+    if (newValue == null) return; // Avoid null exception
+    if (newValue == _mapLayer) return; // Avoid setting same value
+    if (['osm', 'esri'].contains(newValue) == false) return; // Avoid writing value not supported
+    _mapLayer = newValue; // Update controller value
+    await _dataService.setMapLayer(_mapLayer); // Save into storage
     notifyListeners();
   }
 }
