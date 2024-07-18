@@ -1,3 +1,953 @@
 {
-  "markers": {}
+  "markers": {
+    "care": [
+      {
+        "name": {
+          "fr": "Défibrillateur Cardiaque",
+          "en": ""
+        },
+        "type": "defibrillator",
+        "subtypes": [],
+        "lat": 48.56580045019394,
+        "lng": 2.0612052083015448,
+        "address": "73 Rue du Village",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "eco": [
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.57642612256964,
+        "lng": 2.100518345832825,
+        "address": "Route des Bruyères (Le Marais)",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.56301188405006,
+        "lng": 2.0643997192382819,
+        "address": "Chemin de la Vieuville",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Parc Billard",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.566016996955557,
+        "lng": 2.060070633888245,
+        "address": "1 Rte de la Creusée",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Parc avec de belles étendues d'eau et de nombreux modules pour le divertissement des bambins Val-Saint-Germinois et d'ailleurs!",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          }
+        ]
+      }
+    ],
+    "service": [
+      {
+        "name": {
+          "fr": "Mairie Le Val-Saint-Germain",
+          "en": ""
+        },
+        "type": "administration",
+        "subtypes": [],
+        "lat": 48.565463203390859,
+        "lng": 2.0587080717086798,
+        "address": "93 Bis Rue du Village",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 1 64 59 00 10",
+        "website": "https://le-val-saint-germain.fr/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "École Primaire La Remarde",
+          "en": ""
+        },
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.56514370434507,
+        "lng": 2.0604622364044196,
+        "address": "94 Rue du Village",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 1 64 59 01 32",
+        "website": "https://www.education.gouv.fr/annuaire/91530/le-val-saint-germain/ecole/0910083w/ecole-primaire-la-remarde.html",
+        "info": {
+          "fr": "École Maternelle de Le Val Saint Germain, rattachée à l'académie de Versailles. Ouverte en Septembre 1991, l'école est capable d'accueillir 148 élèves.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 45
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 45
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 45
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 45
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Bibliothèque Municipale",
+          "en": ""
+        },
+        "type": "book",
+        "subtypes": [],
+        "lat": 48.565708151292408,
+        "lng": 2.0601564645767218,
+        "address": "2 Route de la Creusée",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 6 60 35 54 76",
+        "website": "https://opac-x-bibliothequesermaise.biblixnet.net",
+        "info": {
+          "fr": "Bibliothèque municipale de Sermaise. Les prèts de livres sont gratuits pour les adhérents. L'adhésion s'effectue sur place.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 12,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 12,
+              "m": 30
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Cimetière de Le Val-Saint-Germain",
+          "en": ""
+        },
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.56257521368474,
+        "lng": 2.064818143844605,
+        "address": "Chemin de la Vieuville",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.565704601331287,
+        "lng": 2.061146199703217,
+        "address": "78 Rue Du Village",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre du Bourg opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à droite de la boîte.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.57082693597095,
+        "lng": 2.0590567588806159,
+        "address": "20 Route de la Creusée",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre du Bourg opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à droite de la boîte.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.575634642856787,
+        "lng": 2.0989841222763068,
+        "address": "20 Rue du Marais (Le Marais)",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre du Hameau du Marais opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à gauche de la boîte.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "shop": [
+      {
+        "name": {
+          "fr": "Le Verger du Val",
+          "en": ""
+        },
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.56546675336892,
+        "lng": 2.061797976493836,
+        "address": "72 Rue du Village",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 7 52 80 80 70",
+        "website": "https://www.petitscommerces.fr/page/le-verger-du-val/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 30
+                },
+                "end": {
+                  "h": 15,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 30
+                },
+                "end": {
+                  "h": 15,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 30
+                },
+                "end": {
+                  "h": 15,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 30
+                },
+                "end": {
+                  "h": 15,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 30
+                },
+                "end": {
+                  "h": 15,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 15,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "La Ferme des Sueurs",
+          "en": ""
+        },
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.55434167414212,
+        "lng": 2.070386409759522,
+        "address": "Route des Sueurs",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 6 73 09 31 63",
+        "website": "https://www.fermedessueurs.com/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 14,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 10,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "La Boulangerie du Val",
+          "en": ""
+        },
+        "type": "bakery",
+        "subtypes": [],
+        "lat": 48.56563715202273,
+        "lng": 2.061116695404053,
+        "address": "73 Rue du Village",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 1 70 62 39 56",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 14,
+              "m": 0
+            }
+          }
+        ]
+      }
+    ],
+    "sport": [
+      {
+        "name": {
+          "fr": "Stade du Val",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.56360830577504,
+        "lng": 2.071883082389832,
+        "address": "Chemin des Morandières",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Stade municipal géré et entretenu par la CCDH. Ce stade possède un terrain de football à 11 en gazon. L'accès au terrain est libre.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Courts de Tennis",
+          "en": ""
+        },
+        "type": "tennis",
+        "subtypes": [],
+        "lat": 48.57516081387059,
+        "lng": 2.0557898283004767,
+        "address": "Route d'Angervilliers",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "+33 6 88 98 04 04",
+        "website": "https://club.fft.fr/valtennis",
+        "info": {
+          "fr": "Comprends trois courts municipaux de tennis, en béton poreux et en extérieur. Accueil les membres du Val Tennis Saint Germain.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      },
+      {
+        "name": {
+          "fr": "Tennis de Table",
+          "en": ""
+        },
+        "type": "pingpong",
+        "subtypes": [],
+        "lat": 48.574757967007588,
+        "lng": 2.056079506874085,
+        "address": "Route d'Angervilliers",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Un terrain de tennis de table en béton et en extérieur.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "tourism": [
+      {
+        "name": {
+          "fr": "Château du Marais",
+          "en": ""
+        },
+        "type": "castle",
+        "subtypes": [],
+        "lat": 48.57339855698541,
+        "lng": 2.102165222167969,
+        "address": "21 Rue du Marais",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Château néo-classique français construit entre 1772 et 1779 par Jean-Benoît-Vincent Barré. Ouverture au public de mai à octobre, dimanche et jours fériés de 14h à 19h.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      },
+      {
+        "name": {
+          "fr": "Église de Saint-Germain-de-Paris",
+          "en": ""
+        },
+        "type": "church",
+        "subtypes": [],
+        "lat": 48.565701051369909,
+        "lng": 2.0617094635963446,
+        "address": "Rue du Village",
+        "town": "Le Val-Saint-Germain ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Église paroissiale catholique du Diocèse d'Évry-Corbeil-Essonnes, batie au XIe siècle et achevée au XVIe siècle.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      }
+    ]
+  }
 }

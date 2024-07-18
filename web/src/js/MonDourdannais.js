@@ -21,11 +21,13 @@ class MonDourdannais {
     // Used for markers
     this._displayedCategories = [];
     this._markerTokens = [];
+
+    this._lang = 'fr';
     // User object
     this._user = {
       geolocationAllowed: false,
-      lat: Utils.HOME_LAT,
-      lng: Utils.HOME_LNG,
+      lat: Utils.CCDH_CENTER.LAT,
+      lng: Utils.CCDH_CENTER.LNG,
       accuracy: 0,
       marker: null
     };
@@ -60,6 +62,7 @@ class MonDourdannais {
           maximumAge: 1000, // A position will last 1s maximum
           timeout: 900, // A position is updated in 0.9s maximum
         };
+        this._user.geolocationAllowed = true;
         navigator.geolocation.getCurrentPosition(this._positionInitialized.bind(this), null, options);
 				this._watchId = navigator.geolocation.watchPosition(this._positionUpdate.bind(this), null, options);
       }
@@ -338,6 +341,11 @@ class MonDourdannais {
 
   get user() {
     return this._user;
+  }
+
+
+  get lang() {
+    return this._lang;
   }
 
 }

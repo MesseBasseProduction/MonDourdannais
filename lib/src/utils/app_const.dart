@@ -6,8 +6,12 @@ class AppConst {
   static const int maxDistanceForRoute = 30000; // 30km max range to trace routes
   static const List<String> supportedLang = ['en', 'fr'];
 
-  static const List<String> citiesCode = ['BRX', 'COR', 'DRD', 'LFR', 'LGR', 'RIC', 'ROV', 'SCD', 'SER', 'STC', 'VSG'];
+  static const List<String> citiesCode = ['SER'];
   static const List<String> cities = [
+    'Sermaise'
+  ];
+  //static const List<String> citiesCode = ['BRX', 'COR', 'DRD', 'LFR', 'LGR', 'RIC', 'ROV', 'SCD', 'SER', 'STC', 'VSG'];
+  /*static const List<String> cities = [
     'Breux-Jouy',
     'Corbreuse',
     'Dourdan',
@@ -18,6 +22,6 @@ class AppConst {
     'Saint-Cyr-sous-Dourdan',
     'Sermaise',
     'Saint-Chéron',
-    'Val Saint-Germain',
-  ];
+    'Val Saint-Germain',x
+  ];*/
 }

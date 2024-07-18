@@ -71,6 +71,14 @@ const precisionRound = (value, precision) => {
 };
 
 
+const prefixZero = (value) => {
+  if (value < 10) {
+    return `0${value}`;
+  }
+
+  return `${value}`;
+};
+
 const fetchModal = (url) => {
   return new Promise(resolve => {
     fetch(`./assets/html/${url}.html`).then(data => {
@@ -117,6 +125,7 @@ export default {
   convertDistanceToString: convertDistanceToString,
   buildDistanceETA: buildDistanceETA,
   precisionRound: precisionRound,
+  prefixZero: prefixZero,
   fetchModal: fetchModal,
   closeModal: closeModal
 };

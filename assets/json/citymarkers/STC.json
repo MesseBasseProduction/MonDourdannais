@@ -1,3 +1,5412 @@
 {
-  "markers": {}
+  "markers": {
+    "care": [
+      {
+        "name": {
+          "fr": "Dr Caroline Chauvel, Dermatologue",
+          "en": ""
+        },
+        "type": "medic",
+        "subtypes": [],
+        "lat": 48.5536883303096,
+        "lng": 2.1208038926124579,
+        "address": "9 Bis Rue des Mares",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 9 83 39 22 09",
+        "website": "https://dermato91530.prendreunrendezvous.fr/",
+        "info": {
+          "fr": "Docteur conventionnée secteur 2.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Dr José Rego, Généraliste",
+          "en": ""
+        },
+        "type": "medic",
+        "subtypes": [],
+        "lat": 48.554952400964868,
+        "lng": 2.125221490859986,
+        "address": "6 Rue des Écoles",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 60 82 56 20",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 20
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 20
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 20
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 20
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Dr Jean-Charles Stamminger, Généraliste",
+          "en": ""
+        },
+        "type": "medic",
+        "subtypes": [],
+        "lat": 48.55399369858578,
+        "lng": 2.1253046393394476,
+        "address": "4 Place Edmond Vian",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 30 66",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Dr William Alimi, Généraliste",
+          "en": ""
+        },
+        "type": "medic",
+        "subtypes": [],
+        "lat": 48.553477056993319,
+        "lng": 2.1226331591606146,
+        "address": "12 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 62 77",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Dr Jean Dosseh, Généraliste",
+          "en": ""
+        },
+        "type": "medic",
+        "subtypes": [],
+        "lat": 48.555442397387739,
+        "lng": 2.1274825930595404,
+        "address": "12 Bis Rue Paul Payenneville",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 62 29",
+        "website": "",
+        "info": {
+          "fr": "TODO horaires...",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Dentiste René Porta",
+          "en": ""
+        },
+        "type": "dental",
+        "subtypes": [],
+        "lat": 48.5551725448724,
+        "lng": 2.125143706798554,
+        "address": "10 Rue des Écoles",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 63 31",
+        "website": "",
+        "info": {
+          "fr": "Docteur René Porta, chirurgien-dentiste. TODO horaires...",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Dentiste Samir Stephanos",
+          "en": ""
+        },
+        "type": "dental",
+        "subtypes": [],
+        "lat": 48.55506602374644,
+        "lng": 2.1268013119697577,
+        "address": "10 Rue Paul Payenneville",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 35 75",
+        "website": "",
+        "info": {
+          "fr": "Docteur Samir Stephanos, orthodolntiste.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 10,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 10,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 10,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Pharmacie des Trois Vallées",
+          "en": ""
+        },
+        "type": "pharmacy",
+        "subtypes": [],
+        "lat": 48.55347883240301,
+        "lng": 2.1220538020133978,
+        "address": "24 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 67 36",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 14,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Clinique Vétérinaire des 3 Vallées",
+          "en": ""
+        },
+        "type": "animal",
+        "subtypes": [],
+        "lat": 48.5531237492243,
+        "lng": 2.1199670433998114,
+        "address": "16 Rue Céleste Boursier",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 31 10",
+        "website": "https://www.vetorino.com/veterinaire/saintcheron-91530/",
+        "info": {
+          "fr": "Clinique effectuant consultations et analyses pour vos chiens, chats et NACs. Consultations uniquement sur rendez-vous.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      }
+    ],
+    "catering": [
+      {
+        "name": {
+          "fr": "Le Palai Oriental",
+          "en": ""
+        },
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.551524068603658,
+        "lng": 2.1254226565361029,
+        "address": "3 Place de la Gare",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 26 98 22",
+        "website": "https://palaisoriental.fr/",
+        "info": {
+          "fr": "Restaurant de plats gastronomiques Marocains.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "El Dorado",
+          "en": ""
+        },
+        "type": "restaurant",
+        "subtypes": [
+          "bar"
+        ],
+        "lat": 48.55378420194363,
+        "lng": 2.125264406204224,
+        "address": "2 Place Edmond Vian",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 9 51 76 49 24",
+        "website": "https://eldorado91.fr/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 14,
+              "m": 30
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Pizza Lina",
+          "en": ""
+        },
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.55404518491589,
+        "lng": 2.1253234148025519,
+        "address": "4 Place Edmond Vian",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 01 01",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 11,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 18,
+              "m": 0
+            },
+            "close": {
+              "h": 23,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Shiawase",
+          "en": ""
+        },
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.55334212567421,
+        "lng": 2.122442722320557,
+        "address": "35 Bis Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 37 97",
+        "website": "http://shiawase-saintcheron.eatbu.com/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Pizzeria New Saint Laurent",
+          "en": ""
+        },
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.55334100274576,
+        "lng": 2.1222576498985297,
+        "address": "41 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 9 82 65 90 80",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 18,
+              "m": 30
+            },
+            "close": {
+              "h": 21,
+              "m": 30
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Bella Pesaro",
+          "en": ""
+        },
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.553477056993319,
+        "lng": 2.1227136254310614,
+        "address": "10 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 9 81 19 96 28",
+        "website": "https://www.bellapesaro.com/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 23,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 0
+                },
+                "end": {
+                  "h": 23,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Anatolie Kebab",
+          "en": ""
+        },
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.55349126026913,
+        "lng": 2.122268378734589,
+        "address": "18 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 36 48",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 11,
+              "m": 30
+            },
+            "close": {
+              "h": 22,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 14,
+                  "m": 30
+                },
+                "end": {
+                  "h": 18,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Café de la Gare Saint-Chéron",
+          "en": ""
+        },
+        "type": "bar",
+        "subtypes": [
+          "tobacco",
+          "restaurant"
+        ],
+        "lat": 48.55151696669013,
+        "lng": 2.1253046393394476,
+        "address": "1 Place de la Gare",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 9 67 44 01 77",
+        "website": "https://www.facebook.com/profile.php?id=61551122391877&mibextid=ZbWKwL",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 13,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 13,
+              "m": 0
+            }
+          }
+        ]
+      }
+    ],
+    "eco": [
+      {
+        "name": {
+          "fr": "Déchèterie",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.55110860498622,
+        "lng": 2.1135190129280096,
+        "address": "Chemin de la Juinière",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 74 23 50",
+        "website": "https://www.siredom.com",
+        "info": {
+          "fr": "Déchterie de Saint-Chéron gérée par le Siredom. Nécessite de s'enregistrer auprès de l'accueil afin d'obtenir une carte d'accès.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 45
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 45
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 45
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 45
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 14,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 45
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 45
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 45
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.55139090755925,
+        "lng": 2.125170528888703,
+        "address": "Place de la Gare",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.54792327058817,
+        "lng": 2.130105793476105,
+        "address": "Place de la Gare",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.547518431119957,
+        "lng": 2.130309641361237,
+        "address": "Place de la Gare",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs de vêtements à donner (Le Relais).",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.54504670938408,
+        "lng": 2.114334404468537,
+        "address": "Rue du Coteau Sud (Saint-Évroult)",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Place de l'Ordre National du Mérite",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.55460442960899,
+        "lng": 2.121900916099549,
+        "address": "Route de Rambouillet",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Square du 19 Mars 1962",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.53568254798882,
+        "lng": 2.0813030004501349,
+        "address": "Route de Mondétour",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Le Square du 19 Mars 1962 commémmore journée nationale du souvenir et de recueillement à la mémoire des victimes civiles et militaires de la Guerre d’Algérie et des combats en Tunisie et au Maroc. Le 19 mars est le jour anniversaire du cessez-le-feu en Algérie.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Jardin d'Enfants",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.554126852780338,
+        "lng": 2.124690413475037,
+        "address": "4 Place Edmond Vian",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Jardin d'enfants avec de nombreux modules pour le divertissement des bambins Saint-Chéronnais et d'ailleurs!",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Jardin d'Enfants",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.54923542537602,
+        "lng": 2.128939032554627,
+        "address": "38 Rue du Moulin",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Jardin d'enfants avec de nombreux modules pour le divertissement des bambins Saint-Chéronnais et d'ailleurs!",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Parc des Closeaux",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.549647353285369,
+        "lng": 2.1279707551002509,
+        "address": "Rue du Moulin",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Parc aménagé sur un ancien marécage en 1976. Ce parc est largement ouvert sur la nature grâce à un cheminement créé autour d’une pièce d’eau, et des sous-bassements restaurés du moulin de Mirgaudon datant du XVème siècle.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Étang de la Junière",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.549778743378677,
+        "lng": 2.113510966300965,
+        "address": "7 Lotissement le Clos de l'Étang",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          }
+        ]
+      }
+    ],
+    "service": [
+      {
+        "name": {
+          "fr": "Mairie de Saint-Chéron",
+          "en": ""
+        },
+        "type": "administration",
+        "subtypes": [],
+        "lat": 48.55433634800367,
+        "lng": 2.124341726303101,
+        "address": "3 Parc des Tourelles",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 14 13 00",
+        "website": "https://saint-cheron.fr/",
+        "info": {
+          "fr": "Pour les horaires du samedi, la Mairie est ouverte seulement le 1er du mois.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "École Maternelle du Pont de Bois",
+          "en": ""
+        },
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.54673005022964,
+        "lng": 2.1234753727912909,
+        "address": "10 Rue du Vieux Chatre",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 63 65",
+        "website": "https://www.education.gouv.fr/annuaire/91530/saint-cheron/ecole/0911220g/ecole-maternelle-le-pont-de-bois.html",
+        "info": {
+          "fr": "École Maternelle de Saint-Chéron, rattachée à l'académie de Versailles. L'école est capable d'accueillir 70 élèves.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "École Maternelle du Centre",
+          "en": ""
+        },
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.55465769068595,
+        "lng": 2.123818695545197,
+        "address": "Rue Bouillon-Lagrange",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 62 04",
+        "website": "https://www.education.gouv.fr/annuaire/91530/saint-cheron/ecole/0910619d/ecole-maternelle-le-centre.html",
+        "info": {
+          "fr": "École Maternelle de Saint-Chéron, rattachée à l'académie de Versailles. L'école est capable d'accueillir 87 élèves.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "École Élémentaire du Pont de Bois",
+          "en": ""
+        },
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.54720769687511,
+        "lng": 2.123569250106812,
+        "address": "Allée du Pont de Bois",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 63 54",
+        "website": "https://www.education.gouv.fr/annuaire/91530/saint-cheron/ecole/0911232v/ecole-elementaire-le-pont-de-bois.html",
+        "info": {
+          "fr": "École Élémentaire de Saint-Chéron, rattachée à l'académie de Versailles. L'école est capable d'accueillir 174 élèves.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "École Élémentaire du Centre",
+          "en": ""
+        },
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.55642770191527,
+        "lng": 2.1260046958923346,
+        "address": "Sente des Vignes",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 62 03",
+        "website": "https://www.education.gouv.fr/annuaire/91530/saint-cheron/ecole/0910074l/ecole-elementaire-le-centre.html",
+        "info": {
+          "fr": "École Élémentaire de Saint-Chéron, rattachée à l'académie de Versailles. L'école est capable d'accueillir 150 élèves.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Collège du Pont de Bois",
+          "en": ""
+        },
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.5465080939346,
+        "lng": 2.122694849967957,
+        "address": "12 Rue du Vieux Châtre",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 65 45",
+        "website": "https://www.education.gouv.fr/annuaire/91530/saint-cheron/college/0911256w/college-du-pont-de-bois.html",
+        "info": {
+          "fr": "Collège de Saint-Chéron, rattaché à l'académie de Versailles. Le Collège est capable d'accueillir 700 élèves.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 12,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Bibliothèque Municipale",
+          "en": ""
+        },
+        "type": "book",
+        "subtypes": [],
+        "lat": 48.5534237946735,
+        "lng": 2.1253234148025519,
+        "address": "3 Rue Lamoignon",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 38 67",
+        "website": "https://bibliotheque.saintcheron.com/",
+        "info": {
+          "fr": "Bibliothèque municipale de Saint-Chéron. Les prèts de livres sont gratuits pour les adhérents. L'adhésion s'effectue sur place.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 16,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 10,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 10,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 16,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 10,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Sapeurs Pompiers",
+          "en": ""
+        },
+        "type": "firefighter",
+        "subtypes": [],
+        "lat": 48.54962249566178,
+        "lng": 2.114975452423096,
+        "address": "38 Avenue de Dourdan",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 34 42",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Gendarmerie de Saint-Chéron",
+          "en": ""
+        },
+        "type": "police",
+        "subtypes": [],
+        "lat": 48.551401560455719,
+        "lng": 2.1231776475906378,
+        "address": "6 Impasse Vauvilliers",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 60 34",
+        "website": "https://www.gendarmerie.interieur.gouv.fr/contact/trouver-ma-gendarmerie/brigade-de-saint-cheron",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Cimetière de Saint-Chéron",
+          "en": ""
+        },
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.55675613249344,
+        "lng": 2.118671536445618,
+        "address": "Chemin du Cimetière",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Bureau de Poste",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.55466479215862,
+        "lng": 2.1247279644012457,
+        "address": "Parc des Tourelles",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/st-cheron/saint-cheron-915400",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.55406648958889,
+        "lng": 2.131403982639313,
+        "address": "1 Route de Paris",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre de la Route de Paris opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.55523468209231,
+        "lng": 2.1216380596160895,
+        "address": "16 Route de Rambouillet",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre de la Route de Rambouillet opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.547504226167529,
+        "lng": 2.1302425861358649,
+        "address": "30 Rue Chantropin",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre de la Rue Chantropin opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.549995358733607,
+        "lng": 2.1157130599021918,
+        "address": "32 Avenue de Dourdan",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre de l'Avenue de Dourdan opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.554135729714179,
+        "lng": 2.118596434593201,
+        "address": "44 Rue des Mares",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre de la Rue des Mares opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.55350901435828,
+        "lng": 2.123346626758576,
+        "address": "8 Bis Rue Charles De Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre de la Rue Charles De Gaulle opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.55123111384344,
+        "lng": 2.125720381736756,
+        "address": "Place de la Gare",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre de la Gare opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.545304186030737,
+        "lng": 2.1134680509567267,
+        "address": "1 Rue du Coteau Nord (Saint-Évroult)",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre du Hameau de Saint-Évroult opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.56649268658614,
+        "lng": 2.135078608989716,
+        "address": "13 Rue de la Remarde (La Tuilerie)",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre du Hameau de La Tuilerie opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.563274594486077,
+        "lng": 2.1260824799537665,
+        "address": "16 Rue du Petit Baville (Baville)",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre du Hameau de Baville opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.538533002392707,
+        "lng": 2.1286520361900336,
+        "address": "42 Route De La Petite Beauce (La Petite Beauce)",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/saint-cheron",
+        "info": {
+          "fr": "Boîte au lettre du Hameau de La Petite Beauce opérée par le bureau de poste de Saint-Chéron (Parc Des Tourelles). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Banque Populaire Rives de Paris",
+          "en": ""
+        },
+        "type": "bank",
+        "subtypes": [],
+        "lat": 48.55387829800036,
+        "lng": 2.124046683311463,
+        "address": "2 Rue Bouillon Lagrange",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 63 54",
+        "website": "https://www.banquepopulaire.fr/rivesparis/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "BNP Paribas Saint Cheron",
+          "en": ""
+        },
+        "type": "bank",
+        "subtypes": [
+          "atm"
+        ],
+        "lat": 48.5534202438502,
+        "lng": 2.123794555664063,
+        "address": "23 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 26 25 90",
+        "website": "https://mabanque.bnpparibas/fr/nous-contacter/nous-trouver/trouver-une-agence?agence=YWc6MDIwODE",
+        "info": {
+          "fr": "Agence et distributeur de billets à l'exterieur.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 13,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      }
+    ],
+    "shop": [
+      {
+        "name": {
+          "fr": "Carefour City",
+          "en": ""
+        },
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.551639474558637,
+        "lng": 2.1197068691253668,
+        "address": "7 Bis Avenue de Dourdan",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 34 50",
+        "website": "https://www.carrefour.fr/magasin/city-saint-cheron",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 21,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 13,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Verger des Trois Vallées",
+          "en": ""
+        },
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.553395388080009,
+        "lng": 2.123647034168244,
+        "address": "25 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 68 12",
+        "website": "https://www.petitscommerces.fr/page/verger-des-trois-vallees/",
+        "info": {
+          "fr": "Primeur, fromager et épicerie fine.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 13,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boulangerie Pattiserie Aux 5 Sucrés",
+          "en": ""
+        },
+        "type": "bakery",
+        "subtypes": [],
+        "lat": 48.5537114105344,
+        "lng": 2.1245831251144415,
+        "address": "7 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 60 82 98 38",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boulangerie Pattiserie La Boîte à Choux",
+          "en": ""
+        },
+        "type": "bakery",
+        "subtypes": [],
+        "lat": 48.55336343064326,
+        "lng": 2.1230247616767889,
+        "address": "31 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 50 44",
+        "website": "https://laboiteachoux.business.site/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Poissonnerie de l'Église",
+          "en": ""
+        },
+        "type": "fish",
+        "subtypes": [],
+        "lat": 48.55345042584041,
+        "lng": 2.1238589286804205,
+        "address": "21 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 60 81 46 01",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 16,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 16,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 16,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 16,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 16,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 13,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boucherie de l'Église",
+          "en": ""
+        },
+        "type": "butcher",
+        "subtypes": [],
+        "lat": 48.55364394523232,
+        "lng": 2.1242344379425055,
+        "address": "13 Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 50 30",
+        "website": "https://boucherie-saint-cheron.fr/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 45
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 15
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 45
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 15
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 45
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 15
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 45
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 15
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 45
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 15
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 13,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Point P",
+          "en": ""
+        },
+        "type": "diy",
+        "subtypes": [],
+        "lat": 48.551227562866248,
+        "lng": 2.1129879355430609,
+        "address": "Chemin de la Junière",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 32 22",
+        "website": "https://www.pointp.fr/infos-agence/saint-cheron-point-p-4456",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "ONIP Peinture",
+          "en": ""
+        },
+        "type": "diy",
+        "subtypes": [],
+        "lat": 48.54730002953564,
+        "lng": 2.117445766925812,
+        "address": "38 Rue Richard Vian",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 69 14 15 60",
+        "website": "https://www.peinture-paille.fr/",
+        "info": {
+          "fr": "Magasin de peinture pour les particuliers et les professionnels.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Tabac du Centre",
+          "en": ""
+        },
+        "type": "tobacco",
+        "subtypes": [],
+        "lat": 48.55357115362128,
+        "lng": 2.1233251690864569,
+        "address": "Rue de l'Église",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 7 81 85 12 11",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 30
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Cannelle, Artisan Fleuriste Saint Chéron",
+          "en": ""
+        },
+        "type": "garden",
+        "subtypes": [],
+        "lat": 48.55414283126013,
+        "lng": 2.1253502368927008,
+        "address": "6 Place Edmond Vian",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 64 56 51 33",
+        "website": "https://fleuristes-et-fleurs.com/fleuriste/cannelle-saint-cheron-91530",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Le Tournesol Fou",
+          "en": ""
+        },
+        "type": "garden",
+        "subtypes": [],
+        "lat": 48.55347528158357,
+        "lng": 2.1230837702751166,
+        "address": "6 Place Edmond Vian",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 1 60 80 95 98",
+        "website": "https://www.petitscommerces.fr/page/le-tournesol-fou/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 30
+            },
+            "close": {
+              "h": 13,
+              "m": 0
+            }
+          }
+        ]
+      }
+    ],
+    "sport": [
+      {
+        "name": {
+          "fr": "Stade du Boulay",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.563878113292528,
+        "lng": 2.1371626853942877,
+        "address": "4 Rue de la Rémarde",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 6 35 42 49 37",
+        "website": "http://www.esscfootball.fr/",
+        "info": {
+          "fr": "Stade municipal géré et entretenu par la CCDH. Ces deux terrains de football à 11 sont en gazon. L'accès aux terrains est réservé aux adhérents de l'Étoile Sportive Saint-Chéronnaise.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      },
+      {
+        "name": {
+          "fr": "Stade de la Prairie Saint-Évroult",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.54792327058817,
+        "lng": 2.1235612034797675,
+        "address": "Passage du Pont de Bois",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Stade municipal géré et entretenu par la CCDH. Ce stade possède un terrain de football en gazon. L'accès aux terrains est libre.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Skatepark des Closeaux",
+          "en": ""
+        },
+        "type": "skate",
+        "subtypes": [],
+        "lat": 48.54952484059372,
+        "lng": 2.128759324550629,
+        "address": "38 Rue du Moulin",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Skatepark triangulaire, averc des modules plutôt orientés street. Accès gratuit.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Courts de Tennis",
+          "en": ""
+        },
+        "type": "tennis",
+        "subtypes": [],
+        "lat": 48.550293647212907,
+        "lng": 2.126991748809815,
+        "address": "Route d'Etampes",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 7 82 99 38 99",
+        "website": "https://club.fft.fr/tc.saint-cheron",
+        "info": {
+          "fr": "Comprends trois courts municipaux de tennis, deux courts en extérieurs en béton poreux et un court couvert en résine. Accueil les membres du TC Saint-Chéron et les particuliers sur réservation en ligne.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      },
+      {
+        "name": {
+          "fr": "Courts de pétanque",
+          "en": ""
+        },
+        "type": "bocce",
+        "subtypes": [],
+        "lat": 48.55320541857607,
+        "lng": 2.1183604001998908,
+        "address": "6 Rue du Fief",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Trois courts de pétanque dont le court d’entraînement du « Sport Pétanque Saint-Chéron ».",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "tourism": [
+      {
+        "name": {
+          "fr": "Église de Saint-Chéron",
+          "en": ""
+        },
+        "type": "church",
+        "subtypes": [],
+        "lat": 48.553752244752477,
+        "lng": 2.1236309409141547,
+        "address": "Cour De l'Église",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://www.pop.culture.gouv.fr/notice/merimee/PA00089060",
+        "info": {
+          "fr": "Église paroissiale catholique du Diocèse d'Évry-Corbeil-Essonnes, batie au XIIe siècle et agrandie au XVe siècle. L'église se visite selon les évènements où ses portes s'ouvrent.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      },
+      {
+        "name": {
+          "fr": "Écomusée",
+          "en": ""
+        },
+        "type": "museum",
+        "subtypes": [],
+        "lat": 48.55323204985793,
+        "lng": 2.1218848228454596,
+        "address": "55 Bis Rue Charles de Gaulle",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "+33 6 33 36 55 35",
+        "website": "https://saint-cheron.fr/loisirs-associations/culture/ecomusee-de-saint-cheron/",
+        "info": {
+          "fr": "L'Écomusée de Saint-Chéron propose une exposition permanente sur les anciens métiers à Saint-Chéron. Cordonnier, menuisier, carrier, maréchal ferrant-forgeron, lavandière, etc… Tous ont rythmé la vie de la commune autrefois et sont représentés dans ce musée, tant par des outils ou objets que par des reproductions de photos.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 15,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 15,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 15,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          }
+        ]
+      }
+    ],
+    "transportation": [
+      {
+        "name": {
+          "fr": "Gare de Saint-Chéron",
+          "en": ""
+        },
+        "type": "train",
+        "subtypes": [],
+        "lat": 48.55108552357413,
+        "lng": 2.125661373138428,
+        "address": "Place de la Gare",
+        "town": "Saint-Chéron ‒ 91530",
+        "phone": "",
+        "website": "https://www.transilien.com/fr/gare/saint-cheron-8754550",
+        "info": {
+          "fr": "Gare de la SNCF desservie par les trains de la branche C4 (Dourdan/Brétigny) du RER C.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ]
+  }
 }

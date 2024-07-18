@@ -1,3 +1,332 @@
 {
-  "markers": {}
+  "markers": {
+    "eco": [
+      {
+        "name": {
+          "fr": "Mare de Richarville",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.47098473796793,
+        "lng": 1.9985327124595645,
+        "address": "Grande Rue",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Jardin d'Enfants",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.470533047110567,
+        "lng": 2.001467049121857,
+        "address": "9 Rue du Plessis",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Jardin d'enfants avec de nombreux modules pour le divertissement des bambins Richarvillois et d'ailleurs!",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "service": [
+      {
+        "name": {
+          "fr": "Mairie de Richarville",
+          "en": ""
+        },
+        "type": "administration",
+        "subtypes": [],
+        "lat": 48.470680647321177,
+        "lng": 2.0014321804046637,
+        "address": "9 Rue du Plessis",
+        "town": "Richarville ‒ 91410",
+        "phone": "+33 1 64 95 70 67",
+        "website": "https://richarville.fr/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 10,
+              "m": 0
+            },
+            "close": {
+              "h": 11,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 10,
+              "m": 0
+            },
+            "close": {
+              "h": 11,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 10,
+              "m": 0
+            },
+            "close": {
+              "h": 11,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 16,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 14,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.470559721879208,
+        "lng": 2.0013785362243659,
+        "address": "9 Rue du Plessis",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Bourg opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à droite de la boîte.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Cimetière de Richarville",
+          "en": ""
+        },
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.469103258992699,
+        "lng": 1.9940641522407535,
+        "address": "Rue du Bréau",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.46769655002542,
+        "lng": 1.9816187024116519,
+        "address": "3 Le Bréau Saint-Lubin (Saint-Lubin des Champs)",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Hameau Saint-Lubin des Champs opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à droite de la boîte.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "sport": [
+      {
+        "name": {
+          "fr": "City-Stade",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [
+          "basket"
+        ],
+        "lat": 48.474091337415639,
+        "lng": 2.001225650310517,
+        "address": "Rue du Fourneau",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Un city-stade municipal doté de paniers de basket et de cages de football, sur un terrain synthétique.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Stade de football",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.474660356200008,
+        "lng": 2.001700401306153,
+        "address": "Rue du Fourneau",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Un stade de football à 11 en gazon, ouvert à tous.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Courts de pétanque",
+          "en": ""
+        },
+        "type": "bocce",
+        "subtypes": [],
+        "lat": 48.474279825594788,
+        "lng": 2.000868916511536,
+        "address": "Rue du Fourneau",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Deux courts de pétanque en terre battue.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "tourism": [
+      {
+        "name": {
+          "fr": "Église Saint-Lubin",
+          "en": ""
+        },
+        "type": "church",
+        "subtypes": [],
+        "lat": 48.47147199052646,
+        "lng": 1.9987794756889346,
+        "address": "10 Rue du Bréau",
+        "town": "Richarville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "L'église Saint-Lubin a remplacé une modeste chapelle érigée au XIe siècle. Le choeur et l'abside, du XVe siècle, sont les éléments les plus anciens de l'édifice, agrandi au XVIIIe siècle. Un des éléments remarquables de cette église est la charpente lambrissée à poutres apparentes du vaisseau de l’église.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      }
+    ]
+  }
 }

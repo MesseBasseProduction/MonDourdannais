@@ -1,3 +1,1071 @@
 {
-  "markers": {}
+  "markers": {
+    "catering": [
+      {
+        "name": {
+          "fr": "La Remarde",
+          "en": ""
+        },
+        "type": "restaurant",
+        "subtypes": [
+          "bar"
+        ],
+        "lat": 48.5697709184467,
+        "lng": 2.0342704653739935,
+        "address": "2 Route de Paris",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "+33  1 64 95 94 63",
+        "website": "https://la-remarde.edan.io/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 15,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 15,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 15,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 15,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 15,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 15,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      }
+    ],
+    "eco": [
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.56557502758003,
+        "lng": 2.048757076263428,
+        "address": "Rue Levimpont (Levimpont)",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.57105943434593,
+        "lng": 2.033334374427796,
+        "address": "Rue de Bandeville",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Jardin d'Enfants",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.56984901125404,
+        "lng": 2.033130526542664,
+        "address": "Départementale D838",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Jardin d'enfants avec de nombreux modules pour le divertissement des bambins Saint-Cyriens et d'ailleurs!",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Mare des Platanes",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.57442787863908,
+        "lng": 2.0273959636688239,
+        "address": "Allée des Platanes (Bandeville)",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Étang des Prés Hauts",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.5851954563217,
+        "lng": 2.031333446502686,
+        "address": "Bois de Bandeville (Bandeville)",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "service": [
+      {
+        "name": {
+          "fr": "Mairie de Saint-Cyr-sous-Dourdan",
+          "en": ""
+        },
+        "type": "administration",
+        "subtypes": [],
+        "lat": 48.57019687774889,
+        "lng": 2.034431397914887,
+        "address": "1 Route de Paris",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "+33 1 64 95 71 22",
+        "website": "https://www.saint-cyr-sous-dourdan.fr/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "École Primaire Cécile Aubry",
+          "en": ""
+        },
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.57028561881855,
+        "lng": 2.0338895916938788,
+        "address": "1 Route de Paris",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "+33 1 64 59 04 69",
+        "website": "https://www.education.gouv.fr/annuaire/91410/saint-cyr-sous-dourdan/ecole/0910076n/ecole-primaire-cecile-aubry.html",
+        "info": {
+          "fr": "École Primaire de Saint-Cyr-sous-Dourdan, rattachée à l'académie de Versailles. L'école est capable d'accueillir 99 élèves.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 30
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 30
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 30
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 30
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Cimetière de Saint-Cyr-sous-Dourdan",
+          "en": ""
+        },
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.57304361362523,
+        "lng": 2.0407533645629889,
+        "address": "Route de Saint-Martin",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Bureau de Poste",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.56919764255503,
+        "lng": 2.0336374640464789,
+        "address": "2 Rue de l'Église",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/st-cyr-sous-dourdan",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 13,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.57362571942825,
+        "lng": 2.029960155487061,
+        "address": "30 Rue de Bandeville (Bandeville)",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/st-cyr-sous-dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Hameau Bandeville opérée par le bureau de poste de Saint-Cyr-sous-Dourdan (Rue de l'Église). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à gauche de la boîte.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.56823033568124,
+        "lng": 2.028637826442719,
+        "address": "10 Rue de Foisnard (Foisnard)",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/st-cyr-sous-dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Hameau Foisnard opérée par le bureau de poste de Saint-Cyr-sous-Dourdan (Rue de l'Église). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.56627436690076,
+        "lng": 2.0488482713699347,
+        "address": "Rue Levimpont (Levimpont)",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/st-cyr-sous-dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Hameau Levimpont opérée par le bureau de poste de Saint-Cyr-sous-Dourdan (Rue de l'Église). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.56148884666382,
+        "lng": 2.0477190613746649,
+        "address": "12 Rue des Loges (Les Loges)",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/st-cyr-sous-dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Hameau Des Loges opérée par le bureau de poste de Saint-Cyr-sous-Dourdan (Rue de l'Église). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "shop": [
+      {
+        "name": {
+          "fr": "Mille & Une Fêtes",
+          "en": ""
+        },
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.56931478304887,
+        "lng": 2.0336133241653449,
+        "address": "2 Rue de l'Église",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "+33 6 42 12 39 57",
+        "website": "https://www.mille-et-une-fetes.com/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 15,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 13,
+              "m": 0
+            }
+          }
+        ]
+      }
+    ],
+    "sport": [
+      {
+        "name": {
+          "fr": "Stade du Quesnois",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.57053764260715,
+        "lng": 2.032433152198792,
+        "address": "1 Rue de Bandeville",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 11 est en gazon. L'accès aux terrains est libre.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "City-Stade",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [
+          "basket"
+        ],
+        "lat": 48.5697300971585,
+        "lng": 2.0328167080879218,
+        "address": "Départementale D838",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Un city-stade municipal doté de paniers de basket et de cages de football, sur un terrain synthétique.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Courts de pétanque",
+          "en": ""
+        },
+        "type": "bocce",
+        "subtypes": [],
+        "lat": 48.56971767328163,
+        "lng": 2.032637000083924,
+        "address": "Départementale D838",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Deux courts de pétanque en terre battue.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "tourism": [
+      {
+        "name": {
+          "fr": "Église de Saint-Cyr-sous-Dourdan",
+          "en": ""
+        },
+        "type": "church",
+        "subtypes": [],
+        "lat": 48.56904322967135,
+        "lng": 2.0348095893859869,
+        "address": "Rue de l'Église",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "",
+        "website": "https://www.pop.culture.gouv.fr/notice/merimee/PA00088000",
+        "info": {
+          "fr": "Église paroissiale catholique du Diocèse d'Évry-Corbeil-Essonnes, batie au XIIe siècle et achevée au XVIe siècle. L'église est inscrite au titre des monuments historiques depuis un arrêté du 3 Février 1966.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      }
+    ],
+    "transportation": [
+      {
+        "name": {
+          "fr": "GM Dépannage - Dépannage 3J",
+          "en": ""
+        },
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.57071157378501,
+        "lng": 2.0367434620857245,
+        "address": "12 Route de Paris",
+        "town": "Saint-Cyr-sous-Dourdan ‒ 91410",
+        "phone": "+33 1 69 09 81 18",
+        "website": "https://www.depannage3j.com/",
+        "info": {
+          "fr": "Dépannage, réparation et entretien de la voiture à Saint-Cyr-sous-Dourdan. Passage de contrôle technique pour les véhicules.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 30
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -378,10 +378,13 @@ class MarkerFragmentView {
         }
         
         return Dialog(
+          insetPadding: EdgeInsets.all(
+            SizeConfig.paddingSmall,
+          ),
           child: Padding(
             padding: EdgeInsets.symmetric(
               horizontal: SizeConfig.paddingSmall,
-              vertical: SizeConfig.padding,
+              vertical: SizeConfig.paddingSmall,
             ),
             child: Column(
               mainAxisSize: MainAxisSize.min,

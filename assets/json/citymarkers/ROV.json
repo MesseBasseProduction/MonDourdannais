@@ -1,3 +1,1236 @@
 {
-  "markers": {}
+  "markers": {
+    "catering": [
+      {
+        "name": {
+          "fr": "Bar Des Korrigans",
+          "en": ""
+        },
+        "type": "bar",
+        "subtypes": [
+          "tobacco",
+          "restaurant"
+        ],
+        "lat": 48.53089768616337,
+        "lng": 2.0438030362129218,
+        "address": "7 Rue du Petit Château",
+        "town": "Roinville ‒ 91410",
+        "phone": "+33 1 60 82 97 66",
+        "website": "",
+        "info": {
+          "fr": "Bar, tabac et brasserie des Korrigans.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 0
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      }
+    ],
+    "eco": [
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.53155842895916,
+        "lng": 2.0472711324691779,
+        "address": "Rue du Général de Gaulle",
+        "town": "Roinville ‒ 91410",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Mare de la Ferme des Chateaupers",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.53688313277164,
+        "lng": 2.048011422157288,
+        "address": "Route des Loges (Beauvais)",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Mare de Beauvais",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.537304041110157,
+        "lng": 2.049787044525147,
+        "address": "Route des Loges (Beauvais)",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Mare de La Bruyère",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.526330865156399,
+        "lng": 2.0673072338104254,
+        "address": "Route de La Bruyère (La Bruyère)",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Mare de Marchais",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.515810156301117,
+        "lng": 2.0575627684593207,
+        "address": "Chemin des Murgers (Marchais)",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "service": [
+      {
+        "name": {
+          "fr": "Mairie de Roinville",
+          "en": ""
+        },
+        "type": "administration",
+        "subtypes": [],
+        "lat": 48.53110017277512,
+        "lng": 2.0461821556091315,
+        "address": "2 Rue du Général de Gaulle",
+        "town": "Roinville ‒ 91410",
+        "phone": "+33 1 64 59 72 82",
+        "website": "http://mairie-roinville.fr/",
+        "info": {
+          "fr": "Le Maire reçoit le samedi de 9h à 11h et sur rendez-vous.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 17,
+              "m": 15
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 17,
+              "m": 15
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "École Primaire Josquin des Près",
+          "en": ""
+        },
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.53063658381087,
+        "lng": 2.04608827829361,
+        "address": "2 Rue de l'Orge",
+        "town": "Roinville ‒ 91410",
+        "phone": "+33 1 64 59 52 62",
+        "website": "https://www.education.gouv.fr/annuaire/91410/roinville/ecole/0910073k/ecole-primaire-josquin-des-pres.html",
+        "info": {
+          "fr": "École Primaire de Roinville, rattachée à l'académie de Versailles. L'école est capable d'accueillir 132 élèves.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 30
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 30
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 30
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 30
+                },
+                "end": {
+                  "h": 13,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Bibliothèque Municipale",
+          "en": ""
+        },
+        "type": "book",
+        "subtypes": [],
+        "lat": 48.53084617628206,
+        "lng": 2.0459058880805975,
+        "address": "1 Rue de l'Orge",
+        "town": "Roinville ‒ 91410",
+        "phone": "+33 1 60 81 07 99",
+        "website": "https://bibliothequeroinville.opac-x.fr/",
+        "info": {
+          "fr": "Bibliothèque municipale de Roinville. Les prèts de livres sont gratuits pour les adhérents. L'adhésion s'effectue sur place.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 16,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 14,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 30
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 16,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Cimetière de Roinville",
+          "en": ""
+        },
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.53194385827498,
+        "lng": 2.043470442295075,
+        "address": "Place du Bois Carré",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.53305039710483,
+        "lng": 2.0586812496185309,
+        "address": "10 Chemin des Sources",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Chemin des Sources opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à gauche de la boîte.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.53051047266866,
+        "lng": 2.043392658233643,
+        "address": "Place du Vieux Théatre",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": {
+          "fr": "Boîte au lettre de la place du Vieux Théatre opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.536082154073238,
+        "lng": 2.049859464168549,
+        "address": "Rue des vignes (Beauvais)",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Hameau de Beauvais opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à gauche de la boîte.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.52694015368768,
+        "lng": 2.0657756924629218,
+        "address": "8 Rue des Champarts (La Bruyère)",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Hameau La Bruyère opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00. Présence d'un affichage municipal à droite de la boîte.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.51724395799073,
+        "lng": 2.0563906431198126,
+        "address": "Rue de la Butte au Loups (Marchais)",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Hameau de Marchais opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.497785567694,
+        "lng": 2.0622110366821295,
+        "address": "8 Rue des Colombiers (Plateau)",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Hameau de Plateau opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "shop": [
+      {
+        "name": {
+          "fr": "Lidl",
+          "en": ""
+        },
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.532258238539828,
+        "lng": 2.0554465055465704,
+        "address": "30 Rue du Général de Gaulle",
+        "town": "Roinville ‒ 91410",
+        "phone": "+33 1 88 24 70 70",
+        "website": "https://www.lidl.fr/s/fr-FR/supermarch%C3%A9s/roinville/30-rue-du-general-de-gaulle/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 20,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 12,
+              "m": 30
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Aldi",
+          "en": ""
+        },
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.530602835789519,
+        "lng": 2.0429313182830817,
+        "address": "7 place Du Vieux Théâtre",
+        "town": "Roinville ‒ 91410",
+        "phone": "+33 1 81 09 78 25",
+        "website": "https://www.aldi.fr/magasins-et-horaires-d-ouverture.html/l/roinville/7-place-du-vieux-theatre/3435051",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 12,
+              "m": 30
+            }
+          }
+        ]
+      }
+    ],
+    "sport": [
+      {
+        "name": {
+          "fr": "Courts de Tennis",
+          "en": ""
+        },
+        "type": "tennis",
+        "subtypes": [],
+        "lat": 48.527167524789138,
+        "lng": 2.0417028665542609,
+        "address": "2 Chemin de Malassis",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "https://tenup.fft.fr/club/57910125",
+        "info": {
+          "fr": "Comprends deux courts municipaux de Tennis, en béton poreux et en extérieur. Accueil les membres adhérents du TC Roinville.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      },
+      {
+        "name": {
+          "fr": "Stade Grange de Malassis",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.52657067347061,
+        "lng": 2.0410108566284186,
+        "address": "2 Chemin de Malassis",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Stade municipal géré et entretenu par la CCDH. Ce terrain de football à 11 est en gazon.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      },
+      {
+        "name": {
+          "fr": "Panier de Basket Ball",
+          "en": ""
+        },
+        "type": "basket",
+        "subtypes": [],
+        "lat": 48.52727588097049,
+        "lng": 2.040997445583344,
+        "address": "2 Chemin de Malassis",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Un terrain à l'unique panier, idéal pour s'entrainer aux lancers francs ou faire un 21.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "tourism": [
+      {
+        "name": {
+          "fr": "Église Saint-Denis",
+          "en": ""
+        },
+        "type": "church",
+        "subtypes": [],
+        "lat": 48.53102912493336,
+        "lng": 2.0456081628799445,
+        "address": "19 Place Michel Duchon d'Engenières",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "https://www.pop.culture.gouv.fr/notice/merimee/PA00087991",
+        "info": {
+          "fr": "Église paroissiale catholique du Diocèse d'Évry-Corbeil-Essonnes, batie au XIe siècle et achevée au XVe siècle. L'église est inscrite au titre des monuments historiques depuis un arrêté du 21 décembre 1984.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      },
+      {
+        "name": {
+          "fr": "Lavoir du Bourg",
+          "en": ""
+        },
+        "type": "landmark",
+        "subtypes": [],
+        "lat": 48.531199639586059,
+        "lng": 2.04746425151825,
+        "address": "Rue du Général de Gaulle",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "transportation": [
+      {
+        "name": {
+          "fr": "AD As Auto Services",
+          "en": ""
+        },
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.53296514296652,
+        "lng": 2.0545104146003729,
+        "address": "3 Rue du Mesnil",
+        "town": "Roinville ‒ 91410",
+        "phone": "+33 1 64 59 52 74",
+        "website": "https://ad-as-auto-services.business.site/",
+        "info": {
+          "fr": "Réparation et entretien de la voiture à Roinville. Passage de contrôle technique pour les véhicules.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Station de lavage Auto Clean",
+          "en": ""
+        },
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.532686289886459,
+        "lng": 2.0545184612274176,
+        "address": "3 Rue du Mesnil",
+        "town": "Roinville ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Station de Lavage automatique et manuelle pour automobilles.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 30
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      }
+    ]
+  }
 }

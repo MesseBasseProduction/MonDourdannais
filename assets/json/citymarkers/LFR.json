@@ -1,3 +1,486 @@
 {
-  "markers": {}
+  "markers": {
+    "eco": [
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.4793278475292,
+        "lng": 2.0443743467330939,
+        "address": "Route d'Étampes",
+        "town": "La Forêt-Le-Roi ‒ 91410",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Square Pierre Aubergé",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.47858285580992,
+        "lng": 2.042845487594605,
+        "address": "Rue du château",
+        "town": "La Forêt-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Jardin d'enfants avec de nombreux modules pour le divertissement des bambins Forestains et d'ailleurs!",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Mare de La Forêt-Le-Roi",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.47827347655864,
+        "lng": 2.043644785881043,
+        "address": "Ruelle de la Mare",
+        "town": "La Forêt-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "service": [
+      {
+        "name": {
+          "fr": "Mairie de La Forêt-Le-Roi",
+          "en": ""
+        },
+        "type": "administration",
+        "subtypes": [],
+        "lat": 48.479606994353208,
+        "lng": 2.04296886920929,
+        "address": "2 Route d'Étampes",
+        "town": "La Forêt-Le-Roi ‒ 91410",
+        "phone": "+33 1 64 95 71 22",
+        "website": "https://www.laforetleroi.fr/la-mairie/",
+        "info": {
+          "fr": "Ouverte le samedi seulement sur rendez-vous.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 13,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "École Maternelle Publique",
+          "en": ""
+        },
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.47786452407825,
+        "lng": 2.0390850305557257,
+        "address": "26 Rue du Pont de l'Aridaine",
+        "town": "La Forêt-Le-Roi ‒ 91410",
+        "phone": "+33 1 64 95 71 36",
+        "website": "https://www.education.gouv.fr/annuaire/91410/la-foret-le-roi/ecole/0912115e/ecole-maternelle-ecole-publique.html",
+        "info": {
+          "fr": "École Maternelle de La Forêt-Le-Roi, rattachée à l'académie de Versailles. Elle accueille les élèves de La Forêt-Le-Roi, Richarville, Boissy Le Sec et Boutervilliers. L'école est capable d'accueillir 64 élèves.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 50
+            },
+            "close": {
+              "h": 16,
+              "m": 35
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 50
+                },
+                "end": {
+                  "h": 13,
+                  "m": 35
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 50
+            },
+            "close": {
+              "h": 16,
+              "m": 35
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 50
+                },
+                "end": {
+                  "h": 13,
+                  "m": 35
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 50
+            },
+            "close": {
+              "h": 16,
+              "m": 35
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 50
+                },
+                "end": {
+                  "h": 13,
+                  "m": 35
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 50
+            },
+            "close": {
+              "h": 16,
+              "m": 35
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 50
+                },
+                "end": {
+                  "h": 13,
+                  "m": 35
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Bibliothèque Municipale",
+          "en": ""
+        },
+        "type": "book",
+        "subtypes": [],
+        "lat": 48.47937940979707,
+        "lng": 2.0430305600166327,
+        "address": "Place de l'Église",
+        "town": "La Forêt-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Bibliothèque municipale de La Forêt-Le-Roi. Les prèts de livres sont gratuits pour les adhérents. L'adhésion s'effectue sur place.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 17,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Cimetière de Forêt-Le-Roi",
+          "en": ""
+        },
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.48503316120106,
+        "lng": 2.0425128936767584,
+        "address": "Départementale D836",
+        "town": "La Forêt-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.47958565834444,
+        "lng": 2.04259067773819,
+        "address": "Rue du Pont de l'Aridaine",
+        "town": "La Forêt-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": {
+          "fr": "Boîte au lettre de la Rue du Pont de l'Aridaine opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "sport": [
+      {
+        "name": {
+          "fr": "Stade de la Tourelle",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.47605442525152,
+        "lng": 2.04222321510315,
+        "address": "Rue du Parc",
+        "town": "La Forêt-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Stade municipal géré et entretenu par la CCDH. Ce stade possède un terrain de footbal à 11 en gazon. L'accès est ouver à tous, hors entrainements du mardi soir, mercredi soir et dimanche matin.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "tourism": [
+      {
+        "name": {
+          "fr": "Église Saint-Nicolas et Saint-Blaise",
+          "en": ""
+        },
+        "type": "church",
+        "subtypes": [],
+        "lat": 48.47942741599934,
+        "lng": 2.042614817619324,
+        "address": "1 Rue du Pont de l'Aridaine",
+        "town": "La Forêt-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "https://www.pop.culture.gouv.fr/notice/merimee/PA00088018",
+        "info": {
+          "fr": "Église paroissiale catholique du Diocèse d'Évry-Corbeil-Essonnes, batie au XIIe siècle et terminée au XVIe siècle. L'église se visite selon les évènements où ses portes s'ouvrent.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      }
+    ]
+  }
 }

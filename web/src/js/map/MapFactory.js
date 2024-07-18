@@ -18,7 +18,7 @@ class MapFactory {
     const openWith = document.createElement('A');
 
     dom.classList.add('marker-popup');
-    title.innerHTML = opts.mark.name;
+    title.innerHTML = opts.mark.name[window.md.lang];
     address.innerHTML = opts.mark.address;
     town.innerHTML = opts.mark.town;
     phone.href = `tel:${opts.mark.phone}`;
@@ -27,7 +27,7 @@ class MapFactory {
     website.innerHTML = '<img src="./assets/images/icon/web.svg">Consulter le site';
     website.setAttribute('rel', 'noopener noreferrer');
     website.setAttribute('target', '_blank');
-    info.innerHTML = opts.mark.info;
+    info.innerHTML = opts.mark.info[window.md.lang];
     openWith.href = `geo:${opts.mark.lat},${opts.mark.lng}`;
     openWith.innerHTML = '<img src="./assets/images/icon/pin.svg">Ouvrir dans le GPS';
 
@@ -35,19 +35,12 @@ class MapFactory {
     dom.appendChild(address);
     dom.appendChild(town);
 
-    const button = this.markerOpenedState(opts.mark.timetable);
+    const button = this.markerOpenedState(opts.mark);
     dom.appendChild(button);
 
-    let alwaysClosed = true;
-    for (let i = 0; i < opts.mark.timetable.length; ++i) {
-      if (opts.mark.timetable[i].isOpen === true) {
-        alwaysClosed = false;
-        break;
-      }
-    }
     // Allow modal only if poi has timetable and is not always closed
-    if (opts.mark.timetable.length > 0 && alwaysClosed === false) {
-      button.addEventListener('click', this.timetableModal.bind(this, opts.mark, opts.user));
+    if ((opts.mark.timetable && opts.mark.timetable.length > 0) && opts.mark.alwaysClosed === undefined && opts.mark.alwaysOpened === undefined) {
+      button.addEventListener('click', this.timetableModal.bind(this, opts.mark));
     }
     
     if (opts.mark.info !== '') {
@@ -129,7 +122,7 @@ class MapFactory {
   /* Marker timetable and open/closed state */
 
 
-  static markerOpenedState(timetable) {
+  static markerOpenedState(mark) {
     const dom = document.createElement('DIV');
     const state = document.createElement('H5');
     const more = document.createElement('I');
@@ -137,25 +130,15 @@ class MapFactory {
     dom.appendChild(state);
     dom.appendChild(more);
     
-    if (timetable.length) {
-      let alwaysClosed = true;
-      for (let i = 0; i < timetable.length; ++i) {
-        if (timetable[i].isOpen === true) {
-          alwaysClosed = false;
-          break;
-        }
-      }
-
-      if (alwaysClosed === true) {
-        this.markerIsClosed(dom, true);
-      } else {
-        this.checkTime(timetable, dom);
-        // Update each minutes
-        // TODO store interval if to be ready to cancel when other navigation mode available
-        setInterval(this.checkTime.bind(this, timetable, dom), 60000);
-      }
-    } else {
+    if (mark.alwaysClosed === true) {
+      this.markerIsClosed(dom, true);
+    } else if (mark.alwaysOpened === true) {
       this.markerIsOpened(dom, true);
+    } else  {
+      this.checkTime(mark.timetable, dom);
+      // Update each minutes
+      // TODO store interval if to be ready to cancel when other navigation mode available
+      setInterval(this.checkTime.bind(this, mark.timetable, dom), 60000);
     }
 
     return dom;
@@ -165,27 +148,27 @@ class MapFactory {
   static checkTime(timetable, dom) {
     const now = new Date();
     let hour = now.getHours();
-    let minutes = now.getMinutes();
-    if (minutes < 10) {
-      minutes = `0${minutes}`;
-    }
+    let minutes = Utils.prefixZero(now.getMinutes());
 
     const dayOfWeek = (now.getDay() - 1 + 7) % 7;
-    const openingTime = parseInt(`${timetable[dayOfWeek].open.h}${timetable[dayOfWeek].open.m}`);
-    const closingTime = parseInt(`${timetable[dayOfWeek].close.h}${timetable[dayOfWeek].close.m}`);
+
+    if (timetable[dayOfWeek].isOpen === false) {
+      this.markerIsClosed(dom);
+      return;
+    }
+
+    const openingTime = parseInt(`${timetable[dayOfWeek].open.h}${Utils.prefixZero(timetable[dayOfWeek].open.m)}`);
+    const closingTime = parseInt(`${timetable[dayOfWeek].close.h}${Utils.prefixZero(timetable[dayOfWeek].close.m)}`);
     const currentTime = parseInt(`${hour}${minutes}`);
-    // Won't work if timetable open/close hours aren't on the same day
-    if (timetable[dayOfWeek].isOpen && isNaN(openingTime)) { // 24/7 opening
-      this.markerIsOpened(dom, true);
-    } else if (timetable[dayOfWeek].isOpen && currentTime >= openingTime && currentTime < closingTime) {
+    if (timetable[dayOfWeek].isOpen === undefined && currentTime >= openingTime && currentTime < closingTime) {
       // Check for day breaks
-      if (timetable[dayOfWeek].break.hasBreak) {
+      if (timetable[dayOfWeek].break !== undefined) {
         // In case of several day breaks
-        if (timetable[dayOfWeek].break.several) {
+        if (timetable[dayOfWeek].break.length > 1) {
           let isClosed = false;
-          for (let i = 0; i < timetable[dayOfWeek].break.several.length; ++i) {
-            const breakOpeningTime = parseInt(`${timetable[dayOfWeek].break.several[i].end.h}${timetable[dayOfWeek].break.several[i].end.m}`);
-            const breakClosingTime = parseInt(`${timetable[dayOfWeek].break.several[i].start.h}${timetable[dayOfWeek].break.several[i].start.m}`);
+          for (let i = 0; i < timetable[dayOfWeek].break.length; ++i) {
+            const breakOpeningTime = parseInt(`${timetable[dayOfWeek].break[i].end.h}${Utils.prefixZero(timetable[dayOfWeek].break[i].end.m)}`);
+            const breakClosingTime = parseInt(`${timetable[dayOfWeek].break[i].start.h}${Utils.prefixZero(timetable[dayOfWeek].break[i].start.m)}`);
             if (currentTime >= breakClosingTime && currentTime < breakOpeningTime) {
               this.markerIsClosed(dom);
               isClosed = true;
@@ -197,8 +180,8 @@ class MapFactory {
             }
           }
         } else {
-          const breakOpeningTime = parseInt(`${timetable[dayOfWeek].break.end.h}${timetable[dayOfWeek].break.end.m}`);
-          const breakClosingTime = parseInt(`${timetable[dayOfWeek].break.start.h}${timetable[dayOfWeek].break.start.m}`);
+          const breakOpeningTime = parseInt(`${timetable[dayOfWeek].break[0].end.h}${Utils.prefixZero(timetable[dayOfWeek].break[0].end.m)}`);
+          const breakClosingTime = parseInt(`${timetable[dayOfWeek].break[0].start.h}${Utils.prefixZero(timetable[dayOfWeek].break[0].start.m)}`);
           if (currentTime >= breakClosingTime && currentTime < breakOpeningTime) {
             this.markerIsClosed(dom);
           } else {
@@ -236,32 +219,32 @@ class MapFactory {
   }
 
 
-  static timetableModal(opts, user) {
+  static timetableModal(opts) {
     Utils.fetchModal('timetablemodal').then(dom => {
       // Updating modal header and info
-      dom.querySelector('#mark-name').innerHTML = opts.name;
+      dom.querySelector('#mark-name').innerHTML = opts.name[window.md.lang];
       dom.querySelector('#mark-address').innerHTML = `${opts.address}, ${opts.town}`;
-      const distance = Utils.getDistanceBetweenCoords([opts.lat, opts.lng], [user.lat, user.lng]);
-      dom.querySelector('#mark-distance').innerHTML = `Vous ètes à environ ${Utils.convertDistanceToString(distance)} de <b>${opts.name}</b> à vol d'oiseau`;
+      const distance = Utils.getDistanceBetweenCoords([opts.lat, opts.lng], [window.md.user.lat, window.md.user.lng]);
+      dom.querySelector('#mark-distance').innerHTML = `Vous ètes à environ ${Utils.convertDistanceToString(distance)} de <b>${opts.name[window.md.lang]}</b> à vol d'oiseau`;
       const eta = Utils.buildDistanceETA(distance);
       dom.querySelector('#mark-eta').innerHTML = `Ce qui représente environ ${eta.car} en voiture, ou ${eta.walk} à pied.`;
-      dom.querySelector('#mark-state').appendChild(this.markerOpenedState(opts.timetable));
+      dom.querySelector('#mark-state').appendChild(this.markerOpenedState(opts));
       // Now update day by day
       const now = new Date();
       const dayOfWeek = (now.getDay() - 1 + 7) % 7;
       for (let i = 0; i < opts.timetable.length; ++i) {
         const dayDom = dom.querySelector('#timetable').children[i];
-        if (opts.timetable[i].isOpen === true) {
+        if (opts.timetable[i].isOpen === undefined) {
           const morning = dayDom.lastElementChild.firstElementChild;
           const afternoon = dayDom.lastElementChild.lastElementChild;
-          if (opts.timetable[i].break && opts.timetable[i].break.hasBreak === true) {
-            if (opts.timetable[i].break.several) {
-              morning.innerHTML = `<p>${opts.timetable[i].open.h}:${opts.timetable[i].open.m} ‒ ${opts.timetable[i].break.several[0].start.h}:${opts.timetable[i].break.several[0].start.m}</p>`;
+          if (opts.timetable[i].break && opts.timetable[i].break.length > 0) {
+            if (opts.timetable[i].break.length > 0) {
+              morning.innerHTML = `<p>${opts.timetable[i].open.h}:${Utils.prefixZero(opts.timetable[i].open.m)} ‒ ${opts.timetable[i].break[0].start.h}:${Utils.prefixZero(opts.timetable[i].break[0].start.m)}</p>`;
               morning.classList.add('filled'); // Morning
               morning.classList.add('splited'); // Morning
-              for (let j = 0; j < opts.timetable[i].break.several.length - 1; ++j) {
+              for (let j = 0; j < opts.timetable[i].break.length - 1; ++j) {
                 const div = document.createElement('DIV');
-                div.innerHTML = `<p>${opts.timetable[i].break.several[j].end.h}:${opts.timetable[i].break.several[j].end.m} ‒ ${opts.timetable[i].break.several[j + 1].start.h}:${opts.timetable[i].break.several[j + 1].start.m}</p>`;
+                div.innerHTML = `<p>${opts.timetable[i].break[j].end.h}:${Utils.prefixZero(opts.timetable[i].break[j].end.m)} ‒ ${opts.timetable[i].break[j + 1].start.h}:${Utils.prefixZero(opts.timetable[i].break[j + 1].start.m)}</p>`;
                 div.classList.add('filled');
                 div.classList.add('splited');
                 div.style.borderRadius = '.5rem';
@@ -269,21 +252,21 @@ class MapFactory {
                 dayDom.lastElementChild.insertBefore(div, dayDom.lastElementChild.lastElementChild);
               }
 
-              afternoon.innerHTML = `<p>${opts.timetable[i].break.several[opts.timetable[i].break.several.length - 1].end.h}:${opts.timetable[i].break.several[opts.timetable[i].break.several.length - 1].end.m} ‒ ${opts.timetable[i].close.h}:${opts.timetable[i].close.m}</p>`;
+              afternoon.innerHTML = `<p>${opts.timetable[i].break[opts.timetable[i].break.length - 1].end.h}:${Utils.prefixZero(opts.timetable[i].break[opts.timetable[i].break.length - 1].end.m)} ‒ ${opts.timetable[i].close.h}:${Utils.prefixZero(opts.timetable[i].close.m)}</p>`;
               afternoon.classList.add('filled'); // Afternoon
               afternoon.classList.add('splited'); // Afternoon
             } else {
-              morning.innerHTML = `<p>${opts.timetable[i].open.h}:${opts.timetable[i].open.m} ‒ ${opts.timetable[i].break.start.h}:${opts.timetable[i].break.start.m}</p>`;
+              morning.innerHTML = `<p>${opts.timetable[i].open.h}:${Utils.prefixZero(opts.timetable[i].open.m)} ‒ ${opts.timetable[i].break[0].start.h}:${Utils.prefixZero(opts.timetable[i].break[0].start.m)}</p>`;
               morning.classList.add('filled'); // Morning
               morning.classList.add('splited'); // Morning
-              afternoon.innerHTML = `<p>${opts.timetable[i].break.end.h}:${opts.timetable[i].break.end.m} ‒ ${opts.timetable[i].close.h}:${opts.timetable[i].close.m}</p>`;
+              afternoon.innerHTML = `<p>${opts.timetable[i].break[0].end.h}:${Utils.prefixZero(opts.timetable[i].break[0].end.m)} ‒ ${opts.timetable[i].close.h}:${Utils.prefixZero(opts.timetable[i].close.m)}</p>`;
               afternoon.classList.add('filled'); // Afternoon
               afternoon.classList.add('splited'); // Afternoon
             }
           } else if (opts.timetable[i].open.h && opts.timetable[i].close.h) {
-            morning.innerHTML = `<p>${opts.timetable[i].open.h}:${opts.timetable[i].open.m}</p>`;
+            morning.innerHTML = `<p>${opts.timetable[i].open.h}:${Utils.prefixZero(opts.timetable[i].open.m)}</p>`;
             morning.classList.add('filled'); // Morning
-            afternoon.innerHTML = `<p>${opts.timetable[i].close.h}:${opts.timetable[i].close.m}</p>`;
+            afternoon.innerHTML = `<p>${opts.timetable[i].close.h}:${Utils.prefixZero(opts.timetable[i].close.m)}</p>`;
             afternoon.classList.add('filled'); // Afternoon
           } else {
             morning.innerHTML = `<p>00:00</p>`;

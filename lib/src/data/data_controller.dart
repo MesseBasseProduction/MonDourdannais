@@ -16,7 +16,6 @@ class DataController with ChangeNotifier {
   
   // Settings service to access device and secure storage
   final DataService _dataService;
-
   // App stored settings
   late ThemeMode _themeMode;
   late Locale _appLocale;
@@ -26,7 +25,6 @@ class DataController with ChangeNotifier {
   late String _mapLayer;
   final Map<String, List<dynamic>> _citiesBounds = {};
   final Map<String, dynamic> _citiesMarkers = {};
-
   // Data getters
   ThemeMode get themeMode => _themeMode;
   Locale get appLocale => _appLocale;

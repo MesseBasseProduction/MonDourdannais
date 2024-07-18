@@ -61,13 +61,13 @@ class Map {
 
 
   drawUserMarker() {
-    if (!window.dx.user.marker) {
-      window.dx.user.marker = window.L.marker([window.dx.user.lat, window.dx.user.lng], {
+    if (!window.md.user.marker) {
+      window.md.user.marker = window.L.marker([window.md.user.lat, window.md.user.lng], {
         icon: Markers.subtypes.user
       });
-      window.dx.user.marker.addTo(this._map);
+      window.md.user.marker.addTo(this._map);
     } else {
-      window.dx.user.marker.setLatLng(window.dx.user);
+      window.md.user.marker.setLatLng(window.md.user);
     }
   }
 

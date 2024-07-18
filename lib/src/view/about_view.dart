@@ -28,6 +28,10 @@ class AboutView extends StatelessWidget {
         shadowColor: Theme.of(context).colorScheme.shadow,
       ),
       body: Text('OUI'),
+      // App credits
+      // Flutter / layer credits
+      // Stadia/ORS credits
+      // Logo Dourdan + CCDH colors
     );
   }
 }

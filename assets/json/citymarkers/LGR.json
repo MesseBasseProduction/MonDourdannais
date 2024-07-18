@@ -1,3 +1,882 @@
 {
-  "markers": {}
+  "markers": {
+    "catering": [
+      {
+        "name": {
+          "fr": "Le Plaisir des Granges",
+          "en": ""
+        },
+        "type": "restaurant",
+        "subtypes": [],
+        "lat": 48.502617987637318,
+        "lng": 2.018820941448212,
+        "address": "61 Rue d'Angerville",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "+33 1 64 59 46 70",
+        "website": "https://www.facebook.com/LEPLAISIRDESGRANGES",
+        "info": {
+          "fr": "Restaurant de cuisine française, installé depuis une trentaine d'année aux Granges. Le personnel jovial montre un haut niveau d'hospitalité dans cet endroit. Ambiance silencieuse et décor familial.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 24,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 15,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 24,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 15,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 24,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 15,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 24,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 15,
+                  "m": 0
+                },
+                "end": {
+                  "h": 19,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 12,
+              "m": 0
+            },
+            "close": {
+              "h": 15,
+              "m": 0
+            }
+          }
+        ]
+      }
+    ],
+    "eco": [
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.5039650825418,
+        "lng": 2.0218035578727728,
+        "address": "Rue de la Sablonière",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.50218079610773,
+        "lng": 2.0221817493438727,
+        "address": "Rue de Marchais",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques et verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Jardin d'Enfants",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.502292760151338,
+        "lng": 2.0229569077491766,
+        "address": "Avenue Paul Blot",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Jardin d'enfants avec de nombreux modules pour le divertissement des bambins Grangeois et d'ailleurs, pendant que les plus grands sont au match!",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Mare du Stade",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.50266774903579,
+        "lng": 2.022567987442017,
+        "address": "13 Rue Sauvage",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Mare du Grimoire",
+          "en": ""
+        },
+        "type": "park",
+        "subtypes": [],
+        "lat": 48.49810015998766,
+        "lng": 2.0143899321556097,
+        "address": "Rue de Grimoire",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "service": [
+      {
+        "name": {
+          "fr": "Mairie de Les Granges-Le-Roi",
+          "en": ""
+        },
+        "type": "administration",
+        "subtypes": [],
+        "lat": 48.501999520465158,
+        "lng": 2.019174993038178,
+        "address": "8 Rue des Popineaux",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "+33 1 64 59 73 54",
+        "website": "https://mairielesgrangesleroi.com/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 12,
+                  "m": 0
+                },
+                "end": {
+                  "h": 14,
+                  "m": 0
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 14,
+              "m": 0
+            },
+            "close": {
+              "h": 18,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 14,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 14,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 14,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 30
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "École Primaire Les Vergers",
+          "en": ""
+        },
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.50238339752931,
+        "lng": 2.0185071229934699,
+        "address": "63 Rue d'Angerville",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "+33 1 64 59 56 11",
+        "website": "https://www.education.gouv.fr/annuaire/91410/les-granges-le-roi/ecole/0910088b/ecole-primaire-les-vergers.html",
+        "info": {
+          "fr": "École Primaire de Les Granges-Le-Roi, rattachée à l'académie de Versailles. L'école est capable d'accueillir 128 élèves.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 45
+                },
+                "end": {
+                  "h": 13,
+                  "m": 45
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 45
+                },
+                "end": {
+                  "h": 13,
+                  "m": 45
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 45
+                },
+                "end": {
+                  "h": 13,
+                  "m": 45
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 45
+                },
+                "end": {
+                  "h": 13,
+                  "m": 45
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Cimetière de Les Granges-Le-Roi",
+          "en": ""
+        },
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.50907234407129,
+        "lng": 2.023192942142487,
+        "address": "Départementale D836",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 0
+            }
+          }
+        ]
+      }
+    ],
+    "shop": [
+      {
+        "name": {
+          "fr": "Le Haricot Magique",
+          "en": ""
+        },
+        "type": "grocery",
+        "subtypes": [],
+        "lat": 48.50450355505336,
+        "lng": 2.0212349295616156,
+        "address": "Ruelle du Cœur",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "+33 6 51 72 95 80",
+        "website": "https://le-haricot-magique.fr/",
+        "info": {
+          "fr": "Food truck proposant des produits frais locaux, fruits et légumes le jeudi en fin d'après midi à Les Granges-Le-Roi (et dans les communes alentours du Dourdannais les autres soirs de la semaine).",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 16,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boulangerie Christophe Huguet",
+          "en": ""
+        },
+        "type": "bakery",
+        "subtypes": [],
+        "lat": 48.50312448530407,
+        "lng": 2.0193547010421759,
+        "address": "47 Rue d'Angerville",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "+33 1 64 59 65 70",
+        "website": "https://www.myboulange.fr/91/les-granges-le-roi/huguet-christophe-39890",
+        "info": {
+          "fr": "Distributeur automatique de Baguettes Traditions géré par la Boulangerie des Six moulins, dont la boutique se situe à Bullion.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 16,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 16,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 16,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 0
+                },
+                "end": {
+                  "h": 16,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 13,
+              "m": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.502410055550807,
+        "lng": 2.0183676481246954,
+        "address": "63 Rue d'Angerville",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Bourg opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.5041179169054,
+        "lng": 2.020741403102875,
+        "address": "Rue de l'Église",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/dourdan",
+        "info": {
+          "fr": "Boîte au lettre du Bourg opérée par le bureau de poste de Dourdan (Rue du Faubourg de Chartres). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "sport": [
+      {
+        "name": {
+          "fr": "Stade du Marchais",
+          "en": ""
+        },
+        "type": "rugby",
+        "subtypes": [],
+        "lat": 48.50198352552439,
+        "lng": 2.0232814550399786,
+        "address": "Rue de Marchais",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Stade municipal géré et entretenu par la CCDH. Ce stade possède un terrain de rugby en gazon. L'accès aux terrains est libre.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "City-Stade du Marchais",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [
+          "basket"
+        ],
+        "lat": 48.5025095787072,
+        "lng": 2.023345828056336,
+        "address": "Rue de Marchais",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Un city-stade municipal doté de paniers de basket et de cages de football, sur un terrain synthétique.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Tennis de Table",
+          "en": ""
+        },
+        "type": "pingpong",
+        "subtypes": [],
+        "lat": 48.50240827834982,
+        "lng": 2.0228281617164618,
+        "address": "Rue de Marchais",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Un terrain de tennis de table en béton et en extérieur.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Courts de pétanque",
+          "en": ""
+        },
+        "type": "bocce",
+        "subtypes": [],
+        "lat": 48.50223944397094,
+        "lng": 2.0226618647575385,
+        "address": "Rue de Marchais",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Trois courts de pétanque en terre battue.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "tourism": [
+      {
+        "name": {
+          "fr": "Eglise Saint-Léonard",
+          "en": ""
+        },
+        "type": "church",
+        "subtypes": [],
+        "lat": 48.50420499674367,
+        "lng": 2.0212107896804816,
+        "address": "38 Rue d'Angerville",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "https://www.pop.culture.gouv.fr/notice/merimee/PA00087920",
+        "info": {
+          "fr": "Église paroissiale catholique du Diocèse d'Évry-Corbeil-Essonnes, batie au XIIe siècle et achevée au XVIIe siècle. L'église est inscrite au titre des monuments historiques depuis un arrêté du 17 Février 1950. L'église se visite selon les évènements où ses portes s'ouvrent.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      },
+      {
+        "name": {
+          "fr": "Chêne des Six Frères",
+          "en": ""
+        },
+        "type": "landmark",
+        "subtypes": [],
+        "lat": 48.49324381324423,
+        "lng": 1.9845588306803335,
+        "address": "Forêt de l'Ouÿe",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Ce Chêne rouvre dont l'âge est estimé à 500 ans, possède un tronc de 6,70 m de circonférence et une taille de 33 m. Il est nommé ainsi car sa souche se divise en six troncs. Ce chêne fut un lieu de pèlerinage et de procession car au centre de l’arbre existe une cuvette presque toujours remplie d’une eau que l’on disait bénite.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Chêne aux Loups",
+          "en": ""
+        },
+        "type": "landmark",
+        "subtypes": [],
+        "lat": 48.50637031747031,
+        "lng": 2.0124762435860079,
+        "address": "Route du Loup",
+        "town": "Les Granges-Le-Roi ‒ 91410",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Ce Chêne rouvre dont l'âge est estimé à 250 ans, possède un tronc de 4,05 m de circonférence et une taille de 36 m.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ]
+  }
 }

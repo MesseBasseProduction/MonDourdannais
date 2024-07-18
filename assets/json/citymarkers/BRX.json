@@ -1,3 +1,713 @@
 {
-  "markers": {}
+  "markers": {
+    "catering": [
+      {
+        "name": {
+          "fr": "Bar Tabac La Palombière",
+          "en": ""
+        },
+        "type": "bar",
+        "subtypes": [
+          "tobacco"
+        ],
+        "lat": 48.55908526546902,
+        "lng": 2.1560400724411017,
+        "address": "4 Rue du Dr Babin (Jouy)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 30
+                },
+                "end": {
+                  "h": 15,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 30
+                },
+                "end": {
+                  "h": 15,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 30
+                },
+                "end": {
+                  "h": 15,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 6,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 30
+                },
+                "end": {
+                  "h": 15,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 7,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 30
+                },
+                "end": {
+                  "h": 15,
+                  "m": 30
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 19,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 13,
+                  "m": 30
+                },
+                "end": {
+                  "h": 16,
+                  "m": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "eco": [
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.55773786091469,
+        "lng": 2.1553373336791998,
+        "address": "9 Rue de Rimoron (Jouy)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques, verres et de vêtements à donner (Le Relais). La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.55686265006089,
+        "lng": 2.1559864282608038,
+        "address": "13 Rue de Rimoron (Jouy)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour déchets plastiques, verres et de vêtements à donner (Le Relais). La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Conteneurs de tri",
+          "en": ""
+        },
+        "type": "recycle",
+        "subtypes": [],
+        "lat": 48.56081606845999,
+        "lng": 2.1788415312767035,
+        "address": "Rue du Moulin (Breux)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "+33 1 69 74 23 50",
+        "website": "http://siredom.com",
+        "info": {
+          "fr": "Conteneurs pour verres. La collecte est assurée par le Syndicat Siredom.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "service": [
+      {
+        "name": {
+          "fr": "Mairie de Breux-Jouy",
+          "en": ""
+        },
+        "type": "administration",
+        "subtypes": [],
+        "lat": 48.55923793355019,
+        "lng": 2.1558174490928656,
+        "address": "1 Rue du Dr Babin (Jouy)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "+33 1 64 58 41 41",
+        "website": "https://breux-jouy.fr/",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 14,
+              "m": 30
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 15,
+              "m": 30
+            },
+            "close": {
+              "h": 18,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 30
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 30
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "École Primaire Henri Le Cocq",
+          "en": ""
+        },
+        "type": "school",
+        "subtypes": [],
+        "lat": 48.56064742872131,
+        "lng": 2.155230045318604,
+        "address": "6 rue des Ecoles",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "+33 1 64 58 45 83",
+        "website": "https://www.education.gouv.fr/annuaire/91650/breux-jouy/ecole/0910072j/ecole-primaire-henri-le-cocq.html",
+        "info": {
+          "fr": "École Primaire de Breux-Jouy, rattachée à l'académie de Versailles. L'école est capable d'accueillir 134 élèves.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 45
+                },
+                "end": {
+                  "h": 13,
+                  "m": 35
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 45
+                },
+                "end": {
+                  "h": 13,
+                  "m": 35
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 45
+                },
+                "end": {
+                  "h": 13,
+                  "m": 35
+                }
+              }
+            ]
+          },
+          {
+            "open": {
+              "h": 8,
+              "m": 30
+            },
+            "close": {
+              "h": 16,
+              "m": 30
+            },
+            "break": [
+              {
+                "start": {
+                  "h": 11,
+                  "m": 45
+                },
+                "end": {
+                  "h": 13,
+                  "m": 35
+                }
+              }
+            ]
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Bibliothèque Municipale",
+          "en": ""
+        },
+        "type": "book",
+        "subtypes": [],
+        "lat": 48.5576704009818,
+        "lng": 2.1554848551750189,
+        "address": "9 Rue de Rimoron (Jouy)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "+33 1 64 56 38 67",
+        "website": "https://breuxjouy-pom.c3rb.org/",
+        "info": {
+          "fr": "Bibliothèque municipale de Breux-Jouy. Les prèts de livres sont gratuits pour les adhérents. L'adhésion s'effectue sur place.",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 16,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 14,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 30
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 10,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Cimetière de Breux-Jouy",
+          "en": ""
+        },
+        "type": "cemetery",
+        "subtypes": [],
+        "lat": 48.559223731887659,
+        "lng": 2.173903584480286,
+        "address": "Rue des Bergers (Breux)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "timetable": [
+          {
+            "open": {
+              "h": 15,
+              "m": 0
+            },
+            "close": {
+              "h": 17,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 16,
+              "m": 0
+            },
+            "close": {
+              "h": 19,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "open": {
+              "h": 9,
+              "m": 0
+            },
+            "close": {
+              "h": 12,
+              "m": 0
+            }
+          },
+          {
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.5591775764569,
+        "lng": 2.155897915363312,
+        "address": "1 Rue du Dr Babin (Jouy)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/breuillet",
+        "info": {
+          "fr": "Boîte au lettre de la Mairie opérée par le bureau de poste de Breuillet (6 Rue de la Tournée). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.56054624460822,
+        "lng": 2.1563404798507697,
+        "address": "13 Rue De La Soupane (Jouy)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/breuillet",
+        "info": {
+          "fr": "Boîte au lettre de la Rue De La Soupane opérée par le bureau de poste de Breuillet (6 Rue de la Tournée). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.56183499555136,
+        "lng": 2.1551173925399786,
+        "address": "1 Clos Courtin (Jouy)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/breuillet",
+        "info": {
+          "fr": "Boîte au lettre du Clos Courtin opérée par le bureau de poste de Breuillet (6 Rue de la Tournée). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Boîte aux lettres",
+          "en": ""
+        },
+        "type": "mail",
+        "subtypes": [],
+        "lat": 48.56161310551139,
+        "lng": 2.177076637744904,
+        "address": "3 Rue du Moulin (Breux)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "",
+        "website": "https://localiser.laposte.fr/essonne/breuillet",
+        "info": {
+          "fr": "Boîte au lettre de Breux opérée par le bureau de poste de Breuillet (6 Rue de la Tournée). Levée théorique du courrier à 9h00.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "sport": [
+      {
+        "name": {
+          "fr": "Stade de Breux-Jouy",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [],
+        "lat": 48.55651291654037,
+        "lng": 2.1517458558082587,
+        "address": "Rue de Rimoron (Jouy)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Stade municipal géré et entretenu par la CCDH. Ce stade possède un terrain de rugby en gazon. L'accès aux terrains est libre.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "City-Stade du Marchais (Jouy)",
+          "en": ""
+        },
+        "type": "foot",
+        "subtypes": [
+          "basket"
+        ],
+        "lat": 48.55695674039227,
+        "lng": 2.152907252311707,
+        "address": "Rue de Rimoron",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Un city-stade municipal doté de paniers de basket et de cages de football, sur un terrain synthétique.",
+          "en": ""
+        },
+        "alwaysOpened": true
+      },
+      {
+        "name": {
+          "fr": "Courts de pétanque",
+          "en": ""
+        },
+        "type": "bocce",
+        "subtypes": [],
+        "lat": 48.557109414897229,
+        "lng": 2.1534678339958197,
+        "address": "Rue de Rimoron",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "",
+          "en": ""
+        },
+        "alwaysOpened": true
+      }
+    ],
+    "tourism": [
+      {
+        "name": {
+          "fr": "Église Saint-Martin",
+          "en": ""
+        },
+        "type": "church",
+        "subtypes": [],
+        "lat": 48.561119618572757,
+        "lng": 2.1772429347038275,
+        "address": "5 Rue du Moulin (Breux)",
+        "town": "Breux-Jouy ‒ 91650",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Église paroissiale catholique du Diocèse d'Évry-Corbeil-Essonnes, batie au XIIIe siècle et agrandie au XVIe siècle. L'église se visite selon les évènements où ses portes s'ouvrent.",
+          "en": ""
+        },
+        "alwaysClosed": true
+      }
+    ]
+  }
 }

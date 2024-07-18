@@ -3,7 +3,7 @@ description: "L'application indispensable à tout habitant ou visiteur du Dourda
 
 publish_to: 'none'
 
-version: 0.0.1+1
+version: 0.0.2+2
 
 environment:
   sdk: '>=3.2.5 <4.0.0'
@@ -57,5 +57,5 @@ flutter:
 flutter_launcher_icons: # To update icon, run "flutter pub run flutter_launcher_icons"
   android: "launcher_icon"
   image_path: "assets/images/logo.png"
-  adaptive_icon_background: #FFFFBF
+  adaptive_icon_background: #1f236b
   min_sdk_android: 21
