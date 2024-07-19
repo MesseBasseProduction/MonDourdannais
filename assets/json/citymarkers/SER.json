@@ -1053,6 +1053,45 @@
             "isOpen": false
           }
         ]
+      }, {
+        "name": {
+          "fr": "L'Écrin, maison de beauté",
+          "en": "L'Écrin, beauty house"
+        },
+        "type": "beauty",
+        "subtypes": [],
+        "lat": 48.53885977320391,
+        "lng": 2.092485129833222,
+        "address": "199 Rue des Sources",
+        "town": "Sermaise ‒ 91530",
+        "phone": "+33 7 65 23 97 01",
+        "website": "https://lecrin-maisondebeaute.fr/",
+        "info": {
+          "fr": "Salon de beauté proposant des coiffures, massages et prestations esthétiques.",
+          "en": "Beauty salon offering hairdressing, massages and beauty services."
+        },
+        "timetable": [
+          {
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 0 }
+          }, {
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 0 }
+          }, {
+            "isOpen": false
+          }, {
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 0 }
+          }, {
+            "open": { "h": 9, "m": 30 },
+            "close": { "h": 18, "m": 0 }
+          }, {
+            "open": { "h": 9, "m": 0 },
+            "close": { "h": 17, "m": 0 }
+          }, {
+            "isOpen": false
+          }
+        ]
       }
     ],
     "sport": [
@@ -1236,6 +1275,24 @@
           "en": "Operated by TDF, this 105m high tower is an unmissable landmark in the plain. The tower is closed to the public."
         },
         "alwaysClosed": true
+      }, {
+        "name": {
+          "fr": "Les Caves de Sermaise",
+          "en": "Sermaise's caves"
+        },
+        "type": "landmark",
+        "subtypes": [],
+        "lat": 48.54190361300624,
+        "lng": 2.091106474399567,
+        "address": "Chemin du Haut des Glaises",
+        "town": "Sermaise ‒ 91530",
+        "phone": "",
+        "website": "",
+        "info": {
+          "fr": "Les 3 caves de Sermaise constituent le site Essonnien le plus important pour l'hibernation des chiroptères. Les caves sont fermés pour la paix des chauve-souris, mais la facade en craie à silex est elle visible.",
+          "en": "The 3 Sermaise caves constitute the most important Essonne site for the hibernation of bats. The caves are closed for the peace of the bats, but the flint chalk facade is visible."
+        },
+        "alwaysClosed": true
       }
     ],
     "transportation": [
@@ -1257,6 +1314,75 @@
           "en": "SNCF station served by trains from the C4 branch (Dourdan/Brétigny) of the RER C. This station no longer has a reception or sales point."
         },
         "alwaysClosed": true
+      }, {
+        "name": {
+          "fr": "Carrosserie Vincent",
+          "en": "Vincent car bodywork"
+        },
+        "type": "car",
+        "subtypes": [],
+        "lat": 48.541127575551485,
+        "lng": 2.090081870555878,
+        "address": "807 Avenue de Paris",
+        "town": "Sermaise ‒ 91530",
+        "phone": "+33 7 56 13 88 30",
+        "website": "",
+        "info": {
+          "fr": "Carrosserie, tôlerie et peinture de la voiture à Sermaise.",
+          "en": "Car bodywork, sheet metal and painting in Sermaise."
+        },
+        "timetable": [
+          {
+            "open": { "h": 8, "m": 0 },
+            "close": { "h": 17, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
+          }, {
+            "open": { "h": 8, "m": 0 },
+            "close": { "h": 17, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
+          }, {
+            "open": { "h": 8, "m": 0 },
+            "close": { "h": 17, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
+          }, {
+            "open": { "h": 8, "m": 0 },
+            "close": { "h": 17, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
+          }, {
+            "open": { "h": 8, "m": 0 },
+            "close": { "h": 17, "m": 30 },
+            "break": [
+              {
+                "start": { "h": 12, "m": 0 },
+                "end": { "h": 13, "m": 30 }
+              }
+            ]
+          }, {
+            "isOpen": false
+          }, {
+            "isOpen": false
+          }
+        ]
       }
     ]
   }
